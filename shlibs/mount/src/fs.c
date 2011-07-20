@@ -297,10 +297,11 @@ int __mnt_fs_set_source_ptr(struct libmnt_fs *fs, char *source)
 
 	assert(fs);
 
-	if (source && !strcmp(source, "none"))
+	if (source && !strcmp(source, "none")) {
+		free(source);
 		source = NULL;
-
-	if (source && strchr(source, '=')) {
+	}
+	else if (source && strchr(source, '=')) {
 		if (blkid_parse_tag_string(source, &t, &v) != 0)
 			return -1;
 	}

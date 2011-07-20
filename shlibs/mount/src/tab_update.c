@@ -480,20 +480,21 @@ err:
 static int fprintf_mtab_fs(FILE *f, struct libmnt_fs *fs)
 {
 	char *o;
+	const char *src, *fstype;
 	char *m1, *m2, *m3, *m4;
 	int rc;
 
 	assert(fs);
 	assert(f);
 
+	src = mnt_fs_get_source(fs);
+	fstype = mnt_fs_get_fstype(fs);
 	o = mnt_fs_strdup_options(fs);
-	if (!o)
-		return -ENOMEM;
 
-	m1 = mangle(mnt_fs_get_source(fs));
+	m1 = src ? mangle(src) : "none";
 	m2 = mangle(mnt_fs_get_target(fs));
-	m3 = mangle(mnt_fs_get_fstype(fs));
-	m4 = mangle(o);
+	m3 = fstype ? mangle(fstype) : "none";
+	m4 = o ? mangle(o) : "rw";
 
 	if (m1 && m2 && m3 && m4) {
 		rc = fprintf(f, "%s %s %s %s %d %d\n",
@@ -505,11 +506,15 @@ static int fprintf_mtab_fs(FILE *f, struct libmnt_fs *fs)
 	} else
 		rc = -ENOMEM;
 
-	free(o);
-	free(m1);
+	if (src)
+		free(m1);
 	free(m2);
-	free(m3);
-	free(m4);
+	if (fstype)
+		free(m3);
+	if (o) {
+		free(m4);
+		free(o);
+	}
 
 	return rc;
 }
