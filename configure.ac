@@ -577,13 +577,18 @@ else
     UL_SET_FLAGS([], [], [$SELINUX_LIBS])
     UL_CHECK_LIB(pcre, pcre_version)
     UL_CHECK_LIB(sepol, sepol_load_policy)
+    UL_CHECK_LIB(pthread, pthread_create)
     if test "x$have_sepol" = xyes;then
-      SELINUX_LIBS="-lsepol ${SELINUX_LIBS}";
-      SELINUX_LIBS_STATIC="-lsepol ${SELINUX_LIBS_STATIC}";
+      SELINUX_LIBS="${SELINUX_LIBS} -lsepol";
+      SELINUX_LIBS_STATIC="${SELINUX_LIBS_STATIC} -lsepol";
     fi;
     if test "x$have_pcre" = xyes;then
       SELINUX_LIBS="${SELINUX_LIBS} -lpcre";
       SELINUX_LIBS_STATIC="${SELINUX_LIBS_STATIC} -lpcre";
+    fi;
+    if test "x$have_pthread" = xyes;then
+      SELINUX_LIBS="${SELINUX_LIBS} -lpthread";
+      SELINUX_LIBS_STATIC="${SELINUX_LIBS_STATIC} -lpthread";
     fi;
     # This function is missing in old libselinux 1.xx versions
     AC_CHECK_FUNCS([security_get_initial_context])
