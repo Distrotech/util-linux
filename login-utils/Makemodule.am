@@ -33,7 +33,7 @@ if HAVE_LIBCRYPT
 sulogin_LDADD += -lcrypt
 endif
 if HAVE_SELINUX
-sulogin_LDADD += -lselinux
+sulogin_LDADD += $(SELINUX_LIBS)
 endif
 
 check_PROGRAMS += test_consoles
