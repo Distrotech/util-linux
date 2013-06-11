@@ -328,7 +328,7 @@ DIST_COMMON = $(srcdir)/include/Makemodule.am \
 @BUILD_SULOGIN_TRUE@am__append_85 = sulogin
 @BUILD_SULOGIN_TRUE@am__append_86 = login-utils/sulogin.8
 @BUILD_SULOGIN_TRUE@@HAVE_LIBCRYPT_TRUE@am__append_87 = -lcrypt
-@BUILD_SULOGIN_TRUE@@HAVE_SELINUX_TRUE@am__append_88 = -lselinux
+@BUILD_SULOGIN_TRUE@@HAVE_SELINUX_TRUE@am__append_88 = $(SELINUX_LIBS)
 @BUILD_SULOGIN_TRUE@am__append_89 = test_consoles
 @BUILD_LOGIN_TRUE@am__append_90 = login
 @BUILD_LOGIN_TRUE@am__append_91 = login-utils/login.1
@@ -510,7 +510,7 @@ DIST_COMMON = $(srcdir)/include/Makemodule.am \
 @BUILD_LIBUUID_TRUE@am__append_213 = libuuid.la
 @BUILD_LIBBLKID_TRUE@am__append_214 = -I$(ul_libblkid_incdir)
 @BUILD_LIBBLKID_TRUE@am__append_215 = libblkid.la
-@HAVE_SELINUX_TRUE@am__append_216 = -lselinux
+@HAVE_SELINUX_TRUE@am__append_216 = $(SELINUX_LIBS)
 @BUILD_SWAPLABEL_TRUE@am__append_217 = swaplabel
 @BUILD_SWAPLABEL_TRUE@am__append_218 = disk-utils/swaplabel.8
 @BUILD_LIBUUID_TRUE@@BUILD_SWAPLABEL_TRUE@am__append_219 = libuuid.la
@@ -1596,8 +1596,9 @@ mkfs_minix_OBJECTS = $(am_mkfs_minix_OBJECTS)
 mkfs_minix_DEPENDENCIES = $(am__DEPENDENCIES_2) libcommon.la
 am_mkswap_OBJECTS = disk-utils/mkswap-mkswap.$(OBJEXT)
 mkswap_OBJECTS = $(am_mkswap_OBJECTS)
+@HAVE_SELINUX_TRUE@am__DEPENDENCIES_6 = $(am__DEPENDENCIES_1)
 mkswap_DEPENDENCIES = $(am__DEPENDENCIES_2) libcommon.la \
-	$(am__append_213) $(am__append_215) $(am__DEPENDENCIES_1)
+	$(am__append_213) $(am__append_215) $(am__DEPENDENCIES_6)
 mkswap_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(mkswap_CFLAGS) $(CFLAGS) \
 	$(AM_LDFLAGS) $(LDFLAGS) -o $@
@@ -1629,7 +1630,7 @@ am__mount_SOURCES_DIST = mount-deprecated/mount.c \
 @BUILD_DEPRECATED_MOUNT_TRUE@am_mount_OBJECTS = mount-deprecated/mount-mount.$(OBJEXT) \
 @BUILD_DEPRECATED_MOUNT_TRUE@	$(am__objects_22)
 mount_OBJECTS = $(am_mount_OBJECTS)
-@BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_SELINUX_TRUE@am__DEPENDENCIES_6 = $(am__DEPENDENCIES_1)
+@BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_SELINUX_TRUE@am__DEPENDENCIES_7 = $(am__DEPENDENCIES_1)
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@mount_DEPENDENCIES = $(am__DEPENDENCIES_2) \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@	libcommon.la \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@	libmount.la \
@@ -1637,7 +1638,7 @@ mount_OBJECTS = $(am_mount_OBJECTS)
 @BUILD_DEPRECATED_MOUNT_TRUE@mount_DEPENDENCIES =  \
 @BUILD_DEPRECATED_MOUNT_TRUE@	$(am__DEPENDENCIES_2) libblkid.la \
 @BUILD_DEPRECATED_MOUNT_TRUE@	libcommon.la \
-@BUILD_DEPRECATED_MOUNT_TRUE@	$(am__DEPENDENCIES_6)
+@BUILD_DEPRECATED_MOUNT_TRUE@	$(am__DEPENDENCIES_7)
 mount_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(mount_CFLAGS) $(CFLAGS) \
 	$(mount_LDFLAGS) $(LDFLAGS) -o $@
@@ -1662,21 +1663,21 @@ am__mount_static_SOURCES_DIST = mount-deprecated/mount.c \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@am_mount_static_OBJECTS = $(am__objects_24)
 @BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@am_mount_static_OBJECTS = $(am__objects_24)
 mount_static_OBJECTS = $(am_mount_static_OBJECTS)
-@BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_SELINUX_TRUE@@HAVE_STATIC_MOUNT_TRUE@am__DEPENDENCIES_7 = $(am__DEPENDENCIES_1)
-@BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@am__DEPENDENCIES_8 = $(am__DEPENDENCIES_2) \
+@BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_SELINUX_TRUE@@HAVE_STATIC_MOUNT_TRUE@am__DEPENDENCIES_8 = $(am__DEPENDENCIES_1)
+@BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@am__DEPENDENCIES_9 = $(am__DEPENDENCIES_2) \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@	libcommon.la \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@	libmount.la \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@	$(am__DEPENDENCIES_1)
-@BUILD_DEPRECATED_MOUNT_TRUE@am__DEPENDENCIES_8 =  \
+@BUILD_DEPRECATED_MOUNT_TRUE@am__DEPENDENCIES_9 =  \
 @BUILD_DEPRECATED_MOUNT_TRUE@	$(am__DEPENDENCIES_2) libblkid.la \
 @BUILD_DEPRECATED_MOUNT_TRUE@	libcommon.la \
-@BUILD_DEPRECATED_MOUNT_TRUE@	$(am__DEPENDENCIES_6)
-@BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@mount_static_DEPENDENCIES = $(am__DEPENDENCIES_8) \
+@BUILD_DEPRECATED_MOUNT_TRUE@	$(am__DEPENDENCIES_7)
+@BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@mount_static_DEPENDENCIES = $(am__DEPENDENCIES_9) \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@	$(am__DEPENDENCIES_1)
 @BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@mount_static_DEPENDENCIES = $(am__DEPENDENCIES_2) \
 @BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@	libblkid.la \
 @BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@	libcommon.la \
-@BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@	$(am__DEPENDENCIES_7)
+@BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@	$(am__DEPENDENCIES_8)
 mount_static_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(mount_static_CFLAGS) \
 	$(CFLAGS) $(mount_static_LDFLAGS) $(LDFLAGS) -o $@
@@ -1852,10 +1853,10 @@ am__sfdisk_static_SOURCES_DIST = fdisks/partname.c fdisks/sfdisk.c \
 @ARCH_M68K_FALSE@@ARCH_SPARC_FALSE@	fdisks/sfdisk.$(OBJEXT)
 @ARCH_M68K_FALSE@@ARCH_SPARC_FALSE@@HAVE_STATIC_SFDISK_TRUE@am_sfdisk_static_OBJECTS = $(am__objects_25)
 sfdisk_static_OBJECTS = $(am_sfdisk_static_OBJECTS)
-@ARCH_M68K_FALSE@@ARCH_SPARC_FALSE@am__DEPENDENCIES_9 =  \
+@ARCH_M68K_FALSE@@ARCH_SPARC_FALSE@am__DEPENDENCIES_10 =  \
 @ARCH_M68K_FALSE@@ARCH_SPARC_FALSE@	$(am__DEPENDENCIES_2) \
 @ARCH_M68K_FALSE@@ARCH_SPARC_FALSE@	libcommon.la
-@ARCH_M68K_FALSE@@ARCH_SPARC_FALSE@@HAVE_STATIC_SFDISK_TRUE@sfdisk_static_DEPENDENCIES = $(am__DEPENDENCIES_9)
+@ARCH_M68K_FALSE@@ARCH_SPARC_FALSE@@HAVE_STATIC_SFDISK_TRUE@sfdisk_static_DEPENDENCIES = $(am__DEPENDENCIES_10)
 sfdisk_static_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(sfdisk_static_LDFLAGS) $(LDFLAGS) -o $@
@@ -1876,9 +1877,11 @@ am__sulogin_SOURCES_DIST = login-utils/sulogin.c \
 @BUILD_SULOGIN_TRUE@	login-utils/sulogin.$(OBJEXT) \
 @BUILD_SULOGIN_TRUE@	login-utils/sulogin-consoles.$(OBJEXT)
 sulogin_OBJECTS = $(am_sulogin_OBJECTS)
+@BUILD_SULOGIN_TRUE@@HAVE_SELINUX_TRUE@am__DEPENDENCIES_11 =  \
+@BUILD_SULOGIN_TRUE@@HAVE_SELINUX_TRUE@	$(am__DEPENDENCIES_1)
 @BUILD_SULOGIN_TRUE@sulogin_DEPENDENCIES = $(am__DEPENDENCIES_2) \
 @BUILD_SULOGIN_TRUE@	libcommon.la $(am__DEPENDENCIES_1) \
-@BUILD_SULOGIN_TRUE@	$(am__DEPENDENCIES_1)
+@BUILD_SULOGIN_TRUE@	$(am__DEPENDENCIES_11)
 am__swaplabel_SOURCES_DIST = disk-utils/swaplabel.c
 @BUILD_SWAPLABEL_TRUE@am_swaplabel_OBJECTS = disk-utils/swaplabel-swaplabel.$(OBJEXT)
 swaplabel_OBJECTS = $(am_swaplabel_OBJECTS)
@@ -1940,10 +1943,10 @@ test_blkdev_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 am__test_blkid_cache_SOURCES_DIST = libblkid/src/cache.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_cache_OBJECTS = libblkid/src/test_blkid_cache-cache.$(OBJEXT)
 test_blkid_cache_OBJECTS = $(am_test_blkid_cache_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am__DEPENDENCIES_10 =  \
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am__DEPENDENCIES_12 =  \
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@	libblkid.la \
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@	$(am__DEPENDENCIES_1)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_cache_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_cache_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_cache_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_cache_CFLAGS) $(CFLAGS) \
@@ -1951,7 +1954,7 @@ test_blkid_cache_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_config_SOURCES_DIST = libblkid/src/config.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_config_OBJECTS = libblkid/src/test_blkid_config-config.$(OBJEXT)
 test_blkid_config_OBJECTS = $(am_test_blkid_config_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_config_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_config_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_config_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_config_CFLAGS) $(CFLAGS) \
@@ -1959,7 +1962,7 @@ test_blkid_config_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_dev_SOURCES_DIST = libblkid/src/dev.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_dev_OBJECTS = libblkid/src/test_blkid_dev-dev.$(OBJEXT)
 test_blkid_dev_OBJECTS = $(am_test_blkid_dev_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_dev_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_dev_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_dev_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_dev_CFLAGS) $(CFLAGS) $(test_blkid_dev_LDFLAGS) \
@@ -1967,7 +1970,7 @@ test_blkid_dev_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_devname_SOURCES_DIST = libblkid/src/devname.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_devname_OBJECTS = libblkid/src/test_blkid_devname-devname.$(OBJEXT)
 test_blkid_devname_OBJECTS = $(am_test_blkid_devname_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_devname_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_devname_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_devname_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_devname_CFLAGS) $(CFLAGS) \
@@ -1975,7 +1978,7 @@ test_blkid_devname_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_devno_SOURCES_DIST = libblkid/src/devno.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_devno_OBJECTS = libblkid/src/test_blkid_devno-devno.$(OBJEXT)
 test_blkid_devno_OBJECTS = $(am_test_blkid_devno_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_devno_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_devno_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_devno_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_devno_CFLAGS) $(CFLAGS) \
@@ -1983,7 +1986,7 @@ test_blkid_devno_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_evaluate_SOURCES_DIST = libblkid/src/evaluate.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_evaluate_OBJECTS = libblkid/src/test_blkid_evaluate-evaluate.$(OBJEXT)
 test_blkid_evaluate_OBJECTS = $(am_test_blkid_evaluate_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_evaluate_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_evaluate_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_evaluate_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_evaluate_CFLAGS) $(CFLAGS) \
@@ -1991,7 +1994,7 @@ test_blkid_evaluate_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_read_SOURCES_DIST = libblkid/src/read.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_read_OBJECTS = libblkid/src/test_blkid_read-read.$(OBJEXT)
 test_blkid_read_OBJECTS = $(am_test_blkid_read_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_read_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_read_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_read_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_read_CFLAGS) $(CFLAGS) $(test_blkid_read_LDFLAGS) \
@@ -1999,7 +2002,7 @@ test_blkid_read_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_resolve_SOURCES_DIST = libblkid/src/resolve.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_resolve_OBJECTS = libblkid/src/test_blkid_resolve-resolve.$(OBJEXT)
 test_blkid_resolve_OBJECTS = $(am_test_blkid_resolve_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_resolve_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_resolve_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_resolve_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_resolve_CFLAGS) $(CFLAGS) \
@@ -2007,7 +2010,7 @@ test_blkid_resolve_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_save_SOURCES_DIST = libblkid/src/save.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_save_OBJECTS = libblkid/src/test_blkid_save-save.$(OBJEXT)
 test_blkid_save_OBJECTS = $(am_test_blkid_save_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_save_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_save_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_save_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_save_CFLAGS) $(CFLAGS) $(test_blkid_save_LDFLAGS) \
@@ -2015,7 +2018,7 @@ test_blkid_save_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_tag_SOURCES_DIST = libblkid/src/tag.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_tag_OBJECTS = libblkid/src/test_blkid_tag-tag.$(OBJEXT)
 test_blkid_tag_OBJECTS = $(am_test_blkid_tag_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_tag_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_tag_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_tag_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_tag_CFLAGS) $(CFLAGS) $(test_blkid_tag_LDFLAGS) \
@@ -2023,7 +2026,7 @@ test_blkid_tag_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_blkid_verify_SOURCES_DIST = libblkid/src/verify.c
 @BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@am_test_blkid_verify_OBJECTS = libblkid/src/test_blkid_verify-verify.$(OBJEXT)
 test_blkid_verify_OBJECTS = $(am_test_blkid_verify_OBJECTS)
-@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_verify_DEPENDENCIES = $(am__DEPENDENCIES_10)
+@BUILD_LIBBLKID_TESTS_TRUE@@BUILD_LIBBLKID_TRUE@test_blkid_verify_DEPENDENCIES = $(am__DEPENDENCIES_12)
 test_blkid_verify_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_blkid_verify_CFLAGS) $(CFLAGS) \
@@ -2080,10 +2083,10 @@ am__test_fsck_cramfs_SOURCES_DIST = disk-utils/fsck.cramfs.c \
 @BUILD_CRAMFS_TRUE@	$(am__objects_26)
 @BUILD_CRAMFS_TRUE@am_test_fsck_cramfs_OBJECTS = $(am__objects_27)
 test_fsck_cramfs_OBJECTS = $(am_test_fsck_cramfs_OBJECTS)
-@BUILD_CRAMFS_TRUE@am__DEPENDENCIES_11 = $(am__DEPENDENCIES_2) \
+@BUILD_CRAMFS_TRUE@am__DEPENDENCIES_13 = $(am__DEPENDENCIES_2) \
 @BUILD_CRAMFS_TRUE@	libcommon.la
 @BUILD_CRAMFS_TRUE@test_fsck_cramfs_DEPENDENCIES =  \
-@BUILD_CRAMFS_TRUE@	$(am__DEPENDENCIES_11)
+@BUILD_CRAMFS_TRUE@	$(am__DEPENDENCIES_13)
 test_fsck_cramfs_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_fsck_cramfs_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \
@@ -2128,21 +2131,21 @@ am__test_more_SOURCES_DIST = text-utils/more.c
 @BUILD_MORE_TRUE@am__objects_28 = text-utils/test_more-more.$(OBJEXT)
 @BUILD_MORE_TRUE@am_test_more_OBJECTS = $(am__objects_28)
 test_more_OBJECTS = $(am_test_more_OBJECTS)
-@BUILD_MORE_TRUE@am__DEPENDENCIES_12 = $(am__DEPENDENCIES_2) \
+@BUILD_MORE_TRUE@am__DEPENDENCIES_14 = $(am__DEPENDENCIES_2) \
 @BUILD_MORE_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 @BUILD_MORE_TRUE@	$(am__DEPENDENCIES_1)
-@BUILD_MORE_TRUE@test_more_DEPENDENCIES = $(am__DEPENDENCIES_12)
+@BUILD_MORE_TRUE@test_more_DEPENDENCIES = $(am__DEPENDENCIES_14)
 test_more_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(test_more_CFLAGS) \
 	$(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
 am__test_mount_cache_SOURCES_DIST = libmount/src/cache.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_cache_OBJECTS = libmount/src/test_mount_cache-cache.$(OBJEXT)
 test_mount_cache_OBJECTS = $(am_test_mount_cache_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@@HAVE_SELINUX_TRUE@am__DEPENDENCIES_13 = $(am__DEPENDENCIES_1)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am__DEPENDENCIES_14 =  \
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@@HAVE_SELINUX_TRUE@am__DEPENDENCIES_15 = $(am__DEPENDENCIES_1)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am__DEPENDENCIES_16 =  \
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@	libmount.la \
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@	$(am__DEPENDENCIES_13)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_cache_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@	$(am__DEPENDENCIES_15)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_cache_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_cache_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_cache_CFLAGS) $(CFLAGS) \
@@ -2150,7 +2153,7 @@ test_mount_cache_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_mount_context_SOURCES_DIST = libmount/src/context.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_context_OBJECTS = libmount/src/test_mount_context-context.$(OBJEXT)
 test_mount_context_OBJECTS = $(am_test_mount_context_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_context_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_context_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_context_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_context_CFLAGS) $(CFLAGS) \
@@ -2158,7 +2161,7 @@ test_mount_context_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_mount_lock_SOURCES_DIST = libmount/src/lock.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_lock_OBJECTS = libmount/src/test_mount_lock-lock.$(OBJEXT)
 test_mount_lock_OBJECTS = $(am_test_mount_lock_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_lock_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_lock_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_lock_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_lock_CFLAGS) $(CFLAGS) $(test_mount_lock_LDFLAGS) \
@@ -2166,7 +2169,7 @@ test_mount_lock_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_mount_optstr_SOURCES_DIST = libmount/src/optstr.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_optstr_OBJECTS = libmount/src/test_mount_optstr-optstr.$(OBJEXT)
 test_mount_optstr_OBJECTS = $(am_test_mount_optstr_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_optstr_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_optstr_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_optstr_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_optstr_CFLAGS) $(CFLAGS) \
@@ -2174,7 +2177,7 @@ test_mount_optstr_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_mount_tab_SOURCES_DIST = libmount/src/tab.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_tab_OBJECTS = libmount/src/test_mount_tab-tab.$(OBJEXT)
 test_mount_tab_OBJECTS = $(am_test_mount_tab_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_tab_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_tab_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_tab_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_tab_CFLAGS) $(CFLAGS) $(test_mount_tab_LDFLAGS) \
@@ -2182,7 +2185,7 @@ test_mount_tab_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_mount_tab_diff_SOURCES_DIST = libmount/src/tab_diff.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_tab_diff_OBJECTS = libmount/src/test_mount_tab_diff-tab_diff.$(OBJEXT)
 test_mount_tab_diff_OBJECTS = $(am_test_mount_tab_diff_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_tab_diff_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_tab_diff_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_tab_diff_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_tab_diff_CFLAGS) $(CFLAGS) \
@@ -2190,7 +2193,7 @@ test_mount_tab_diff_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_mount_tab_update_SOURCES_DIST = libmount/src/tab_update.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_tab_update_OBJECTS = libmount/src/test_mount_tab_update-tab_update.$(OBJEXT)
 test_mount_tab_update_OBJECTS = $(am_test_mount_tab_update_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_tab_update_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_tab_update_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_tab_update_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_tab_update_CFLAGS) $(CFLAGS) \
@@ -2198,7 +2201,7 @@ test_mount_tab_update_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_mount_utils_SOURCES_DIST = libmount/src/utils.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_utils_OBJECTS = libmount/src/test_mount_utils-utils.$(OBJEXT)
 test_mount_utils_OBJECTS = $(am_test_mount_utils_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_utils_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_utils_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_utils_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_utils_CFLAGS) $(CFLAGS) \
@@ -2206,7 +2209,7 @@ test_mount_utils_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 am__test_mount_version_SOURCES_DIST = libmount/src/version.c
 @BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@am_test_mount_version_OBJECTS = libmount/src/test_mount_version-version.$(OBJEXT)
 test_mount_version_OBJECTS = $(am_test_mount_version_OBJECTS)
-@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_version_DEPENDENCIES = $(am__DEPENDENCIES_14)
+@BUILD_LIBMOUNT_TESTS_TRUE@@BUILD_LIBMOUNT_TRUE@test_mount_version_DEPENDENCIES = $(am__DEPENDENCIES_16)
 test_mount_version_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(test_mount_version_CFLAGS) $(CFLAGS) \
@@ -2346,13 +2349,13 @@ am__umount_static_SOURCES_DIST = mount-deprecated/umount.c \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@am_umount_static_OBJECTS = $(am__objects_31)
 @BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@am_umount_static_OBJECTS = $(am__objects_31)
 umount_static_OBJECTS = $(am_umount_static_OBJECTS)
-@BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@am__DEPENDENCIES_15 = $(am__DEPENDENCIES_2) \
+@BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@am__DEPENDENCIES_17 = $(am__DEPENDENCIES_2) \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@	libcommon.la \
 @BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@	libmount.la
-@BUILD_DEPRECATED_MOUNT_TRUE@am__DEPENDENCIES_15 =  \
+@BUILD_DEPRECATED_MOUNT_TRUE@am__DEPENDENCIES_17 =  \
 @BUILD_DEPRECATED_MOUNT_TRUE@	$(am__DEPENDENCIES_2) libblkid.la \
 @BUILD_DEPRECATED_MOUNT_TRUE@	libcommon.la
-@BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@umount_static_DEPENDENCIES = $(am__DEPENDENCIES_15)
+@BUILD_DEPRECATED_MOUNT_FALSE@@BUILD_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@umount_static_DEPENDENCIES = $(am__DEPENDENCIES_17)
 @BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@umount_static_DEPENDENCIES = $(am__DEPENDENCIES_2) \
 @BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@	libblkid.la \
 @BUILD_DEPRECATED_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@	libcommon.la

@@ -189,8 +189,14 @@
 /* Define to 1 if you have the `ncursesw' library (-lncursesw). */
 #undef HAVE_LIBNCURSESW
 
+/* Define to 1 if you have the `pcre' library (-lpcre). */
+#undef HAVE_LIBPCRE
+
 /* Define if SELinux is available */
 #undef HAVE_LIBSELINUX
+
+/* Define to 1 if you have the `sepol' library (-lsepol). */
+#undef HAVE_LIBSEPOL
 
 /* Define to 1 if you have the `termcap' library (-ltermcap). */
 #undef HAVE_LIBTERMCAP
