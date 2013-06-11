@@ -575,6 +575,16 @@ else
 
   if test "x$have_selinux" = xyes; then
     UL_SET_FLAGS([], [], [$SELINUX_LIBS])
+    UL_CHECK_LIB(pcre, pcre_version)
+    UL_CHECK_LIB(sepol, sepol_load_policy)
+    if test "x$have_sepol" = xyes;then
+      SELINUX_LIBS="-lsepol ${SELINUX_LIBS}";
+      SELINUX_LIBS_STATIC="-lsepol ${SELINUX_LIBS_STATIC}";
+    fi;
+    if test "x$have_pcre" = xyes;then
+      SELINUX_LIBS="${SELINUX_LIBS} -lpcre";
+      SELINUX_LIBS_STATIC="${SELINUX_LIBS_STATIC} -lpcre";
+    fi;
     # This function is missing in old libselinux 1.xx versions
     AC_CHECK_FUNCS([security_get_initial_context])
     UL_RESTORE_FLAGS
