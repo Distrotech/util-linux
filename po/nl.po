@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux-2.24-rc2\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2013-10-12 12:22+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -52,28 +52,29 @@ msgstr "  %s <schijfapparaat> <partitienummer> <begin> <lengte>\n"
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "kan %s niet openen"
@@ -357,8 +358,8 @@ msgstr "%s is niet aangekoppeld\n"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, c-format
 msgid "cannot read %s"
@@ -3557,209 +3558,6 @@ msgstr "Partitietype (typ L om alle mogelijke types te zien): "
 msgid "Hex code (type L to list all codes): "
 msgstr "Hex-code (typ L om alle codes te zien): "
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-"  %1$s [opties] <schijf>     partitietabel wijzigen\n"
-"  %1$s [opties] -l <schijf>  partitietabel(len) tonen\n"
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr ""
-"  -b <grootte>      te gebruiken sectorgrootte (512, 1024, 2048, of 4096)\n"
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr ""
-"  -c[=<modus>]      compatibiliteitsmodus: 'dos', of 'nondos' (standaard)\n"
-
-#: fdisks/fdisk.c:60
-msgid " -h                print this help text\n"
-msgstr "  -h                deze hulptekst tonen en stoppen\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr "  -L[=<wanneer>]    uitvoer kleuren ('auto', 'always', of 'never')\n"
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr "  -t <type>         alleen dit type partitie herkennen\n"
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-"  -u[=<eenheid>]    weergave-eenheid: 'cylinders', of 'sectors' (standaard)\n"
-
-#: fdisks/fdisk.c:65
-msgid " -v                print program version\n"
-msgstr "  -v                programmaversie tonen en stoppen\n"
-
-#: fdisks/fdisk.c:66
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr "  -C <getal>        het aantal te gebruiken cilinders\n"
-
-#: fdisks/fdisk.c:67
-msgid " -H <number>       specify the number of heads\n"
-msgstr "  -H <getal>        het aantal te gebruiken koppen\n"
-
-#: fdisks/fdisk.c:68
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr "  -S <getal>        het aantal sectoren per spoor\n"
-
-#: fdisks/fdisk.c:151
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "DOS-compatibiliteit is aangezet  (VEROUDERD!)"
-
-#: fdisks/fdisk.c:152
-msgid "DOS Compatibility flag is not set"
-msgstr "DOS-compatibiliteit is uitgezet"
-
-#: fdisks/fdisk.c:173
-#, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "Partitie %zu bestaat nog niet!"
-
-#: fdisks/fdisk.c:181
-#, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "Het type van de partitie is veranderd van '%s' naar '%s'."
-
-#: fdisks/fdisk.c:186
-#, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "Het type van partitie %zu is onveranderd: %s."
-
-#: fdisks/fdisk.c:202
-#, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr "Schijf %s: %s, %llu bytes, %llu sectoren"
-
-#: fdisks/fdisk.c:209
-#, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "Geometrie: %d koppen, %llu sectoren/spoor, %llu cilinders"
-
-#: fdisks/fdisk.c:212
-#, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Eenheid: %s van %d * %ld = %ld bytes"
-
-#: fdisks/fdisk.c:218
-#, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr "Sectorgrootte (logisch/fysiek): %lu bytes / %lu bytes"
-
-#: fdisks/fdisk.c:220
-#, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr "In-/uitvoergrootte (minimaal/optimaal): %lu bytes / %lu bytes"
-
-#: fdisks/fdisk.c:223
-#, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "Uitlijningspositie: %lu bytes"
-
-#: fdisks/fdisk.c:226
-#, c-format
-msgid "Disklabel type: %s"
-msgstr "Schijflabeltype: %s"
-
-#: fdisks/fdisk.c:229
-#, c-format
-msgid "Disk identifier: %s"
-msgstr "Schijf-ID: %s"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-"\n"
-"%s: positie = %ju, grootte = %zu bytes."
-
-#: fdisks/fdisk.c:281
-msgid "cannot seek"
-msgstr "kan geen 'seek' doen"
-
-#: fdisks/fdisk.c:286
-msgid "cannot read"
-msgstr "kan niet lezen"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-msgid "First sector"
-msgstr "Eerste sector"
-
-#: fdisks/fdisk.c:386
-#, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "ioctl(BLKGETSIZE) is mislukt op %s"
-
-#: fdisks/fdisk.c:412
-msgid "failed to allocate libfdisk context"
-msgstr "reserveren van geheugen voor 'libfdsik'-context is mislukt"
-
-#: fdisks/fdisk.c:421
-msgid "invalid sector size argument"
-msgstr "ongeldige sectorgrootte"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-msgid "invalid cylinders argument"
-msgstr "ongeldig aantal cilinders"
-
-#: fdisks/fdisk.c:439
-msgid "not found DOS label driver"
-msgstr "kan DOS-label-stuurprogramma niet vinden"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-msgid "invalid heads argument"
-msgstr "ongeldig aantal koppen"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-msgid "invalid sectors argument"
-msgstr "ongeldig aantal sectoren"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-msgid "unsupported color mode"
-msgstr "ongeldige kleurmodus"
-
-#: fdisks/fdisk.c:480
-#, c-format
-msgid "unsupported disklabel: %s"
-msgstr "ongeldig schijflabel: %s"
-
-#: fdisks/fdisk.c:501
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-"Apparaateigenschappen (sectorgrootte en geometrie) dienen\n"
-"met slechts één apparaat gebruikt te worden."
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr "Welkom bij 'fdisk' (%s)."
-
-#: fdisks/fdisk.c:542
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"Wijzigingen worden alleen in het computergeheugen gemaakt,\n"
-"tot het moment dat u besluit ze naar schijf te schrijven.\n"
-"Wees voorzichtig vóór het gebruik van de schrijfopdracht.\n"
-
-#: fdisks/fdisk.c:547
-msgid "Device does not contain a recognized partition table."
-msgstr "Apparaat bevat geen herkenbare partitietabel."
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr "Algemeen"
@@ -4064,6 +3862,209 @@ msgstr "Aantal koppen"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "Aantal sectoren"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+"  %1$s [opties] <schijf>     partitietabel wijzigen\n"
+"  %1$s [opties] -l <schijf>  partitietabel(len) tonen\n"
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr ""
+"  -b <grootte>      te gebruiken sectorgrootte (512, 1024, 2048, of 4096)\n"
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr ""
+"  -c[=<modus>]      compatibiliteitsmodus: 'dos', of 'nondos' (standaard)\n"
+
+#: fdisks/fdisk.c:60
+msgid " -h                print this help text\n"
+msgstr "  -h                deze hulptekst tonen en stoppen\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr "  -L[=<wanneer>]    uitvoer kleuren ('auto', 'always', of 'never')\n"
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr "  -t <type>         alleen dit type partitie herkennen\n"
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+"  -u[=<eenheid>]    weergave-eenheid: 'cylinders', of 'sectors' (standaard)\n"
+
+#: fdisks/fdisk.c:65
+msgid " -v                print program version\n"
+msgstr "  -v                programmaversie tonen en stoppen\n"
+
+#: fdisks/fdisk.c:66
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr "  -C <getal>        het aantal te gebruiken cilinders\n"
+
+#: fdisks/fdisk.c:67
+msgid " -H <number>       specify the number of heads\n"
+msgstr "  -H <getal>        het aantal te gebruiken koppen\n"
+
+#: fdisks/fdisk.c:68
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr "  -S <getal>        het aantal sectoren per spoor\n"
+
+#: fdisks/fdisk.c:151
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "DOS-compatibiliteit is aangezet  (VEROUDERD!)"
+
+#: fdisks/fdisk.c:152
+msgid "DOS Compatibility flag is not set"
+msgstr "DOS-compatibiliteit is uitgezet"
+
+#: fdisks/fdisk.c:173
+#, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "Partitie %zu bestaat nog niet!"
+
+#: fdisks/fdisk.c:181
+#, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "Het type van de partitie is veranderd van '%s' naar '%s'."
+
+#: fdisks/fdisk.c:186
+#, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "Het type van partitie %zu is onveranderd: %s."
+
+#: fdisks/fdisk.c:202
+#, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr "Schijf %s: %s, %llu bytes, %llu sectoren"
+
+#: fdisks/fdisk.c:209
+#, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "Geometrie: %d koppen, %llu sectoren/spoor, %llu cilinders"
+
+#: fdisks/fdisk.c:212
+#, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Eenheid: %s van %d * %ld = %ld bytes"
+
+#: fdisks/fdisk.c:218
+#, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr "Sectorgrootte (logisch/fysiek): %lu bytes / %lu bytes"
+
+#: fdisks/fdisk.c:220
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr "In-/uitvoergrootte (minimaal/optimaal): %lu bytes / %lu bytes"
+
+#: fdisks/fdisk.c:223
+#, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "Uitlijningspositie: %lu bytes"
+
+#: fdisks/fdisk.c:226
+#, c-format
+msgid "Disklabel type: %s"
+msgstr "Schijflabeltype: %s"
+
+#: fdisks/fdisk.c:229
+#, c-format
+msgid "Disk identifier: %s"
+msgstr "Schijf-ID: %s"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+"\n"
+"%s: positie = %ju, grootte = %zu bytes."
+
+#: fdisks/fdisk.c:281
+msgid "cannot seek"
+msgstr "kan geen 'seek' doen"
+
+#: fdisks/fdisk.c:286
+msgid "cannot read"
+msgstr "kan niet lezen"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+msgid "First sector"
+msgstr "Eerste sector"
+
+#: fdisks/fdisk.c:386
+#, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "ioctl(BLKGETSIZE) is mislukt op %s"
+
+#: fdisks/fdisk.c:412
+msgid "failed to allocate libfdisk context"
+msgstr "reserveren van geheugen voor 'libfdsik'-context is mislukt"
+
+#: fdisks/fdisk.c:421
+msgid "invalid sector size argument"
+msgstr "ongeldige sectorgrootte"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+msgid "invalid cylinders argument"
+msgstr "ongeldig aantal cilinders"
+
+#: fdisks/fdisk.c:439
+msgid "not found DOS label driver"
+msgstr "kan DOS-label-stuurprogramma niet vinden"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+msgid "invalid heads argument"
+msgstr "ongeldig aantal koppen"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+msgid "invalid sectors argument"
+msgstr "ongeldig aantal sectoren"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+msgid "unsupported color mode"
+msgstr "ongeldige kleurmodus"
+
+#: fdisks/fdisk.c:480
+#, c-format
+msgid "unsupported disklabel: %s"
+msgstr "ongeldig schijflabel: %s"
+
+#: fdisks/fdisk.c:501
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+"Apparaateigenschappen (sectorgrootte en geometrie) dienen\n"
+"met slechts één apparaat gebruikt te worden."
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr "Welkom bij 'fdisk' (%s)."
+
+#: fdisks/fdisk.c:542
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"Wijzigingen worden alleen in het computergeheugen gemaakt,\n"
+"tot het moment dat u besluit ze naar schijf te schrijven.\n"
+"Wees voorzichtig vóór het gebruik van de schrijfopdracht.\n"
+
+#: fdisks/fdisk.c:547
+msgid "Device does not contain a recognized partition table."
+msgstr "Apparaat bevat geen herkenbare partitietabel."
 
 #: fdisks/sfdisk.c:112
 #, c-format
@@ -5474,6 +5475,25 @@ msgstr "BBT"
 #, c-format
 msgid "failed to execute %s"
 msgstr "uitvoeren van %s is mislukt"
+
+#: lib/pager.c:102
+#, c-format
+msgid "waitpid failed (%s)"
+msgstr "waitpid() is mislukt (%s)"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+msgid "failed to callocate cpu set"
+msgstr "reserveren van geheugen voor processorenset is mislukt"
+
+#: lib/path.c:203
+#, c-format
+msgid "failed to parse CPU list %s"
+msgstr "ontleden van processorenlijst %s is mislukt"
+
+#: lib/path.c:206
+#, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "ontleden van processorenmasker %s is mislukt"
 
 #: libfdisk/src/alignment.c:108
 #, c-format
@@ -7041,25 +7061,6 @@ msgstr ""
 "en opstartblok.  Weet u zeker dat u deze partitie als Linux-wisselgeheugen\n"
 "wilt labelen?"
 
-#: lib/pager.c:102
-#, c-format
-msgid "waitpid failed (%s)"
-msgstr "waitpid() is mislukt (%s)"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-msgid "failed to callocate cpu set"
-msgstr "reserveren van geheugen voor processorenset is mislukt"
-
-#: lib/path.c:203
-#, c-format
-msgid "failed to parse CPU list %s"
-msgstr "ontleden van processorenlijst %s is mislukt"
-
-#: lib/path.c:206
-#, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "ontleden van processorenmasker %s is mislukt"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, c-format
 msgid " %s [options] [username]\n"
@@ -7283,6 +7284,42 @@ msgstr "Geen bekende shells."
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "Gebruik:  %s <wachtwoordbestand> <gebruikersnaam>...]\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr ""
+"Gebruik:  last [-#] [-f bestand] [-t tty] [-h hostnaam] [gebruiker ...]\n"
+
+#: login-utils/last-deprecated.c:252
+#, c-format
+msgid "%s: mmap failed"
+msgstr "%s: mmap() is mislukt"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  nog ingelogd"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp begint %s"
+
+#: login-utils/last-deprecated.c:433
+msgid "gethostname failed"
+msgstr "gethostname() is mislukt"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"onderbroken %10.10s %5.5s \n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, c-format
 msgid "unknown time format: %s"
@@ -7381,42 +7418,6 @@ msgstr "ontleden van getal is mislukt"
 #, c-format
 msgid "invalid time value \"%s\""
 msgstr "ongeldige tijdswaarde '%s'"
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr ""
-"Gebruik:  last [-#] [-f bestand] [-t tty] [-h hostnaam] [gebruiker ...]\n"
-
-#: login-utils/last-deprecated.c:252
-#, c-format
-msgid "%s: mmap failed"
-msgstr "%s: mmap() is mislukt"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  nog ingelogd"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp begint %s"
-
-#: login-utils/last-deprecated.c:433
-msgid "gethostname failed"
-msgstr "gethostname() is mislukt"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"onderbroken %10.10s %5.5s \n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -12020,6 +12021,192 @@ msgstr "%s: ioctl(FITRIM) is mislukt"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr "%s: %s (%<PRIu64> bytes) is getrimd\n"
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "### opgestart vanuit MILO\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "### Ruffiaanse BCD-klok\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "### klokpoort aangepast naar 0x%x\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "### vreemde tijd-van-het-jaar!\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "atomische %s is duizend keer mislukt!"
+
+#: sys-utils/hwclock-cmos.c:318
+#, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr "### cmos_read(): schrijven naar besturingsadres %X is mislukt"
+
+# XXX read FROM
+#: sys-utils/hwclock-cmos.c:322
+#, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr "### cmos_read(): lezen van data-adres %X is mislukt"
+
+#: sys-utils/hwclock-cmos.c:359
+#, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr "### cmos_write(): schrijven naar besturingsadres %X is mislukt"
+
+#: sys-utils/hwclock-cmos.c:364
+#, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr "### cmos_write(): schrijven naar data-adres %X is mislukt"
+
+#: sys-utils/hwclock-cmos.c:639
+msgid "I failed to get permission because I didn't try."
+msgstr "Geen toestemming gekregen, want niet geprobeerd."
+
+#: sys-utils/hwclock-cmos.c:642
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr "Kan geen I/O-poorttoegang krijgen: iopl(3) is mislukt."
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "Waarschijnlijk hebt u root-privileges nodig.\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "Wachten in lus totdat de tijd van ioctl(KDGHWCLK) verandert...\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "Het lezen van de tijd via ioctl(KDGHWCLK) is mislukt"
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr "Het lezen van de tijd via ioctl(KDGHWCLK) is mislukt tijdens de lus"
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+msgid "Timed out waiting for time change."
+msgstr "Wachten op veranderende tijd duurde te lang."
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "ioctl() kan geen tijd lezen uit %s"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "ioctl(KDSHWCLK) is mislukt"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "Openen van /dev/tty1 of /dev/vc/1 is mislukt"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "ioctl(KDGHWCLK) is mislukt"
+
+#: sys-utils/hwclock-rtc.c:195
+#, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "ioctl(%s) op %s om de tijd te lezen is mislukt"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "Wachten in lus totdat de tijd van %s verandert...\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "Apparaat %s heeft geen onderbrekingsfuncties. "
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "read() van %s voor wachten op kloktik is mislukt"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "select() van %s voor wachten op kloktik is mislukt"
+
+#: sys-utils/hwclock-rtc.c:317
+#, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr "select() van %s voor wachten op kloktik duurde te lang"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr "ioctl() op %s om bijwerkingsonderbrekingen uit te zetten is mislukt"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr ""
+"ioctl() op %s om bijwerkingsonderbrekingen aan te zetten is onverwacht "
+"mislukt"
+
+#: sys-utils/hwclock-rtc.c:383
+#, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr "ioctl(%s) op %s om tijd in te stellen is mislukt"
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "ioctl(%s) is geslaagd\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"Om de tijdperkwaarde in de kernel aan te kunnen passen, is toegang\n"
+"tot het 'rtc'-stuurprogramma van Linux nodig via het speciale\n"
+"apparaatbestand %s.  Dit bestand bestaat niet op dit systeem."
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "ioctl(RTC_EPOCH_READ) op %s is mislukt"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr "De tijdperkwaarde %ld is gelezen uit %s met ioctl(RTC_EPOCH_READ).\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr "De tijdperkwaarde mag niet minder zijn dan 1900.  U vroeg om %ld."
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr ""
+"Schrijven van tijdperkwaarde op %ld naar %s met ioctl(RTC_EPOCH_SET).\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr "Het kernelstuurprogramma voor %s heeft geen ioctl(RTC_EPOCH_SET)."
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "ioctl(RTC_EPOCH_SET) op %s is mislukt"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12576,192 +12763,6 @@ msgid ""
 msgstr ""
 "Gebruik de optie '--debug' om alle details over de zoektocht\n"
 "naar een toegangsmethode te zien."
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "### opgestart vanuit MILO\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "### Ruffiaanse BCD-klok\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "### klokpoort aangepast naar 0x%x\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "### vreemde tijd-van-het-jaar!\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "atomische %s is duizend keer mislukt!"
-
-#: sys-utils/hwclock-cmos.c:318
-#, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr "### cmos_read(): schrijven naar besturingsadres %X is mislukt"
-
-# XXX read FROM
-#: sys-utils/hwclock-cmos.c:322
-#, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr "### cmos_read(): lezen van data-adres %X is mislukt"
-
-#: sys-utils/hwclock-cmos.c:359
-#, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr "### cmos_write(): schrijven naar besturingsadres %X is mislukt"
-
-#: sys-utils/hwclock-cmos.c:364
-#, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr "### cmos_write(): schrijven naar data-adres %X is mislukt"
-
-#: sys-utils/hwclock-cmos.c:639
-msgid "I failed to get permission because I didn't try."
-msgstr "Geen toestemming gekregen, want niet geprobeerd."
-
-#: sys-utils/hwclock-cmos.c:642
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr "Kan geen I/O-poorttoegang krijgen: iopl(3) is mislukt."
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "Waarschijnlijk hebt u root-privileges nodig.\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "Wachten in lus totdat de tijd van ioctl(KDGHWCLK) verandert...\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "Het lezen van de tijd via ioctl(KDGHWCLK) is mislukt"
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr "Het lezen van de tijd via ioctl(KDGHWCLK) is mislukt tijdens de lus"
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-msgid "Timed out waiting for time change."
-msgstr "Wachten op veranderende tijd duurde te lang."
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "ioctl() kan geen tijd lezen uit %s"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "ioctl(KDSHWCLK) is mislukt"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "Openen van /dev/tty1 of /dev/vc/1 is mislukt"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "ioctl(KDGHWCLK) is mislukt"
-
-#: sys-utils/hwclock-rtc.c:195
-#, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "ioctl(%s) op %s om de tijd te lezen is mislukt"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "Wachten in lus totdat de tijd van %s verandert...\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "Apparaat %s heeft geen onderbrekingsfuncties. "
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "read() van %s voor wachten op kloktik is mislukt"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "select() van %s voor wachten op kloktik is mislukt"
-
-#: sys-utils/hwclock-rtc.c:317
-#, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr "select() van %s voor wachten op kloktik duurde te lang"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr "ioctl() op %s om bijwerkingsonderbrekingen uit te zetten is mislukt"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr ""
-"ioctl() op %s om bijwerkingsonderbrekingen aan te zetten is onverwacht "
-"mislukt"
-
-#: sys-utils/hwclock-rtc.c:383
-#, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr "ioctl(%s) op %s om tijd in te stellen is mislukt"
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "ioctl(%s) is geslaagd\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"Om de tijdperkwaarde in de kernel aan te kunnen passen, is toegang\n"
-"tot het 'rtc'-stuurprogramma van Linux nodig via het speciale\n"
-"apparaatbestand %s.  Dit bestand bestaat niet op dit systeem."
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "ioctl(RTC_EPOCH_READ) op %s is mislukt"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr "De tijdperkwaarde %ld is gelezen uit %s met ioctl(RTC_EPOCH_READ).\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr "De tijdperkwaarde mag niet minder zijn dan 1900.  U vroeg om %ld."
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr ""
-"Schrijven van tijdperkwaarde op %ld naar %s met ioctl(RTC_EPOCH_SET).\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr "Het kernelstuurprogramma voor %s heeft geen ioctl(RTC_EPOCH_SET)."
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "ioctl(RTC_EPOCH_SET) op %s is mislukt"
 
 #: sys-utils/ipcmk.c:69
 msgid " -M, --shmem <size>       create shared memory segment of size <size>\n"
@@ -15760,6 +15761,11 @@ msgstr ""
 "  <apparaat>                    naam van te gebruiken apparaat\n"
 "  <bestand>                     naam van te gebruiken bestand\n"
 
+#: sys-utils/swapon-common.c:62
+#, c-format
+msgid "cannot find the device for %s"
+msgstr "kan geen apparaat vinden voor %s"
+
 #: sys-utils/swapon.c:100
 msgid "device file or partition path"
 msgstr "apparaatbestand of partitiepad"
@@ -15968,11 +15974,6 @@ msgstr "ontleden van prioriteit is mislukt"
 #, c-format
 msgid "unsupported discard policy: %s"
 msgstr "ongeldig verwerpingsbeleid: %s"
-
-#: sys-utils/swapon-common.c:62
-#, c-format
-msgid "cannot find the device for %s"
-msgstr "kan geen apparaat vinden voor %s"
 
 #: sys-utils/switch_root.c:57
 msgid "failed to open directory"

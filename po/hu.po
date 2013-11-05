@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux-ng 2.18-rc2\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2010-07-02 10:44+0200\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
@@ -34,28 +34,29 @@ msgstr ""
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "a(z) %s nem nyitható meg"
@@ -337,8 +338,8 @@ msgstr "umount: %s nem található"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, fuzzy, c-format
 msgid "cannot read %s"
@@ -3520,225 +3521,6 @@ msgstr "Hexa kód (a kódok listája az L megnyomásával érhető el): "
 msgid "Hex code (type L to list all codes): "
 msgstr "Hexa kód (a kódok listája az L megnyomásával érhető el): "
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:60
-#, fuzzy
-msgid " -h                print this help text\n"
-msgstr "  -h, --help                       Ez a súgószöveg\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr ""
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:65
-#, fuzzy
-msgid " -v                print program version\n"
-msgstr "  -h, --help                       Ez a súgószöveg\n"
-
-#: fdisks/fdisk.c:66
-#, fuzzy
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr "Adja meg a cilinderek számát: "
-
-#: fdisks/fdisk.c:67
-#, fuzzy
-msgid " -H <number>       specify the number of heads\n"
-msgstr "    -H# [vagy --heads #]:      a használandó fejszám beállítása"
-
-#: fdisks/fdisk.c:68
-#, fuzzy
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr "Adja meg a sávonkénti szektorok számát: "
-
-#: fdisks/fdisk.c:151
-#, fuzzy
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "A DOS kompatibilitási jelző be van állítva\n"
-
-#: fdisks/fdisk.c:152
-#, fuzzy
-msgid "DOS Compatibility flag is not set"
-msgstr "A DOS kompatibilitási jelző nincs beállítva\n"
-
-#: fdisks/fdisk.c:173
-#, fuzzy, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "A(z) %d. partíció még nem létezik!\n"
-
-#: fdisks/fdisk.c:181
-#, fuzzy, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "A(z) %d. partíció rendszertípusa módosítva a következőre: %x (%s)\n"
-
-#: fdisks/fdisk.c:186
-#, fuzzy, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "A(z) %d. partíció rendszertípusa változatlan: %x (%s)\n"
-
-#: fdisks/fdisk.c:202
-#, fuzzy, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr ""
-"\n"
-"%s lemez: %lu cilinder, %lu fej, %lu szektor sávonként\n"
-
-#: fdisks/fdisk.c:209
-#, fuzzy, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "%d fej, %llu szektor, %d cilinder"
-
-#: fdisks/fdisk.c:212
-#, fuzzy, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Egység: %s %d * %d = %d bájt\n"
-
-#: fdisks/fdisk.c:218
-#, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr ""
-
-#: fdisks/fdisk.c:220
-#, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr ""
-
-#: fdisks/fdisk.c:223
-#, fuzzy, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "igazítási eltolás lekérése"
-
-#: fdisks/fdisk.c:226
-#, fuzzy, c-format
-msgid "Disklabel type: %s"
-msgstr "Lemezmeghajtó: %s\n"
-
-#: fdisks/fdisk.c:229
-#, fuzzy, c-format
-msgid "Disk identifier: %s"
-msgstr "Lemezazonosító: 0x%08x\n"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-
-#: fdisks/fdisk.c:281
-#, fuzzy
-msgid "cannot seek"
-msgstr "a programindítás meghiúsult"
-
-#: fdisks/fdisk.c:286
-#, fuzzy
-msgid "cannot read"
-msgstr "%s: nem olvasható a(z) %s.\n"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-#, fuzzy
-msgid "First sector"
-msgstr "Első %s"
-
-#: fdisks/fdisk.c:386
-#, fuzzy, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "A BLKGETSIZE ioctl meghiúsult a következőn: %s\n"
-
-#: fdisks/fdisk.c:412
-#, fuzzy
-msgid "failed to allocate libfdisk context"
-msgstr "nem foglalható le kimeneti puffer"
-
-#: fdisks/fdisk.c:421
-#, fuzzy
-msgid "invalid sector size argument"
-msgstr "érvénytelen kapcsoló"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-#, fuzzy
-msgid "invalid cylinders argument"
-msgstr "érvénytelen kapcsoló"
-
-#: fdisks/fdisk.c:439
-#, fuzzy
-msgid "not found DOS label driver"
-msgstr "%s: nem található a(z) %s eszköze\n"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-#, fuzzy
-msgid "invalid heads argument"
-msgstr "érvénytelen kapcsoló"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-#, fuzzy
-msgid "invalid sectors argument"
-msgstr "érvénytelen kapcsoló"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-#, fuzzy
-msgid "unsupported color mode"
-msgstr "nincs parancs?\n"
-
-#: fdisks/fdisk.c:480
-#, fuzzy, c-format
-msgid "unsupported disklabel: %s"
-msgstr "%s: ismeretlen argumentum: %s\n"
-
-#: fdisks/fdisk.c:501
-#, fuzzy
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-"Figyelmeztetés: a -b (szektorméret beállítása) kapcsolóhoz meg kell adni egy "
-"eszközt\n"
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr ""
-
-#: fdisks/fdisk.c:542
-#, fuzzy
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"Egy új Sun lemezcímke kerül létrehozásra. A változások a memóriában\n"
-"maradnak, amíg el nem menti azokat. Ezután természetesen\n"
-"a korábbi tartalom elvész.\n"
-"\n"
-
-#: fdisks/fdisk.c:547
-#, fuzzy
-msgid "Device does not contain a recognized partition table."
-msgstr "A(z) %s lemez nem tartalmaz érvényes partíciós táblát\n"
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr ""
@@ -4100,6 +3882,225 @@ msgstr "Fejek száma"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "Szektorok száma"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:60
+#, fuzzy
+msgid " -h                print this help text\n"
+msgstr "  -h, --help                       Ez a súgószöveg\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr ""
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:65
+#, fuzzy
+msgid " -v                print program version\n"
+msgstr "  -h, --help                       Ez a súgószöveg\n"
+
+#: fdisks/fdisk.c:66
+#, fuzzy
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr "Adja meg a cilinderek számát: "
+
+#: fdisks/fdisk.c:67
+#, fuzzy
+msgid " -H <number>       specify the number of heads\n"
+msgstr "    -H# [vagy --heads #]:      a használandó fejszám beállítása"
+
+#: fdisks/fdisk.c:68
+#, fuzzy
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr "Adja meg a sávonkénti szektorok számát: "
+
+#: fdisks/fdisk.c:151
+#, fuzzy
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "A DOS kompatibilitási jelző be van állítva\n"
+
+#: fdisks/fdisk.c:152
+#, fuzzy
+msgid "DOS Compatibility flag is not set"
+msgstr "A DOS kompatibilitási jelző nincs beállítva\n"
+
+#: fdisks/fdisk.c:173
+#, fuzzy, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "A(z) %d. partíció még nem létezik!\n"
+
+#: fdisks/fdisk.c:181
+#, fuzzy, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "A(z) %d. partíció rendszertípusa módosítva a következőre: %x (%s)\n"
+
+#: fdisks/fdisk.c:186
+#, fuzzy, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "A(z) %d. partíció rendszertípusa változatlan: %x (%s)\n"
+
+#: fdisks/fdisk.c:202
+#, fuzzy, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr ""
+"\n"
+"%s lemez: %lu cilinder, %lu fej, %lu szektor sávonként\n"
+
+#: fdisks/fdisk.c:209
+#, fuzzy, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "%d fej, %llu szektor, %d cilinder"
+
+#: fdisks/fdisk.c:212
+#, fuzzy, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Egység: %s %d * %d = %d bájt\n"
+
+#: fdisks/fdisk.c:218
+#, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr ""
+
+#: fdisks/fdisk.c:220
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr ""
+
+#: fdisks/fdisk.c:223
+#, fuzzy, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "igazítási eltolás lekérése"
+
+#: fdisks/fdisk.c:226
+#, fuzzy, c-format
+msgid "Disklabel type: %s"
+msgstr "Lemezmeghajtó: %s\n"
+
+#: fdisks/fdisk.c:229
+#, fuzzy, c-format
+msgid "Disk identifier: %s"
+msgstr "Lemezazonosító: 0x%08x\n"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+
+#: fdisks/fdisk.c:281
+#, fuzzy
+msgid "cannot seek"
+msgstr "a programindítás meghiúsult"
+
+#: fdisks/fdisk.c:286
+#, fuzzy
+msgid "cannot read"
+msgstr "%s: nem olvasható a(z) %s.\n"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+#, fuzzy
+msgid "First sector"
+msgstr "Első %s"
+
+#: fdisks/fdisk.c:386
+#, fuzzy, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "A BLKGETSIZE ioctl meghiúsult a következőn: %s\n"
+
+#: fdisks/fdisk.c:412
+#, fuzzy
+msgid "failed to allocate libfdisk context"
+msgstr "nem foglalható le kimeneti puffer"
+
+#: fdisks/fdisk.c:421
+#, fuzzy
+msgid "invalid sector size argument"
+msgstr "érvénytelen kapcsoló"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+#, fuzzy
+msgid "invalid cylinders argument"
+msgstr "érvénytelen kapcsoló"
+
+#: fdisks/fdisk.c:439
+#, fuzzy
+msgid "not found DOS label driver"
+msgstr "%s: nem található a(z) %s eszköze\n"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+#, fuzzy
+msgid "invalid heads argument"
+msgstr "érvénytelen kapcsoló"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+#, fuzzy
+msgid "invalid sectors argument"
+msgstr "érvénytelen kapcsoló"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+#, fuzzy
+msgid "unsupported color mode"
+msgstr "nincs parancs?\n"
+
+#: fdisks/fdisk.c:480
+#, fuzzy, c-format
+msgid "unsupported disklabel: %s"
+msgstr "%s: ismeretlen argumentum: %s\n"
+
+#: fdisks/fdisk.c:501
+#, fuzzy
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+"Figyelmeztetés: a -b (szektorméret beállítása) kapcsolóhoz meg kell adni egy "
+"eszközt\n"
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr ""
+
+#: fdisks/fdisk.c:542
+#, fuzzy
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"Egy új Sun lemezcímke kerül létrehozásra. A változások a memóriában\n"
+"maradnak, amíg el nem menti azokat. Ezután természetesen\n"
+"a korábbi tartalom elvész.\n"
+"\n"
+
+#: fdisks/fdisk.c:547
+#, fuzzy
+msgid "Device does not contain a recognized partition table."
+msgstr "A(z) %s lemez nem tartalmaz érvényes partíciós táblát\n"
 
 #: fdisks/sfdisk.c:112
 #, fuzzy, c-format
@@ -5500,6 +5501,26 @@ msgstr "BBT"
 #, fuzzy, c-format
 msgid "failed to execute %s"
 msgstr "a típusparancsfájl (%s) olvasása meghiúsult"
+
+#: lib/pager.c:102
+#, fuzzy, c-format
+msgid "waitpid failed (%s)"
+msgstr "a setuid() hívása meghiúsult"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+#, fuzzy
+msgid "failed to callocate cpu set"
+msgstr "nem foglalható le pufferterület"
+
+#: lib/path.c:203
+#, fuzzy, c-format
+msgid "failed to parse CPU list %s"
+msgstr "az időzítésfájl (%s) olvasása meghiúsult"
+
+#: lib/path.c:206
+#, fuzzy, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "az időzítésfájl (%s) olvasása meghiúsult"
 
 #: libfdisk/src/alignment.c:108
 #, fuzzy, c-format
@@ -7186,26 +7207,6 @@ msgstr ""
 "Írja be az IGEN szót, ha a partíció biztosan 82-es (Linux lapozó)\n"
 "típusú legyen: "
 
-#: lib/pager.c:102
-#, fuzzy, c-format
-msgid "waitpid failed (%s)"
-msgstr "a setuid() hívása meghiúsult"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-#, fuzzy
-msgid "failed to callocate cpu set"
-msgstr "nem foglalható le pufferterület"
-
-#: lib/path.c:203
-#, fuzzy, c-format
-msgid "failed to parse CPU list %s"
-msgstr "az időzítésfájl (%s) olvasása meghiúsult"
-
-#: lib/path.c:206
-#, fuzzy, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "az időzítésfájl (%s) olvasása meghiúsult"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, fuzzy, c-format
 msgid " %s [options] [username]\n"
@@ -7456,6 +7457,43 @@ msgstr "Nincsenek ismert parancsértelmezők.\n"
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "Használat: %s [fájl]\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr ""
+"Használat: last [-#] [-f fájl] [-t terminál] [-h gépnév] [felhasználó ...]\n"
+
+#: login-utils/last-deprecated.c:252
+#, fuzzy, c-format
+msgid "%s: mmap failed"
+msgstr "%s meghiúsult.\n"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  bejelentkezve"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp kezdete: %s"
+
+#: login-utils/last-deprecated.c:433
+#, fuzzy
+msgid "gethostname failed"
+msgstr "hiba: az UUID feldolgozás meghiúsult"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"megszakítva: %10.10s %5.5s\n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, fuzzy, c-format
 msgid "unknown time format: %s"
@@ -7561,43 +7599,6 @@ msgstr "A személyiség beállítása meghiúsult a következőre: %s"
 #, fuzzy, c-format
 msgid "invalid time value \"%s\""
 msgstr "érvénytelen kapcsoló"
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr ""
-"Használat: last [-#] [-f fájl] [-t terminál] [-h gépnév] [felhasználó ...]\n"
-
-#: login-utils/last-deprecated.c:252
-#, fuzzy, c-format
-msgid "%s: mmap failed"
-msgstr "%s meghiúsult.\n"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  bejelentkezve"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp kezdete: %s"
-
-#: login-utils/last-deprecated.c:433
-#, fuzzy
-msgid "gethostname failed"
-msgstr "hiba: az UUID feldolgozás meghiúsult"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"megszakítva: %10.10s %5.5s\n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -12153,6 +12154,201 @@ msgstr "%s meghiúsult.\n"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr ""
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "a MILO-ról indult\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "Ruffian BCD óra\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "az óraport 0x%x értékhez igazítva\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "szokatlan TOY (Time of Year)!\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, fuzzy, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "%s: az atomi %s meghiúsult 1000 ismétlésben!"
+
+#: sys-utils/hwclock-cmos.c:318
+#, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:322
+#, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:359
+#, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:364
+#, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:639
+#, fuzzy
+msgid "I failed to get permission because I didn't try."
+msgstr "Nem sikerült engedélyt kapni, mivel nem is próbáltam.\n"
+
+#: sys-utils/hwclock-cmos.c:642
+#, fuzzy
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr ""
+"%s nem képes megkapni az I/O port elérését. Az iopl(3) hívása meghiúsult.\n"
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "Valószínűleg root jogosultság szükséges.\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "Ismételt várakozás a megváltoztatandó időre a KDGHWCLK-től\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "Az idő beolvasása érdekében kiadott KDGHWCLK ioctl meghiúsult"
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr ""
+"Az idő beolvasása érdekében kiadott KDGHWCLK ioctl ismételten meghiúsult"
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+#, fuzzy
+msgid "Timed out waiting for time change."
+msgstr "Időtúllépés az idő változására történő várakozás során.\n"
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "A(z) %s idejének beolvasása érdekében kiadott ioctl() meghiúsult"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "a KDSHWCLK ioctl meghiúsult"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "Nem nyitható meg a /dev/tty1 vagy /dev/vc/1 eszköz"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "a KDSHWCLK ioctl meghiúsult"
+
+#: sys-utils/hwclock-rtc.c:195
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "a(z) %s idejének kiolvasása érdekében kiadott ioctl() meghiúsult.\n"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "Ismételt várakozás a(z) %s idejének változására\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "%s nem rendelkezik megszakítási funkciókkal. "
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "a read() %s hívás az óraütésre várakozáshoz meghiúsult"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "a select() %s hívás az óraütésre várakozáshoz meghiúsult"
+
+#: sys-utils/hwclock-rtc.c:317
+#, fuzzy, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr ""
+"a select() %s hívás az óraütésre várakozáshoz túllépte az időkorlátot\n"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr ""
+"az ioctl() %s hívás a frissítési megszakítások kikapcsolásához meghiúsult"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr ""
+"az ioctl() %s hívás a frissítési megszakítások bekapcsolásához váratlanul "
+"meghiúsult"
+
+#: sys-utils/hwclock-rtc.c:383
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr "az ioctl() %s hívás az idő beállításához meghiúsult.\n"
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "az ioctl(%s) sikerült.\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, fuzzy, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"A rendszermag epoch értékének kezeléséhez el kell érni a Linux rtc "
+"eszközmeghajtóját a speciális %s eszközfájlon keresztül. A fájl ezen a "
+"rendszeren nem létezik.\n"
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "az ioctl(RTC_EPOCH_READ) %s hívás meghiúsult"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr ""
+"a(z) %ld epoch beolvasva a(z) %s eszközről az RTC_EPOCH_READ ioctl "
+"segítségével.\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, fuzzy, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr "Az epoch értéke nem lehet kevesebb, mint 1900. A kért érték: %ld\n"
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr ""
+"az epoch beállítása %ld értékre a(z) %s eszközön az RTC_EPOCH_SET ioctl "
+"segítségével.\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, fuzzy, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr "A rendszermag %s eszközmeghajtójában nincs RTC_EPOCH_SET ioctl.\n"
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "a(z) %s ioctl(RTC_EPOCH_SET) hívása meghiúsult"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12689,201 +12885,6 @@ msgid ""
 msgstr ""
 "Használja a --debug kapcsolót az elérési mód keresésével kapcsolatos "
 "részletek megjelenítéséhez.\n"
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "a MILO-ról indult\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "Ruffian BCD óra\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "az óraport 0x%x értékhez igazítva\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "szokatlan TOY (Time of Year)!\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, fuzzy, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "%s: az atomi %s meghiúsult 1000 ismétlésben!"
-
-#: sys-utils/hwclock-cmos.c:318
-#, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:322
-#, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:359
-#, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:364
-#, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:639
-#, fuzzy
-msgid "I failed to get permission because I didn't try."
-msgstr "Nem sikerült engedélyt kapni, mivel nem is próbáltam.\n"
-
-#: sys-utils/hwclock-cmos.c:642
-#, fuzzy
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr ""
-"%s nem képes megkapni az I/O port elérését. Az iopl(3) hívása meghiúsult.\n"
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "Valószínűleg root jogosultság szükséges.\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "Ismételt várakozás a megváltoztatandó időre a KDGHWCLK-től\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "Az idő beolvasása érdekében kiadott KDGHWCLK ioctl meghiúsult"
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr ""
-"Az idő beolvasása érdekében kiadott KDGHWCLK ioctl ismételten meghiúsult"
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-#, fuzzy
-msgid "Timed out waiting for time change."
-msgstr "Időtúllépés az idő változására történő várakozás során.\n"
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "A(z) %s idejének beolvasása érdekében kiadott ioctl() meghiúsult"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "a KDSHWCLK ioctl meghiúsult"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "Nem nyitható meg a /dev/tty1 vagy /dev/vc/1 eszköz"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "a KDSHWCLK ioctl meghiúsult"
-
-#: sys-utils/hwclock-rtc.c:195
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "a(z) %s idejének kiolvasása érdekében kiadott ioctl() meghiúsult.\n"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "Ismételt várakozás a(z) %s idejének változására\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "%s nem rendelkezik megszakítási funkciókkal. "
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "a read() %s hívás az óraütésre várakozáshoz meghiúsult"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "a select() %s hívás az óraütésre várakozáshoz meghiúsult"
-
-#: sys-utils/hwclock-rtc.c:317
-#, fuzzy, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr ""
-"a select() %s hívás az óraütésre várakozáshoz túllépte az időkorlátot\n"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr ""
-"az ioctl() %s hívás a frissítési megszakítások kikapcsolásához meghiúsult"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr ""
-"az ioctl() %s hívás a frissítési megszakítások bekapcsolásához váratlanul "
-"meghiúsult"
-
-#: sys-utils/hwclock-rtc.c:383
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr "az ioctl() %s hívás az idő beállításához meghiúsult.\n"
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "az ioctl(%s) sikerült.\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, fuzzy, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"A rendszermag epoch értékének kezeléséhez el kell érni a Linux rtc "
-"eszközmeghajtóját a speciális %s eszközfájlon keresztül. A fájl ezen a "
-"rendszeren nem létezik.\n"
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "az ioctl(RTC_EPOCH_READ) %s hívás meghiúsult"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr ""
-"a(z) %ld epoch beolvasva a(z) %s eszközről az RTC_EPOCH_READ ioctl "
-"segítségével.\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, fuzzy, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr "Az epoch értéke nem lehet kevesebb, mint 1900. A kért érték: %ld\n"
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr ""
-"az epoch beállítása %ld értékre a(z) %s eszközön az RTC_EPOCH_SET ioctl "
-"segítségével.\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, fuzzy, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr "A rendszermag %s eszközmeghajtójában nincs RTC_EPOCH_SET ioctl.\n"
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "a(z) %s ioctl(RTC_EPOCH_SET) hívása meghiúsult"
 
 #: sys-utils/ipcmk.c:69
 msgid " -M, --shmem <size>       create shared memory segment of size <size>\n"
@@ -15939,6 +15940,11 @@ msgstr ""
 " <fájl>                               a használandó fájl neve\n"
 "\n"
 
+#: sys-utils/swapon-common.c:62
+#, fuzzy, c-format
+msgid "cannot find the device for %s"
+msgstr "%s: nem található a(z) %s eszköze\n"
+
 #: sys-utils/swapon.c:100
 #, fuzzy
 msgid "device file or partition path"
@@ -16137,11 +16143,6 @@ msgstr "A személyiség beállítása meghiúsult a következőre: %s"
 #, fuzzy, c-format
 msgid "unsupported discard policy: %s"
 msgstr "%s: ismeretlen argumentum: %s\n"
-
-#: sys-utils/swapon-common.c:62
-#, fuzzy, c-format
-msgid "cannot find the device for %s"
-msgstr "%s: nem található a(z) %s eszköze\n"
 
 #: sys-utils/switch_root.c:57
 #, fuzzy

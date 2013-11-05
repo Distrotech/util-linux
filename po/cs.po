@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux 2.24-rc2\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2013-10-14 20:15+0200\n"
 "Last-Translator: Petr Písař <petr.pisar@atlas.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
@@ -63,28 +63,29 @@ msgstr " %s <zařízení disku> <číslo oddílu> <začátek> <délka>\n"
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "%s nelze otevřít"
@@ -369,8 +370,8 @@ msgstr "%s není připojeno\n"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, c-format
 msgid "cannot read %s"
@@ -3530,210 +3531,6 @@ msgstr "Typ oddílu (L vypíše všechny typy): "
 msgid "Hex code (type L to list all codes): "
 msgstr "Šestnáctkový kód (L vypíše všechny kódy):"
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-" %1$s [přepínače] <disk>    změní tabulku rozdělení disku\n"
-" %1$s [přepínače] -l <disk>  vypíše tabulku(y) rozdělení disku\n"
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr " -b <velikost>     velikost sektoru (512, 1024, 2048 nebo 4096)\n"
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr ""
-" -c[=<režim>]      režim kompatibility: „dos“ nebo „nondos“ (výchozí)\n"
-
-#: fdisks/fdisk.c:60
-msgid " -h                print this help text\n"
-msgstr " -h                vypíše tuto nápovědu\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr ""
-" -L[=<kdy>]        obarví výstup (auto, always [vždy], never [nikdy])\n"
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr ""
-" -t <typ>         vynutí použití zadaného typu tabulky rozdělení disku\n"
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-" -u[=<jednotka>]   zobrazuje v jednotkách: „cylinders“ (cylindry)\n"
-"                   nebo „sectors“ (sektory)\n"
-
-#: fdisks/fdisk.c:65
-msgid " -v                print program version\n"
-msgstr " -v                vypíše verzi programu\n"
-
-#: fdisks/fdisk.c:66
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr " -C <počet>        určuje počet cylindrů\n"
-
-#: fdisks/fdisk.c:67
-msgid " -H <number>       specify the number of heads\n"
-msgstr " -H <počet>        určuje počet hlav\n"
-
-#: fdisks/fdisk.c:68
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr " -S <počet>        určuje počet sektorů na stopu\n"
-
-#: fdisks/fdisk.c:151
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "Příznak kompatibility s DOSem je nastaven (ZASTARALÉ!)"
-
-#: fdisks/fdisk.c:152
-msgid "DOS Compatibility flag is not set"
-msgstr "Příznak kompatibility s DOSem není nastaven"
-
-#: fdisks/fdisk.c:173
-#, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "Diskový oddíl %zu zatím neexistuje!"
-
-#: fdisks/fdisk.c:181
-#, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "Typ oddílu „%s“ byl změněn na „%s“."
-
-#: fdisks/fdisk.c:186
-#, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "Typ oddílu %zu je nezměněn: %s."
-
-#: fdisks/fdisk.c:202
-#, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr "Disk %s: %s, bajtů: %'llu, sektorů: %'llu"
-
-#: fdisks/fdisk.c:209
-#, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "Geometrie: hlav: %'d, sektorů na stopu: %'llu, cylindrů: %'llu"
-
-#: fdisks/fdisk.c:212
-#, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Jednotky: %s po %d * %ld = %'ld bajtech"
-
-#: fdisks/fdisk.c:218
-#, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr "Velikost sektoru (logického/fyzického): %lu bajtů / %lu bajtů"
-
-#: fdisks/fdisk.c:220
-#, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr "Velikost I/O (minimální/optimální): %lu bajtů / %lu bajtů"
-
-#: fdisks/fdisk.c:223
-#, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "Zarovnávací posun: %lu bajtů"
-
-#: fdisks/fdisk.c:226
-#, c-format
-msgid "Disklabel type: %s"
-msgstr "Typ popisu disku: %s"
-
-#: fdisks/fdisk.c:229
-#, c-format
-msgid "Disk identifier: %s"
-msgstr "Identifikátor disku: %s"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-"\n"
-"%s: posun = %'ju, velikost = %'zu B."
-
-#: fdisks/fdisk.c:281
-msgid "cannot seek"
-msgstr "volání seek selhalo"
-
-#: fdisks/fdisk.c:286
-msgid "cannot read"
-msgstr "nelze číst"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-msgid "First sector"
-msgstr "První sektor"
-
-#: fdisks/fdisk.c:386
-#, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "volání ioctl BLKGETSIZE nad %s selhalo"
-
-#: fdisks/fdisk.c:412
-msgid "failed to allocate libfdisk context"
-msgstr "alokace kontextu libfdisku selhala"
-
-#: fdisks/fdisk.c:421
-msgid "invalid sector size argument"
-msgstr "neplatný argument velikosti sektoru"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-msgid "invalid cylinders argument"
-msgstr "neplatný argument cylindrů"
-
-#: fdisks/fdisk.c:439
-msgid "not found DOS label driver"
-msgstr "ovladač popisu disku DOS nenalezen"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-msgid "invalid heads argument"
-msgstr "neplatný argument hlav"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-msgid "invalid sectors argument"
-msgstr "neplatný argument sektorů"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-msgid "unsupported color mode"
-msgstr "nepodporovaný režim barev"
-
-#: fdisks/fdisk.c:480
-#, c-format
-msgid "unsupported disklabel: %s"
-msgstr "nepodporovaný popis disku: %s"
-
-#: fdisks/fdisk.c:501
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-"Vlastnosti zařízení (velikost sektoru a geometrie) by měly být použity jen "
-"s jedním zadaným zařízením."
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr "Vítejte v fdisku (%s)."
-
-#: fdisks/fdisk.c:542
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"Změny zůstanou pouze v paměti, dokud se nerozhodnete je uložit na disk.\n"
-"Při použití příkazu zápisu buďte obezřetní.\n"
-
-#: fdisks/fdisk.c:547
-msgid "Device does not contain a recognized partition table."
-msgstr "Zařízení neobsahuje známou tabulku rozdělení disku."
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr "Obecné"
@@ -4038,6 +3835,210 @@ msgstr "Počet hlav"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "Počet sektorů"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+" %1$s [přepínače] <disk>    změní tabulku rozdělení disku\n"
+" %1$s [přepínače] -l <disk>  vypíše tabulku(y) rozdělení disku\n"
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr " -b <velikost>     velikost sektoru (512, 1024, 2048 nebo 4096)\n"
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr ""
+" -c[=<režim>]      režim kompatibility: „dos“ nebo „nondos“ (výchozí)\n"
+
+#: fdisks/fdisk.c:60
+msgid " -h                print this help text\n"
+msgstr " -h                vypíše tuto nápovědu\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr ""
+" -L[=<kdy>]        obarví výstup (auto, always [vždy], never [nikdy])\n"
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr ""
+" -t <typ>         vynutí použití zadaného typu tabulky rozdělení disku\n"
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+" -u[=<jednotka>]   zobrazuje v jednotkách: „cylinders“ (cylindry)\n"
+"                   nebo „sectors“ (sektory)\n"
+
+#: fdisks/fdisk.c:65
+msgid " -v                print program version\n"
+msgstr " -v                vypíše verzi programu\n"
+
+#: fdisks/fdisk.c:66
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr " -C <počet>        určuje počet cylindrů\n"
+
+#: fdisks/fdisk.c:67
+msgid " -H <number>       specify the number of heads\n"
+msgstr " -H <počet>        určuje počet hlav\n"
+
+#: fdisks/fdisk.c:68
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr " -S <počet>        určuje počet sektorů na stopu\n"
+
+#: fdisks/fdisk.c:151
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "Příznak kompatibility s DOSem je nastaven (ZASTARALÉ!)"
+
+#: fdisks/fdisk.c:152
+msgid "DOS Compatibility flag is not set"
+msgstr "Příznak kompatibility s DOSem není nastaven"
+
+#: fdisks/fdisk.c:173
+#, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "Diskový oddíl %zu zatím neexistuje!"
+
+#: fdisks/fdisk.c:181
+#, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "Typ oddílu „%s“ byl změněn na „%s“."
+
+#: fdisks/fdisk.c:186
+#, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "Typ oddílu %zu je nezměněn: %s."
+
+#: fdisks/fdisk.c:202
+#, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr "Disk %s: %s, bajtů: %'llu, sektorů: %'llu"
+
+#: fdisks/fdisk.c:209
+#, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "Geometrie: hlav: %'d, sektorů na stopu: %'llu, cylindrů: %'llu"
+
+#: fdisks/fdisk.c:212
+#, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Jednotky: %s po %d * %ld = %'ld bajtech"
+
+#: fdisks/fdisk.c:218
+#, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr "Velikost sektoru (logického/fyzického): %lu bajtů / %lu bajtů"
+
+#: fdisks/fdisk.c:220
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr "Velikost I/O (minimální/optimální): %lu bajtů / %lu bajtů"
+
+#: fdisks/fdisk.c:223
+#, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "Zarovnávací posun: %lu bajtů"
+
+#: fdisks/fdisk.c:226
+#, c-format
+msgid "Disklabel type: %s"
+msgstr "Typ popisu disku: %s"
+
+#: fdisks/fdisk.c:229
+#, c-format
+msgid "Disk identifier: %s"
+msgstr "Identifikátor disku: %s"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+"\n"
+"%s: posun = %'ju, velikost = %'zu B."
+
+#: fdisks/fdisk.c:281
+msgid "cannot seek"
+msgstr "volání seek selhalo"
+
+#: fdisks/fdisk.c:286
+msgid "cannot read"
+msgstr "nelze číst"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+msgid "First sector"
+msgstr "První sektor"
+
+#: fdisks/fdisk.c:386
+#, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "volání ioctl BLKGETSIZE nad %s selhalo"
+
+#: fdisks/fdisk.c:412
+msgid "failed to allocate libfdisk context"
+msgstr "alokace kontextu libfdisku selhala"
+
+#: fdisks/fdisk.c:421
+msgid "invalid sector size argument"
+msgstr "neplatný argument velikosti sektoru"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+msgid "invalid cylinders argument"
+msgstr "neplatný argument cylindrů"
+
+#: fdisks/fdisk.c:439
+msgid "not found DOS label driver"
+msgstr "ovladač popisu disku DOS nenalezen"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+msgid "invalid heads argument"
+msgstr "neplatný argument hlav"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+msgid "invalid sectors argument"
+msgstr "neplatný argument sektorů"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+msgid "unsupported color mode"
+msgstr "nepodporovaný režim barev"
+
+#: fdisks/fdisk.c:480
+#, c-format
+msgid "unsupported disklabel: %s"
+msgstr "nepodporovaný popis disku: %s"
+
+#: fdisks/fdisk.c:501
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+"Vlastnosti zařízení (velikost sektoru a geometrie) by měly být použity jen "
+"s jedním zadaným zařízením."
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr "Vítejte v fdisku (%s)."
+
+#: fdisks/fdisk.c:542
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"Změny zůstanou pouze v paměti, dokud se nerozhodnete je uložit na disk.\n"
+"Při použití příkazu zápisu buďte obezřetní.\n"
+
+#: fdisks/fdisk.c:547
+msgid "Device does not contain a recognized partition table."
+msgstr "Zařízení neobsahuje známou tabulku rozdělení disku."
 
 #: fdisks/sfdisk.c:112
 #, c-format
@@ -5424,6 +5425,25 @@ msgstr "BBT"
 #, c-format
 msgid "failed to execute %s"
 msgstr "spuštění %s selhalo"
+
+#: lib/pager.c:102
+#, c-format
+msgid "waitpid failed (%s)"
+msgstr "volání waitpid selhalo (%s)"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+msgid "failed to callocate cpu set"
+msgstr "množinu CPU nelze alokovat"
+
+#: lib/path.c:203
+#, c-format
+msgid "failed to parse CPU list %s"
+msgstr "seznam CPU %s se nezdařilo rozebrat"
+
+#: lib/path.c:206
+#, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "masku CPU %s se nezdařilo rozebrat"
 
 #: libfdisk/src/alignment.c:108
 #, c-format
@@ -6984,25 +7004,6 @@ msgstr ""
 "Jste si jisti, že chcete tento oddíl označit jako odkládací prostor pro\n"
 "Linux?"
 
-#: lib/pager.c:102
-#, c-format
-msgid "waitpid failed (%s)"
-msgstr "volání waitpid selhalo (%s)"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-msgid "failed to callocate cpu set"
-msgstr "množinu CPU nelze alokovat"
-
-#: lib/path.c:203
-#, c-format
-msgid "failed to parse CPU list %s"
-msgstr "seznam CPU %s se nezdařilo rozebrat"
-
-#: lib/path.c:206
-#, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "masku CPU %s se nezdařilo rozebrat"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, c-format
 msgid " %s [options] [username]\n"
@@ -7226,6 +7227,42 @@ msgstr "Není znám žádný shell."
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "Použití: %s <soubor_s_heslem> <uživatel>…\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr ""
+"Použití: last [-#] [-f soubor] [-t tty] [-h název_počítače] [uživatel…]\n"
+
+#: login-utils/last-deprecated.c:252
+#, c-format
+msgid "%s: mmap failed"
+msgstr "%s: volání mmap selhalo"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  stále přihlášen"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp začíná %s"
+
+#: login-utils/last-deprecated.c:433
+msgid "gethostname failed"
+msgstr "volání gethostname selhalo"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"přerušen %10.10s %5.5s \n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, c-format
 msgid "unknown time format: %s"
@@ -7329,42 +7366,6 @@ msgstr "číslo se nezdařilo rozebrat"
 #, c-format
 msgid "invalid time value \"%s\""
 msgstr "chybná hodnota času „%s“"
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr ""
-"Použití: last [-#] [-f soubor] [-t tty] [-h název_počítače] [uživatel…]\n"
-
-#: login-utils/last-deprecated.c:252
-#, c-format
-msgid "%s: mmap failed"
-msgstr "%s: volání mmap selhalo"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  stále přihlášen"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp začíná %s"
-
-#: login-utils/last-deprecated.c:433
-msgid "gethostname failed"
-msgstr "volání gethostname selhalo"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"přerušen %10.10s %5.5s \n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -12022,6 +12023,190 @@ msgstr "%s: IOCTL volání FITRIM selhalo"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr "%s: %s (%<PRIu64> bajtů) byl zahozen\n"
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "spuštěn pomocí MILO\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "hodnoty uloženy v BCD tvaru\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "vstupně/výstupní port pro přístup k hodinám nastaven na 0x%x\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "funky TOY!\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "1000 neúspěšných pokusů o atomické provedení %s!"
+
+#: sys-utils/hwclock-cmos.c:318
+#, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr "cmos_read(): zápis na řídící adresu %X selhal"
+
+#: sys-utils/hwclock-cmos.c:322
+#, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr "cmos_read(): čtení z datové adresy %X selhalo"
+
+#: sys-utils/hwclock-cmos.c:359
+#, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr "cmos_write(): zápis na řídící adresu %X selhal"
+
+#: sys-utils/hwclock-cmos.c:364
+#, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr "cmos_write(): zápis na datovou adresu %X selhal"
+
+#: sys-utils/hwclock-cmos.c:639
+msgid "I failed to get permission because I didn't try."
+msgstr "Jelikož nebyla snaha, nepodařilo se získat práva pro přístup."
+
+#: sys-utils/hwclock-cmos.c:642
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr "přístup k I/O portu nelze získat: volání iopl(3) selhalo."
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "Pravděpodobně je třeba mít práva superuživatele.\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "Ve smyčce se pokouším zjistit čas pomocí KDGHWCLK.\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "volání KDGHWCLK ioctl selhalo."
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr "volání KDGHWCLK ioctl ve smyčce selhalo."
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+msgid "Timed out waiting for time change."
+msgstr "V časovém limitu se nepodařilo změnit čas."
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "čas se pomocí volání ioctl() pro %s nepodařilo zjistit"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "volání ioctl KDSHWCLK selhalo"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "/dev/tty1 ani /dev/vc/1 nelze otevřít"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "volání ioctl KDGHWCLK selhalo"
+
+#: sys-utils/hwclock-rtc.c:195
+#, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "čas se pomocí volání ioctl(%s) nad %s nepodařilo zjistit"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "Čekám ve smyčce na změnu času z %s\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "%s nemá přerušovací funkce. "
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "tikání hodin nelze z %s číst - volání read() selhalo"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "Čekání na tik hodin pomocí select() nad %s selhal"
+
+#: sys-utils/hwclock-rtc.c:317
+#, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr "pomocí volání select() nad %s se nebylo možné tiku hodin dočkat"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr "obnovovací přerušení nelze vypnout - volání ioctl() pro %s selhalo"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr "obnovovací přerušení nelze zapnout - volání ioctl() pro %s selhalo"
+
+#: sys-utils/hwclock-rtc.c:383
+#, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr "nastavení času pomocí volání ioctl(%s) nad %s selhalo."
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "Volání ioctl(%s) bylo úspěšné.\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"Pro změnu hodnoty počátku epochy v jádře je nutné přistoupit k linuxovému "
+"ovladači zařízení „rtc“ pomocí zvláštního souboru zařízení %s. Tento soubor "
+"na tomto systému souborů neexistuje."
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "volání(RTC_EPOCH_READ) pro %s selhalo"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr ""
+"Z %2$s byl pomocí RTC_EPOCH_READ ioctl zjištěn počátek epochy (%1$ld).\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr "Hodnota počátku epochy nesmí být menší než 1900. Požadovali jste %ld."
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr ""
+"Nastavuji pomocí RTC_EPOCH_SET ioctl pro %2$s počátek epochy na %1$ld.\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr "Jaderný ovladač pro zařízení %s nepodporuje IOCTL RTC_EPOCH_SET."
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "volání ioctl(RTC_EPOCH_SET) pro %s selhalo"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12563,190 +12748,6 @@ msgid ""
 "Use the --debug option to see the details of our search for an access method."
 msgstr ""
 "Pro zjištění podrobností o přístupových metodách použijte přepínač --debug."
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "spuštěn pomocí MILO\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "hodnoty uloženy v BCD tvaru\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "vstupně/výstupní port pro přístup k hodinám nastaven na 0x%x\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "funky TOY!\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "1000 neúspěšných pokusů o atomické provedení %s!"
-
-#: sys-utils/hwclock-cmos.c:318
-#, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr "cmos_read(): zápis na řídící adresu %X selhal"
-
-#: sys-utils/hwclock-cmos.c:322
-#, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr "cmos_read(): čtení z datové adresy %X selhalo"
-
-#: sys-utils/hwclock-cmos.c:359
-#, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr "cmos_write(): zápis na řídící adresu %X selhal"
-
-#: sys-utils/hwclock-cmos.c:364
-#, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr "cmos_write(): zápis na datovou adresu %X selhal"
-
-#: sys-utils/hwclock-cmos.c:639
-msgid "I failed to get permission because I didn't try."
-msgstr "Jelikož nebyla snaha, nepodařilo se získat práva pro přístup."
-
-#: sys-utils/hwclock-cmos.c:642
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr "přístup k I/O portu nelze získat: volání iopl(3) selhalo."
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "Pravděpodobně je třeba mít práva superuživatele.\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "Ve smyčce se pokouším zjistit čas pomocí KDGHWCLK.\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "volání KDGHWCLK ioctl selhalo."
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr "volání KDGHWCLK ioctl ve smyčce selhalo."
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-msgid "Timed out waiting for time change."
-msgstr "V časovém limitu se nepodařilo změnit čas."
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "čas se pomocí volání ioctl() pro %s nepodařilo zjistit"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "volání ioctl KDSHWCLK selhalo"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "/dev/tty1 ani /dev/vc/1 nelze otevřít"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "volání ioctl KDGHWCLK selhalo"
-
-#: sys-utils/hwclock-rtc.c:195
-#, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "čas se pomocí volání ioctl(%s) nad %s nepodařilo zjistit"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "Čekám ve smyčce na změnu času z %s\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "%s nemá přerušovací funkce. "
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "tikání hodin nelze z %s číst - volání read() selhalo"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "Čekání na tik hodin pomocí select() nad %s selhal"
-
-#: sys-utils/hwclock-rtc.c:317
-#, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr "pomocí volání select() nad %s se nebylo možné tiku hodin dočkat"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr "obnovovací přerušení nelze vypnout - volání ioctl() pro %s selhalo"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr "obnovovací přerušení nelze zapnout - volání ioctl() pro %s selhalo"
-
-#: sys-utils/hwclock-rtc.c:383
-#, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr "nastavení času pomocí volání ioctl(%s) nad %s selhalo."
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "Volání ioctl(%s) bylo úspěšné.\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"Pro změnu hodnoty počátku epochy v jádře je nutné přistoupit k linuxovému "
-"ovladači zařízení „rtc“ pomocí zvláštního souboru zařízení %s. Tento soubor "
-"na tomto systému souborů neexistuje."
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "volání(RTC_EPOCH_READ) pro %s selhalo"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr ""
-"Z %2$s byl pomocí RTC_EPOCH_READ ioctl zjištěn počátek epochy (%1$ld).\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr "Hodnota počátku epochy nesmí být menší než 1900. Požadovali jste %ld."
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr ""
-"Nastavuji pomocí RTC_EPOCH_SET ioctl pro %2$s počátek epochy na %1$ld.\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr "Jaderný ovladač pro zařízení %s nepodporuje IOCTL RTC_EPOCH_SET."
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "volání ioctl(RTC_EPOCH_SET) pro %s selhalo"
 
 #: sys-utils/ipcmk.c:69
 msgid " -M, --shmem <size>       create shared memory segment of size <size>\n"
@@ -15810,6 +15811,11 @@ msgstr ""
 " <soubor>               vybere soubor\n"
 "\n"
 
+#: sys-utils/swapon-common.c:62
+#, c-format
+msgid "cannot find the device for %s"
+msgstr "nelze nalézt zařízení pro %s"
+
 #: sys-utils/swapon.c:100
 msgid "device file or partition path"
 msgstr "soubor zařízení nebo cesta k oddílu"
@@ -16028,11 +16034,6 @@ msgstr "prioritu se nezdařilo rozebrat"
 #, c-format
 msgid "unsupported discard policy: %s"
 msgstr "nepodporovaná politika zahazování: %s"
-
-#: sys-utils/swapon-common.c:62
-#, c-format
-msgid "cannot find the device for %s"
-msgstr "nelze nalézt zařízení pro %s"
 
 #: sys-utils/switch_root.c:57
 msgid "failed to open directory"

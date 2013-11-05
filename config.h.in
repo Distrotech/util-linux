@@ -19,6 +19,14 @@
 /* Define to 1 if you have the <byteswap.h> header file. */
 #undef HAVE_BYTESWAP_H
 
+/* Define to 1 if you have the Mac OS X function CFLocaleCopyCurrent in the
+   CoreFoundation framework. */
+#undef HAVE_CFLOCALECOPYCURRENT
+
+/* Define to 1 if you have the Mac OS X function CFPreferencesCopyAppValue in
+   the CoreFoundation framework. */
+#undef HAVE_CFPREFERENCESCOPYAPPVALUE
+
 /* Define to 1 if the system has the type `cpu_set_t'. */
 #undef HAVE_CPU_SET_T
 
@@ -29,22 +37,6 @@
    */
 #undef HAVE_DCGETTEXT
 
-/* Define to 1 if you have the declaration of `ADDR_COMPAT_LAYOUT', and to 0
-   if you don't. */
-#undef HAVE_DECL_ADDR_COMPAT_LAYOUT
-
-/* Define to 1 if you have the declaration of `ADDR_LIMIT_32BIT', and to 0 if
-   you don't. */
-#undef HAVE_DECL_ADDR_LIMIT_32BIT
-
-/* Define to 1 if you have the declaration of `ADDR_LIMIT_3GB', and to 0 if
-   you don't. */
-#undef HAVE_DECL_ADDR_LIMIT_3GB
-
-/* Define to 1 if you have the declaration of `ADDR_NO_RANDOMIZE', and to 0 if
-   you don't. */
-#undef HAVE_DECL_ADDR_NO_RANDOMIZE
-
 /* Define to 1 if you have the declaration of `CPU_ALLOC', and to 0 if you
    don't. */
 #undef HAVE_DECL_CPU_ALLOC
@@ -52,30 +44,6 @@
 /* Define to 1 if you have the declaration of `dirfd', and to 0 if you don't.
    */
 #undef HAVE_DECL_DIRFD
-
-/* Define to 1 if you have the declaration of `FDPIC_FUNCPTRS', and to 0 if
-   you don't. */
-#undef HAVE_DECL_FDPIC_FUNCPTRS
-
-/* Define to 1 if you have the declaration of `MMAP_PAGE_ZERO', and to 0 if
-   you don't. */
-#undef HAVE_DECL_MMAP_PAGE_ZERO
-
-/* Define to 1 if you have the declaration of `READ_IMPLIES_EXEC', and to 0 if
-   you don't. */
-#undef HAVE_DECL_READ_IMPLIES_EXEC
-
-/* Define to 1 if you have the declaration of `STICKY_TIMEOUTS', and to 0 if
-   you don't. */
-#undef HAVE_DECL_STICKY_TIMEOUTS
-
-/* Define to 1 if you have the declaration of `UNAME26', and to 0 if you
-   don't. */
-#undef HAVE_DECL_UNAME26
-
-/* Define to 1 if you have the declaration of `WHOLE_SECONDS', and to 0 if you
-   don't. */
-#undef HAVE_DECL_WHOLE_SECONDS
 
 /* Define to 1 if you have the declaration of `_NL_TIME_WEEK_1STDAY', and to 0
    if you don't. */
@@ -147,7 +115,7 @@
 /* Define if the GNU gettext() function is already present or preinstalled. */
 #undef HAVE_GETTEXT
 
-/* Define if you have the iconv() function. */
+/* Define if you have the iconv() function and it works. */
 #undef HAVE_ICONV
 
 /* Define to 1 if you have the `inotify_init' function. */
@@ -357,6 +325,9 @@
 /* Define to 1 if you have the `setresuid' function. */
 #undef HAVE_SETRESUID
 
+/* Define to 1 if the system has the type `sighandler_t'. */
+#undef HAVE_SIGHANDLER_T
+
 /* Define to 1 if you have the `sigqueue' function. */
 #undef HAVE_SIGQUEUE
 
@@ -464,6 +435,9 @@
 
 /* Define to 1 if you have the <sys/time.h> header file. */
 #undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/ttydefaults.h> header file. */
+#undef HAVE_SYS_TTYDEFAULTS_H
 
 /* Define to 1 if you have the <sys/types.h> header file. */
 #undef HAVE_SYS_TYPES_H

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux-2.24-rc2\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2013-10-18 14:15+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
@@ -36,28 +36,29 @@ msgstr " %s <thiết bị đĩa> <số phân vùng>    <đ.đầu> <độ dài>\
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "không thể mở %s"
@@ -341,8 +342,8 @@ msgstr "%s chưa được gắn\n"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, c-format
 msgid "cannot read %s"
@@ -3494,213 +3495,6 @@ msgstr "Kiểu phân vùng (gõ L để liệt kê tất cả các kiểu): "
 msgid "Hex code (type L to list all codes): "
 msgstr "Mã Hex (gõ L để liệt kê tất cả các mã): "
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-" %1$s [các tùy chọn] <đĩa>      thay đổi bảng phân vùng\n"
-" %1$s [các tùy chọn] -l <đĩa>   liệt kê các bảng phân vùng\n"
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr " -b <cỡ>           kích thước cung từ (512, 1024, 2048 hay 4096)\n"
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr " -c[=<chế_độ>]     chế độ tương thích: “dos” hay “nondos” (mặc định)\n"
-
-#: fdisks/fdisk.c:60
-msgid " -h                print this help text\n"
-msgstr " -h                hiển thị trợ giúp này rồi thoát\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr ""
-" -L[=<when>]       tô sáng kết xuất <khi>:\n"
-"                   (auto    tự động,\n"
-"                    always  luôn hoặc\n"
-"                    never   không bao giờ)\n"
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr ""
-" -t <type>         buộc fdisk chỉ chấp nhận kiểu bảng phân vùng đã cho\n"
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-" -u[=<unit>]       hiển thị theo <đơn vị>:\n"
-"                    “cylinders” trụ\n"
-"                    “sectors”   cung từ (mặc định)\n"
-
-#: fdisks/fdisk.c:65
-msgid " -v                print program version\n"
-msgstr " -v                hiển thị phiên bản của chương trình\n"
-
-#: fdisks/fdisk.c:66
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr " -C <số>           chỉ định số trụ từ\n"
-
-#: fdisks/fdisk.c:67
-msgid " -H <number>       specify the number of heads\n"
-msgstr " -H <số>           chỉ định số đầu từ\n"
-
-#: fdisks/fdisk.c:68
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr " -S <số>           chỉ định số cung từ trên mỗi rãnh\n"
-
-#: fdisks/fdisk.c:151
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "Cờ tương thích với DOS được đặt (ĐÃ LỖI THỜI!)"
-
-#: fdisks/fdisk.c:152
-msgid "DOS Compatibility flag is not set"
-msgstr "Cờ tương thích DOS không được đặt"
-
-#: fdisks/fdisk.c:173
-#, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "Phân vùng %zu không tồn tại!"
-
-#: fdisks/fdisk.c:181
-#, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "Đã thay đổi kiểu của phân vùng “%s” thành “%s”."
-
-#: fdisks/fdisk.c:186
-#, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "Kiểu của phân vùng %zu chưa thay đổi: %s."
-
-#: fdisks/fdisk.c:202
-#, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr "Đĩa %s: %s, %llu byte, %llu cung từ"
-
-#: fdisks/fdisk.c:209
-#, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "Cấu trúc hình học: %d đầu từ, %llu cung từ/rãnh, %llu trụ"
-
-#: fdisks/fdisk.c:212
-#, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Đơn vị: %s của %d * %ld = %ld byte"
-
-#: fdisks/fdisk.c:218
-#, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr "Kích cỡ cung từ (lôgíc/vật lý): %lu byte / %lu byte"
-
-#: fdisks/fdisk.c:220
-#, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr "Kích cỡ V/R (tối thiểu / tối ưu): %lu byte / %lu byte"
-
-#: fdisks/fdisk.c:223
-#, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "Khoảng chênh sắp hàng: %lu byte"
-
-#: fdisks/fdisk.c:226
-#, c-format
-msgid "Disklabel type: %s"
-msgstr "Kiểu nhãn đĩa: %s"
-
-#: fdisks/fdisk.c:229
-#, c-format
-msgid "Disk identifier: %s"
-msgstr "Định danh đĩa: %s"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-"\n"
-"%s: hiệu = %ju, cỡ = %zu byte."
-
-#: fdisks/fdisk.c:281
-msgid "cannot seek"
-msgstr "không thể di chuyển vị trí đọc"
-
-#: fdisks/fdisk.c:286
-msgid "cannot read"
-msgstr "không thể đọc"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-msgid "First sector"
-msgstr "Cung từ đầu tiên"
-
-#: fdisks/fdisk.c:386
-#, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "BLKGETSIZE ioctl không thành công trên %s"
-
-#: fdisks/fdisk.c:412
-msgid "failed to allocate libfdisk context"
-msgstr "gặp lỗi khi phân bổ ngữ cảnh libfdisk"
-
-#: fdisks/fdisk.c:421
-msgid "invalid sector size argument"
-msgstr "tham số kích thước rãnh (sector) không hợp lệ"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-msgid "invalid cylinders argument"
-msgstr "đối số trụ (cylinders) không hợp lệ"
-
-#: fdisks/fdisk.c:439
-msgid "not found DOS label driver"
-msgstr "không tìm thấy ổ đĩa nhãn DOS"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-msgid "invalid heads argument"
-msgstr "đối số trụ không hợp lệ"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-msgid "invalid sectors argument"
-msgstr "đối số cung từ không hợp lệ"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-msgid "unsupported color mode"
-msgstr "không được hỗ trợ tô màu"
-
-#: fdisks/fdisk.c:480
-#, c-format
-msgid "unsupported disklabel: %s"
-msgstr "không hỗ trợ nhãn đĩa:%s"
-
-#: fdisks/fdisk.c:501
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-"Thuộc tính thiết bị (kích cỡ cung từ và cấu trúc hình học) cần sử dụng với "
-"một thiết bị xác định."
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr "Chào mừng bạn dùng fdisk (%s)."
-
-#: fdisks/fdisk.c:542
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"Thay đổi chỉ diễn ra trong bộ nhớ, cho đến khi bạn quyết định ghi lại nó.\n"
-"Hãy cẩn thận trước khi chạy lệnh ghi lại.\n"
-
-#: fdisks/fdisk.c:547
-msgid "Device does not contain a recognized partition table."
-msgstr "Thiết bị không chứa bảng phân vùng được biết."
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr "Chung"
@@ -4005,6 +3799,213 @@ msgstr "Số đầu đọc"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "Số cung từ"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+" %1$s [các tùy chọn] <đĩa>      thay đổi bảng phân vùng\n"
+" %1$s [các tùy chọn] -l <đĩa>   liệt kê các bảng phân vùng\n"
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr " -b <cỡ>           kích thước cung từ (512, 1024, 2048 hay 4096)\n"
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr " -c[=<chế_độ>]     chế độ tương thích: “dos” hay “nondos” (mặc định)\n"
+
+#: fdisks/fdisk.c:60
+msgid " -h                print this help text\n"
+msgstr " -h                hiển thị trợ giúp này rồi thoát\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr ""
+" -L[=<when>]       tô sáng kết xuất <khi>:\n"
+"                   (auto    tự động,\n"
+"                    always  luôn hoặc\n"
+"                    never   không bao giờ)\n"
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr ""
+" -t <type>         buộc fdisk chỉ chấp nhận kiểu bảng phân vùng đã cho\n"
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+" -u[=<unit>]       hiển thị theo <đơn vị>:\n"
+"                    “cylinders” trụ\n"
+"                    “sectors”   cung từ (mặc định)\n"
+
+#: fdisks/fdisk.c:65
+msgid " -v                print program version\n"
+msgstr " -v                hiển thị phiên bản của chương trình\n"
+
+#: fdisks/fdisk.c:66
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr " -C <số>           chỉ định số trụ từ\n"
+
+#: fdisks/fdisk.c:67
+msgid " -H <number>       specify the number of heads\n"
+msgstr " -H <số>           chỉ định số đầu từ\n"
+
+#: fdisks/fdisk.c:68
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr " -S <số>           chỉ định số cung từ trên mỗi rãnh\n"
+
+#: fdisks/fdisk.c:151
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "Cờ tương thích với DOS được đặt (ĐÃ LỖI THỜI!)"
+
+#: fdisks/fdisk.c:152
+msgid "DOS Compatibility flag is not set"
+msgstr "Cờ tương thích DOS không được đặt"
+
+#: fdisks/fdisk.c:173
+#, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "Phân vùng %zu không tồn tại!"
+
+#: fdisks/fdisk.c:181
+#, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "Đã thay đổi kiểu của phân vùng “%s” thành “%s”."
+
+#: fdisks/fdisk.c:186
+#, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "Kiểu của phân vùng %zu chưa thay đổi: %s."
+
+#: fdisks/fdisk.c:202
+#, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr "Đĩa %s: %s, %llu byte, %llu cung từ"
+
+#: fdisks/fdisk.c:209
+#, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "Cấu trúc hình học: %d đầu từ, %llu cung từ/rãnh, %llu trụ"
+
+#: fdisks/fdisk.c:212
+#, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Đơn vị: %s của %d * %ld = %ld byte"
+
+#: fdisks/fdisk.c:218
+#, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr "Kích cỡ cung từ (lôgíc/vật lý): %lu byte / %lu byte"
+
+#: fdisks/fdisk.c:220
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr "Kích cỡ V/R (tối thiểu / tối ưu): %lu byte / %lu byte"
+
+#: fdisks/fdisk.c:223
+#, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "Khoảng chênh sắp hàng: %lu byte"
+
+#: fdisks/fdisk.c:226
+#, c-format
+msgid "Disklabel type: %s"
+msgstr "Kiểu nhãn đĩa: %s"
+
+#: fdisks/fdisk.c:229
+#, c-format
+msgid "Disk identifier: %s"
+msgstr "Định danh đĩa: %s"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+"\n"
+"%s: hiệu = %ju, cỡ = %zu byte."
+
+#: fdisks/fdisk.c:281
+msgid "cannot seek"
+msgstr "không thể di chuyển vị trí đọc"
+
+#: fdisks/fdisk.c:286
+msgid "cannot read"
+msgstr "không thể đọc"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+msgid "First sector"
+msgstr "Cung từ đầu tiên"
+
+#: fdisks/fdisk.c:386
+#, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "BLKGETSIZE ioctl không thành công trên %s"
+
+#: fdisks/fdisk.c:412
+msgid "failed to allocate libfdisk context"
+msgstr "gặp lỗi khi phân bổ ngữ cảnh libfdisk"
+
+#: fdisks/fdisk.c:421
+msgid "invalid sector size argument"
+msgstr "tham số kích thước rãnh (sector) không hợp lệ"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+msgid "invalid cylinders argument"
+msgstr "đối số trụ (cylinders) không hợp lệ"
+
+#: fdisks/fdisk.c:439
+msgid "not found DOS label driver"
+msgstr "không tìm thấy ổ đĩa nhãn DOS"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+msgid "invalid heads argument"
+msgstr "đối số trụ không hợp lệ"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+msgid "invalid sectors argument"
+msgstr "đối số cung từ không hợp lệ"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+msgid "unsupported color mode"
+msgstr "không được hỗ trợ tô màu"
+
+#: fdisks/fdisk.c:480
+#, c-format
+msgid "unsupported disklabel: %s"
+msgstr "không hỗ trợ nhãn đĩa:%s"
+
+#: fdisks/fdisk.c:501
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+"Thuộc tính thiết bị (kích cỡ cung từ và cấu trúc hình học) cần sử dụng với "
+"một thiết bị xác định."
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr "Chào mừng bạn dùng fdisk (%s)."
+
+#: fdisks/fdisk.c:542
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"Thay đổi chỉ diễn ra trong bộ nhớ, cho đến khi bạn quyết định ghi lại nó.\n"
+"Hãy cẩn thận trước khi chạy lệnh ghi lại.\n"
+
+#: fdisks/fdisk.c:547
+msgid "Device does not contain a recognized partition table."
+msgstr "Thiết bị không chứa bảng phân vùng được biết."
 
 #: fdisks/sfdisk.c:112
 #, c-format
@@ -5399,6 +5400,25 @@ msgstr "BBT"
 #, c-format
 msgid "failed to execute %s"
 msgstr "lỗi thực hiện %s"
+
+#: lib/pager.c:102
+#, c-format
+msgid "waitpid failed (%s)"
+msgstr "waitpid bị lỗi (%s)"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+msgid "failed to callocate cpu set"
+msgstr "gặp lỗi khi phân cấp (callocate) tập hợp CPU"
+
+#: lib/path.c:203
+#, c-format
+msgid "failed to parse CPU list %s"
+msgstr "gặp lỗi khi phân tích danh sách CPU %s"
+
+#: lib/path.c:206
+#, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "gặp lỗi khi phân tích cú pháp của bộ lọc CPU %s"
 
 #: libfdisk/src/alignment.c:108
 #, c-format
@@ -6941,25 +6961,6 @@ msgstr ""
 "có thể hủy bảng phân vùng của bạn và khối khởi động.\n"
 "Bạn có chắc chắn muốn đặt phân vùng đó thành vùng trao đổi (swap) Linux)?"
 
-#: lib/pager.c:102
-#, c-format
-msgid "waitpid failed (%s)"
-msgstr "waitpid bị lỗi (%s)"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-msgid "failed to callocate cpu set"
-msgstr "gặp lỗi khi phân cấp (callocate) tập hợp CPU"
-
-#: lib/path.c:203
-#, c-format
-msgid "failed to parse CPU list %s"
-msgstr "gặp lỗi khi phân tích danh sách CPU %s"
-
-#: lib/path.c:206
-#, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "gặp lỗi khi phân tích cú pháp của bộ lọc CPU %s"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, c-format
 msgid " %s [options] [username]\n"
@@ -7185,6 +7186,42 @@ msgstr "Không hiểu shell (hệ vỏ)."
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "Cách dùng: %s <tập tin mật khẩu> <tài khoản>...\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr ""
+"cách dùng: last [-#] [-f tập_tin] [-t tty] [-h tên_máy] [người_dùng ...]\n"
+
+#: login-utils/last-deprecated.c:252
+#, c-format
+msgid "%s: mmap failed"
+msgstr "%s: lỗi mmap"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  vẫn còn đăng nhập"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp bắt đầu %s"
+
+#: login-utils/last-deprecated.c:433
+msgid "gethostname failed"
+msgstr "Lỗi gethostname (lấy tên máy)"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"đã gián đoạn %10.10s %5.5s \n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, c-format
 msgid "unknown time format: %s"
@@ -7288,42 +7325,6 @@ msgstr "gặp lỗi khi phân tích số"
 #, c-format
 msgid "invalid time value \"%s\""
 msgstr "giá trị giờ không hợp lệ \"%s\""
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr ""
-"cách dùng: last [-#] [-f tập_tin] [-t tty] [-h tên_máy] [người_dùng ...]\n"
-
-#: login-utils/last-deprecated.c:252
-#, c-format
-msgid "%s: mmap failed"
-msgstr "%s: lỗi mmap"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  vẫn còn đăng nhập"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp bắt đầu %s"
-
-#: login-utils/last-deprecated.c:433
-msgid "gethostname failed"
-msgstr "Lỗi gethostname (lấy tên máy)"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"đã gián đoạn %10.10s %5.5s \n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -11957,6 +11958,191 @@ msgstr "%s: FITRIM ioctl không thành công"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr "%s: %s (%<PRIu64> bytes) bị xén\n"
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "khởi động từ MILO\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "Đồng hồ Ruffian BCD\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "clockport (bản chuyển đồng hồ) điều chỉnh thành 0x%x\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "ĐỒ CHƠI nhút nhát!\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "nguyên tử %s gặp lỗi sau lặp 1000 lần!"
+
+#: sys-utils/hwclock-cmos.c:318
+#, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr "cmos_read(): gặp lỗi khi ghi địa chỉ điều khiển %X"
+
+#: sys-utils/hwclock-cmos.c:322
+#, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr "cmos_read(): gặp lỗi khi đọc địa chỉ dữ liệu %X"
+
+#: sys-utils/hwclock-cmos.c:359
+#, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr "cmos_write(): gặp lỗi khi ghi vào địa chỉ điều khiển %X"
+
+#: sys-utils/hwclock-cmos.c:364
+#, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr "cmos_write(): gặp lỗi khi ghi vào địa chỉ dữ liệu %X"
+
+#: sys-utils/hwclock-cmos.c:639
+msgid "I failed to get permission because I didn't try."
+msgstr "Tôi lấy thông tin quyền hạn không thành công vì đã không cố thử."
+
+#: sys-utils/hwclock-cmos.c:642
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr "không thể lấy truy cập cổng V/R:  gọi iopl(3) không thành công."
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "Rất có thể bạn cần quyền siêu quản trị (root).\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "Đang chờ (vòng lặp) thời gian từ KDGHWCLK thay đổi\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "KDGHWCLK ioctl đọc thời gian không thành công"
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr "KDGHWCLK ioctl đọc thời gian không thành công trong vòng lặp"
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+msgid "Timed out waiting for time change."
+msgstr "Quá thời gian chờ thay đổi thời gian."
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "ioctl() đọc thời gian không thành công từ %s"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "ioctl KDSHWCLK không thành công"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "Không thể mở /dev/tty1 hay /dev/vc/1"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "KDGHWCLK ioctl không thành công"
+
+#: sys-utils/hwclock-rtc.c:195
+#, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "ioctl(%s) tới %s để đọc thời gian không thành công"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "Chờ cho thời gian từ %s thay đổi\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "%s không có hàm gián đoạn nào. "
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "read() tới %s để chờ tiếng tíc tắc không thành công"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "select() tới %s để chờ tiếng tíc tắc không thành công"
+
+#: sys-utils/hwclock-rtc.c:317
+#, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr "select() tới %s để chờ tiếng tíc tắc bị quá thời gian"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr "ioctl() tới %s để tắt việc gián đoạn cập nhật không thành công"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr ""
+"ioctl() tới %s để bật việc gián đoạn cập nhật không thành công một cách bất "
+"thường"
+
+#: sys-utils/hwclock-rtc.c:383
+#, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr "ioctl(%s) tới %s để đặt thời gian không thành công."
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "ioctl(%s) đã thành công.\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"Để điều khiển giá trị khởi đầu (epoch) trong nhân, chúng ta cần truy cập tới "
+"driver thiết bị “rtc” qua tập tin thiết bị đặc biệt %s.  Tập tin này không "
+"tồn tại trên hệ thống này."
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "ioctl(RTC_EPOCH_READ) tới %s không thành công"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr "chúng ta đọc khởi đầu (epoch) %ld từ %s bằng RTC_EPOCH_READ ioctl.\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr "Giá trị khởi đầu (epoch) không được nhỏ hơn 1900.  Bạn đã yêu cầu %ld"
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr "cài đặt khởi đầu (epoch) thành %ld bằng RTC_EPOCH_SET ioctl tới %s.\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr ""
+"Trình điều khiển thiết bị của nhân cho %s không có RTC_EPOCH_SET ioctl."
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "ioctl(RTC_EPOCH_SET) tới %s không thành công"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12502,191 +12688,6 @@ msgid ""
 msgstr ""
 "Sử dụng tùy chọn --debug để xem chi tiết về tiến trình tìm kiếm phương pháp "
 "truy cập của chúng ta."
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "khởi động từ MILO\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "Đồng hồ Ruffian BCD\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "clockport (bản chuyển đồng hồ) điều chỉnh thành 0x%x\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "ĐỒ CHƠI nhút nhát!\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "nguyên tử %s gặp lỗi sau lặp 1000 lần!"
-
-#: sys-utils/hwclock-cmos.c:318
-#, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr "cmos_read(): gặp lỗi khi ghi địa chỉ điều khiển %X"
-
-#: sys-utils/hwclock-cmos.c:322
-#, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr "cmos_read(): gặp lỗi khi đọc địa chỉ dữ liệu %X"
-
-#: sys-utils/hwclock-cmos.c:359
-#, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr "cmos_write(): gặp lỗi khi ghi vào địa chỉ điều khiển %X"
-
-#: sys-utils/hwclock-cmos.c:364
-#, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr "cmos_write(): gặp lỗi khi ghi vào địa chỉ dữ liệu %X"
-
-#: sys-utils/hwclock-cmos.c:639
-msgid "I failed to get permission because I didn't try."
-msgstr "Tôi lấy thông tin quyền hạn không thành công vì đã không cố thử."
-
-#: sys-utils/hwclock-cmos.c:642
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr "không thể lấy truy cập cổng V/R:  gọi iopl(3) không thành công."
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "Rất có thể bạn cần quyền siêu quản trị (root).\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "Đang chờ (vòng lặp) thời gian từ KDGHWCLK thay đổi\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "KDGHWCLK ioctl đọc thời gian không thành công"
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr "KDGHWCLK ioctl đọc thời gian không thành công trong vòng lặp"
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-msgid "Timed out waiting for time change."
-msgstr "Quá thời gian chờ thay đổi thời gian."
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "ioctl() đọc thời gian không thành công từ %s"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "ioctl KDSHWCLK không thành công"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "Không thể mở /dev/tty1 hay /dev/vc/1"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "KDGHWCLK ioctl không thành công"
-
-#: sys-utils/hwclock-rtc.c:195
-#, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "ioctl(%s) tới %s để đọc thời gian không thành công"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "Chờ cho thời gian từ %s thay đổi\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "%s không có hàm gián đoạn nào. "
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "read() tới %s để chờ tiếng tíc tắc không thành công"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "select() tới %s để chờ tiếng tíc tắc không thành công"
-
-#: sys-utils/hwclock-rtc.c:317
-#, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr "select() tới %s để chờ tiếng tíc tắc bị quá thời gian"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr "ioctl() tới %s để tắt việc gián đoạn cập nhật không thành công"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr ""
-"ioctl() tới %s để bật việc gián đoạn cập nhật không thành công một cách bất "
-"thường"
-
-#: sys-utils/hwclock-rtc.c:383
-#, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr "ioctl(%s) tới %s để đặt thời gian không thành công."
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "ioctl(%s) đã thành công.\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"Để điều khiển giá trị khởi đầu (epoch) trong nhân, chúng ta cần truy cập tới "
-"driver thiết bị “rtc” qua tập tin thiết bị đặc biệt %s.  Tập tin này không "
-"tồn tại trên hệ thống này."
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "ioctl(RTC_EPOCH_READ) tới %s không thành công"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr "chúng ta đọc khởi đầu (epoch) %ld từ %s bằng RTC_EPOCH_READ ioctl.\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr "Giá trị khởi đầu (epoch) không được nhỏ hơn 1900.  Bạn đã yêu cầu %ld"
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr "cài đặt khởi đầu (epoch) thành %ld bằng RTC_EPOCH_SET ioctl tới %s.\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr ""
-"Trình điều khiển thiết bị của nhân cho %s không có RTC_EPOCH_SET ioctl."
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "ioctl(RTC_EPOCH_SET) tới %s không thành công"
 
 #: sys-utils/ipcmk.c:69
 msgid " -M, --shmem <size>       create shared memory segment of size <size>\n"
@@ -15737,6 +15738,11 @@ msgstr ""
 " <device>               tên  của thiết bị cần dùng\n"
 " <file>                 tên của tệp tin được dùng\n"
 
+#: sys-utils/swapon-common.c:62
+#, c-format
+msgid "cannot find the device for %s"
+msgstr "không tìm thấy thiết bị cho %s"
+
 #: sys-utils/swapon.c:100
 msgid "device file or partition path"
 msgstr "tập tin thiết bị hoặc đường dẫn tới phân vùng"
@@ -15952,11 +15958,6 @@ msgstr "gặp lỗi khi phân tích mức ưu tiên"
 #, c-format
 msgid "unsupported discard policy: %s"
 msgstr "không hỗ trợ chính sách loại bỏ: %s"
-
-#: sys-utils/swapon-common.c:62
-#, c-format
-msgid "cannot find the device for %s"
-msgstr "không tìm thấy thiết bị cho %s"
 
 #: sys-utils/switch_root.c:57
 msgid "failed to open directory"

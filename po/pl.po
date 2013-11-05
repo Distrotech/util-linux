@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux 2.24-rc2\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2013-10-13 14:30+0200\n"
 "Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -34,28 +34,29 @@ msgstr " %s <urządzenie dyskowe> <numer partycji> <początek> <długość>\n"
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "nie można otworzyć %s"
@@ -341,8 +342,8 @@ msgstr "%s nie jest zamontowany\n"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, c-format
 msgid "cannot read %s"
@@ -3506,209 +3507,6 @@ msgstr "Typ partycji (L wyświetla listę wszystkich typów): "
 msgid "Hex code (type L to list all codes): "
 msgstr "Kod szesnastkowy (L wyświetla listę wszystkich kodów): "
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-" %1$s [opcje] <dysk>    zmiana tablicy partycji\n"
-" %1$s [opcje] -l <dysk> wypisanie tablicy/tablic partycji\n"
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr " -b <rozmiar>      rozmiar sektora (512, 1024, 2048 lub 4096)\n"
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr " -c[=<tryb>]       tryb zgodności: 'dos' lub 'nondos' (domyślny)\n"
-
-#: fdisks/fdisk.c:60
-msgid " -h                print this help text\n"
-msgstr " -h                wyświetlenie tego opisu\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr " -L[=<kiedy>]      kolorowanie wyjścia (auto, always lub never)\n"
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr ""
-" -t <typ>          wymuszenie rozpoznania tylko określonego typu tablicy "
-"partycji\n"
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-" -u[=<jednostka>]  jednostki wyświetlania: 'cylinders' lub "
-"'sectors' (domyślne)\n"
-
-#: fdisks/fdisk.c:65
-msgid " -v                print program version\n"
-msgstr " -v                wypisanie wersji programu\n"
-
-#: fdisks/fdisk.c:66
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr " -C <liczba>       określenie liczby cylindrów\n"
-
-#: fdisks/fdisk.c:67
-msgid " -H <number>       specify the number of heads\n"
-msgstr " -H <liczba>       określenie liczby głowic\n"
-
-#: fdisks/fdisk.c:68
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr " -S <liczba>       określenie liczby sektorów na ścieżce\n"
-
-#: fdisks/fdisk.c:151
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "Flaga kompatybilności z DOS-em jest ustawiona (PRZESTARZAŁE!)"
-
-#: fdisks/fdisk.c:152
-msgid "DOS Compatibility flag is not set"
-msgstr "Flaga kompatybilności z DOS-em nie jest ustawiona"
-
-#: fdisks/fdisk.c:173
-#, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "Partycja %zu jeszcze nie istnieje!"
-
-#: fdisks/fdisk.c:181
-#, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "Zmieniono typ partycji '%s' na '%s'."
-
-#: fdisks/fdisk.c:186
-#, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "Typ partycji %zu nie został zmieniony: %s."
-
-#: fdisks/fdisk.c:202
-#, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr "Dysk %s: %s, bajtów: %llu, sektorów: %llu"
-
-#: fdisks/fdisk.c:209
-#, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "Geometria: głowic: %d, sektorów/ścieżkę: %llu, cylindrów: %llu"
-
-#: fdisks/fdisk.c:212
-#, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Jednostki: %s, czyli %d * %ld = %ld bajtów"
-
-#: fdisks/fdisk.c:218
-#, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr "Rozmiar sektora (logiczny/fizyczny) w bajtach: %lu / %lu"
-
-#: fdisks/fdisk.c:220
-#, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr "Rozmiar we/wy (minimalny/optymalny) w bajtach: %lu / %lu"
-
-#: fdisks/fdisk.c:223
-#, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "Wyrównanie w bajtach: %lu"
-
-#: fdisks/fdisk.c:226
-#, c-format
-msgid "Disklabel type: %s"
-msgstr "Typ etykiety dysku: %s"
-
-#: fdisks/fdisk.c:229
-#, c-format
-msgid "Disk identifier: %s"
-msgstr "Identyfikator dysku: %s"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-"\n"
-"%s: offset = %ju, rozmiar = %zu bajtów."
-
-#: fdisks/fdisk.c:281
-msgid "cannot seek"
-msgstr "nie można przemieścić"
-
-#: fdisks/fdisk.c:286
-msgid "cannot read"
-msgstr "nie można odczytać"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-msgid "First sector"
-msgstr "Pierwszy sektor"
-
-#: fdisks/fdisk.c:386
-#, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "ioctl BLKGETSIZE nie powiódł się na %s"
-
-#: fdisks/fdisk.c:412
-msgid "failed to allocate libfdisk context"
-msgstr "nie udało się przydzielić kontekstu libfdisk"
-
-#: fdisks/fdisk.c:421
-msgid "invalid sector size argument"
-msgstr "błędna wartość rozmiaru sektora"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-msgid "invalid cylinders argument"
-msgstr "błędna liczba cylindrów"
-
-#: fdisks/fdisk.c:439
-msgid "not found DOS label driver"
-msgstr "nie znaleziono sterownika etykiet DOS"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-msgid "invalid heads argument"
-msgstr "błędna liczba głowic"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-msgid "invalid sectors argument"
-msgstr "błędna liczba sektorów"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-msgid "unsupported color mode"
-msgstr "nie obsługiwany tryb koloru"
-
-#: fdisks/fdisk.c:480
-#, c-format
-msgid "unsupported disklabel: %s"
-msgstr "nieobsługiwana etykieta dysku: %s"
-
-#: fdisks/fdisk.c:501
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-"Właściwości urządzenia (rozmiar sektora i geometria) powinny być używane "
-"tylko z jednym określonym urządzeniem."
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr "Witamy w programie fdisk (%s)."
-
-#: fdisks/fdisk.c:542
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"Zmiany pozostaną tylko w pamięci do chwili ich zapisania.\n"
-"Przed użyciem polecenia zapisu prosimy o ostrożność.\n"
-
-#: fdisks/fdisk.c:547
-msgid "Device does not contain a recognized partition table."
-msgstr "Urządzenie nie zawiera żadnej znanej tablicy partycji."
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr "Ogólne"
@@ -4014,6 +3812,209 @@ msgstr "Liczba głowic"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "Liczba sektorów"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+" %1$s [opcje] <dysk>    zmiana tablicy partycji\n"
+" %1$s [opcje] -l <dysk> wypisanie tablicy/tablic partycji\n"
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr " -b <rozmiar>      rozmiar sektora (512, 1024, 2048 lub 4096)\n"
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr " -c[=<tryb>]       tryb zgodności: 'dos' lub 'nondos' (domyślny)\n"
+
+#: fdisks/fdisk.c:60
+msgid " -h                print this help text\n"
+msgstr " -h                wyświetlenie tego opisu\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr " -L[=<kiedy>]      kolorowanie wyjścia (auto, always lub never)\n"
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr ""
+" -t <typ>          wymuszenie rozpoznania tylko określonego typu tablicy "
+"partycji\n"
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+" -u[=<jednostka>]  jednostki wyświetlania: 'cylinders' lub "
+"'sectors' (domyślne)\n"
+
+#: fdisks/fdisk.c:65
+msgid " -v                print program version\n"
+msgstr " -v                wypisanie wersji programu\n"
+
+#: fdisks/fdisk.c:66
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr " -C <liczba>       określenie liczby cylindrów\n"
+
+#: fdisks/fdisk.c:67
+msgid " -H <number>       specify the number of heads\n"
+msgstr " -H <liczba>       określenie liczby głowic\n"
+
+#: fdisks/fdisk.c:68
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr " -S <liczba>       określenie liczby sektorów na ścieżce\n"
+
+#: fdisks/fdisk.c:151
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "Flaga kompatybilności z DOS-em jest ustawiona (PRZESTARZAŁE!)"
+
+#: fdisks/fdisk.c:152
+msgid "DOS Compatibility flag is not set"
+msgstr "Flaga kompatybilności z DOS-em nie jest ustawiona"
+
+#: fdisks/fdisk.c:173
+#, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "Partycja %zu jeszcze nie istnieje!"
+
+#: fdisks/fdisk.c:181
+#, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "Zmieniono typ partycji '%s' na '%s'."
+
+#: fdisks/fdisk.c:186
+#, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "Typ partycji %zu nie został zmieniony: %s."
+
+#: fdisks/fdisk.c:202
+#, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr "Dysk %s: %s, bajtów: %llu, sektorów: %llu"
+
+#: fdisks/fdisk.c:209
+#, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "Geometria: głowic: %d, sektorów/ścieżkę: %llu, cylindrów: %llu"
+
+#: fdisks/fdisk.c:212
+#, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Jednostki: %s, czyli %d * %ld = %ld bajtów"
+
+#: fdisks/fdisk.c:218
+#, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr "Rozmiar sektora (logiczny/fizyczny) w bajtach: %lu / %lu"
+
+#: fdisks/fdisk.c:220
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr "Rozmiar we/wy (minimalny/optymalny) w bajtach: %lu / %lu"
+
+#: fdisks/fdisk.c:223
+#, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "Wyrównanie w bajtach: %lu"
+
+#: fdisks/fdisk.c:226
+#, c-format
+msgid "Disklabel type: %s"
+msgstr "Typ etykiety dysku: %s"
+
+#: fdisks/fdisk.c:229
+#, c-format
+msgid "Disk identifier: %s"
+msgstr "Identyfikator dysku: %s"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+"\n"
+"%s: offset = %ju, rozmiar = %zu bajtów."
+
+#: fdisks/fdisk.c:281
+msgid "cannot seek"
+msgstr "nie można przemieścić"
+
+#: fdisks/fdisk.c:286
+msgid "cannot read"
+msgstr "nie można odczytać"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+msgid "First sector"
+msgstr "Pierwszy sektor"
+
+#: fdisks/fdisk.c:386
+#, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "ioctl BLKGETSIZE nie powiódł się na %s"
+
+#: fdisks/fdisk.c:412
+msgid "failed to allocate libfdisk context"
+msgstr "nie udało się przydzielić kontekstu libfdisk"
+
+#: fdisks/fdisk.c:421
+msgid "invalid sector size argument"
+msgstr "błędna wartość rozmiaru sektora"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+msgid "invalid cylinders argument"
+msgstr "błędna liczba cylindrów"
+
+#: fdisks/fdisk.c:439
+msgid "not found DOS label driver"
+msgstr "nie znaleziono sterownika etykiet DOS"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+msgid "invalid heads argument"
+msgstr "błędna liczba głowic"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+msgid "invalid sectors argument"
+msgstr "błędna liczba sektorów"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+msgid "unsupported color mode"
+msgstr "nie obsługiwany tryb koloru"
+
+#: fdisks/fdisk.c:480
+#, c-format
+msgid "unsupported disklabel: %s"
+msgstr "nieobsługiwana etykieta dysku: %s"
+
+#: fdisks/fdisk.c:501
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+"Właściwości urządzenia (rozmiar sektora i geometria) powinny być używane "
+"tylko z jednym określonym urządzeniem."
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr "Witamy w programie fdisk (%s)."
+
+#: fdisks/fdisk.c:542
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"Zmiany pozostaną tylko w pamięci do chwili ich zapisania.\n"
+"Przed użyciem polecenia zapisu prosimy o ostrożność.\n"
+
+#: fdisks/fdisk.c:547
+msgid "Device does not contain a recognized partition table."
+msgstr "Urządzenie nie zawiera żadnej znanej tablicy partycji."
 
 #: fdisks/sfdisk.c:112
 #, c-format
@@ -5405,6 +5406,25 @@ msgstr "BBT"
 #, c-format
 msgid "failed to execute %s"
 msgstr "nie udało się uruchomić %s"
+
+#: lib/pager.c:102
+#, c-format
+msgid "waitpid failed (%s)"
+msgstr "wywołanie waitpid nie powiodło się (%s)"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+msgid "failed to callocate cpu set"
+msgstr "nie udało się wykonać calloc dla zbioru CPU"
+
+#: lib/path.c:203
+#, c-format
+msgid "failed to parse CPU list %s"
+msgstr "nie udało się przeanalizować listy CPU %s"
+
+#: lib/path.c:206
+#, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "błąd składni maski CPU %s"
 
 #: libfdisk/src/alignment.c:108
 #, c-format
@@ -6964,25 +6984,6 @@ msgstr ""
 "rozruchowy. Czy na pewno ta partycja ma być oznaczona jako\n"
 "linuksowa partycja wymiany?"
 
-#: lib/pager.c:102
-#, c-format
-msgid "waitpid failed (%s)"
-msgstr "wywołanie waitpid nie powiodło się (%s)"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-msgid "failed to callocate cpu set"
-msgstr "nie udało się wykonać calloc dla zbioru CPU"
-
-#: lib/path.c:203
-#, c-format
-msgid "failed to parse CPU list %s"
-msgstr "nie udało się przeanalizować listy CPU %s"
-
-#: lib/path.c:206
-#, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "błąd składni maski CPU %s"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, c-format
 msgid " %s [options] [username]\n"
@@ -7206,6 +7207,41 @@ msgstr "Brak znanych powłok."
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "Składnia: %s <plik_hasła> <użytkownik>...\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr "Składnia: last [-#] [-f plik] [-t tty] [-h host] [użytkownik ...]\n"
+
+#: login-utils/last-deprecated.c:252
+#, c-format
+msgid "%s: mmap failed"
+msgstr "%s: mmap nie powiodło się"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  nadal zalogowany"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp zaczyna się %s"
+
+#: login-utils/last-deprecated.c:433
+msgid "gethostname failed"
+msgstr "gethostname nie powiodło się"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"przerwano %10.10s %5.5s \n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, c-format
 msgid "unknown time format: %s"
@@ -7308,41 +7344,6 @@ msgstr "nie udało się przeanalizować liczby"
 #, c-format
 msgid "invalid time value \"%s\""
 msgstr "błędna wartość czasu \"%s\""
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr "Składnia: last [-#] [-f plik] [-t tty] [-h host] [użytkownik ...]\n"
-
-#: login-utils/last-deprecated.c:252
-#, c-format
-msgid "%s: mmap failed"
-msgstr "%s: mmap nie powiodło się"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  nadal zalogowany"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp zaczyna się %s"
-
-#: login-utils/last-deprecated.c:433
-msgid "gethostname failed"
-msgstr "gethostname nie powiodło się"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"przerwano %10.10s %5.5s \n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -11993,6 +11994,194 @@ msgstr "%s: ioctl FITRIM nie powiódł się"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr "%s: obcięto %s (bajtów: %<PRIu64>)\n"
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "uruchomiono z MILO\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "Zegar Ruffian BCD\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "clockport zmieniony na 0x%x\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "dziwny znacznik TOY!\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "atomowe %s nie powiodło się dla 1000 iteracji!"
+
+#: sys-utils/hwclock-cmos.c:318
+#, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr "cmos_read(): zapis pod adres sterujący %X nie powiódł się"
+
+#: sys-utils/hwclock-cmos.c:322
+#, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr "cmos_read(): odczyt danych spod adresu %X nie powiódł się"
+
+#: sys-utils/hwclock-cmos.c:359
+#, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr "cmos_write(): zapis pod adres sterujący %X nie powiódł się"
+
+#: sys-utils/hwclock-cmos.c:364
+#, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr "cmos_write(): zapis danych pod adres %X nie powiódł się"
+
+#: sys-utils/hwclock-cmos.c:639
+msgid "I failed to get permission because I didn't try."
+msgstr "Nie udało się uzyskać uprawnień, ponieważ tego nie próbowano."
+
+#: sys-utils/hwclock-cmos.c:642
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr ""
+"nie udało się uzyskać dostępu do portów we/wy: wywołanie iopl(3) nie "
+"powiodło się."
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "Prawdopodobnie wymagane są uprawnienia administratora.\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "Oczekiwanie w pętli na zmianę czasu z KDGHWCLK\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "nie powiódł się ioctl KDGHWCLK do odczytu czasu"
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr "nie powiódł się ioctl KDGHWCLK do odczytu czasu w pętli"
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+msgid "Timed out waiting for time change."
+msgstr "Przekroczono limit czasu oczekiwania na zmianę czasu."
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "nie powiódł się ioctl() do odczytu czasu z %s"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "ioctl KDSHWCLK nie powiódł się"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "Nie można otworzyć /dev/tty1 ani /dev/vc/1"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "ioctl KDGHWCLK nie powiódł się"
+
+#: sys-utils/hwclock-rtc.c:195
+#, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "nie powiódł się ioctl(%s) na %s w celu odczytu czasu"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "Oczekiwanie w pętli na zmianę czasu z %s\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "%s nie ma funkcji przerwań. "
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "nie powiodło się read() na %s w celu oczekiwania na przeskok zegara"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "nie powiódł się select() na %s w celu oczekiwania na przeskok zegara"
+
+#: sys-utils/hwclock-rtc.c:317
+#, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr ""
+"select() na %s w celu oczekiwania na przeskok zegara przekroczył limit czasu"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr "nie powiódł się ioctl() na %s w celu wyłączenia przerwań uaktualnień"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr ""
+"nieoczekiwanie nie powiódł się ioctl() na %s w celu włączenia przerwań "
+"uaktualnień"
+
+#: sys-utils/hwclock-rtc.c:383
+#, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr "nie powiódł się ioctl(%s) na %s w celu ustawienia czasu"
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "ioctl(%s) powiódł się.\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"Aby zmienić wartość epoch w jądrze, trzeba dostać się do linuksowego "
+"sterownika urządzenia 'rtc' poprzez plik urządzenia specjalnego %s. Ten plik "
+"nie istnieje w tym systemie."
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "nie powiódł się ioctl(RTC_EPOCH_READ) na %s"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr "odczytano wartość epoch %ld z %s przy użyciu ioctl-a RTC_EPOCH_READ.\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr "Wartość epoch nie może być mniejsza niż 1900. Żądano %ld"
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr ""
+"ustawianie wartości epoch na %ld przy użyciu ioctl-a RTC_EPOCH_SET na %s.\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr "Sterownik urządzenia w jądrze dla %s nie ma ioctl-a RTC_EPOCH_SET."
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "nie powiódł się ioctl(RTC_EPOCH_SET) na %s"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12541,194 +12730,6 @@ msgid ""
 msgstr ""
 "Proszę użyć opcji --debug, aby zobaczyć szczegóły poszukiwania metody "
 "dostępu."
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "uruchomiono z MILO\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "Zegar Ruffian BCD\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "clockport zmieniony na 0x%x\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "dziwny znacznik TOY!\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "atomowe %s nie powiodło się dla 1000 iteracji!"
-
-#: sys-utils/hwclock-cmos.c:318
-#, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr "cmos_read(): zapis pod adres sterujący %X nie powiódł się"
-
-#: sys-utils/hwclock-cmos.c:322
-#, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr "cmos_read(): odczyt danych spod adresu %X nie powiódł się"
-
-#: sys-utils/hwclock-cmos.c:359
-#, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr "cmos_write(): zapis pod adres sterujący %X nie powiódł się"
-
-#: sys-utils/hwclock-cmos.c:364
-#, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr "cmos_write(): zapis danych pod adres %X nie powiódł się"
-
-#: sys-utils/hwclock-cmos.c:639
-msgid "I failed to get permission because I didn't try."
-msgstr "Nie udało się uzyskać uprawnień, ponieważ tego nie próbowano."
-
-#: sys-utils/hwclock-cmos.c:642
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr ""
-"nie udało się uzyskać dostępu do portów we/wy: wywołanie iopl(3) nie "
-"powiodło się."
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "Prawdopodobnie wymagane są uprawnienia administratora.\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "Oczekiwanie w pętli na zmianę czasu z KDGHWCLK\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "nie powiódł się ioctl KDGHWCLK do odczytu czasu"
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr "nie powiódł się ioctl KDGHWCLK do odczytu czasu w pętli"
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-msgid "Timed out waiting for time change."
-msgstr "Przekroczono limit czasu oczekiwania na zmianę czasu."
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "nie powiódł się ioctl() do odczytu czasu z %s"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "ioctl KDSHWCLK nie powiódł się"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "Nie można otworzyć /dev/tty1 ani /dev/vc/1"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "ioctl KDGHWCLK nie powiódł się"
-
-#: sys-utils/hwclock-rtc.c:195
-#, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "nie powiódł się ioctl(%s) na %s w celu odczytu czasu"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "Oczekiwanie w pętli na zmianę czasu z %s\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "%s nie ma funkcji przerwań. "
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "nie powiodło się read() na %s w celu oczekiwania na przeskok zegara"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "nie powiódł się select() na %s w celu oczekiwania na przeskok zegara"
-
-#: sys-utils/hwclock-rtc.c:317
-#, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr ""
-"select() na %s w celu oczekiwania na przeskok zegara przekroczył limit czasu"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr "nie powiódł się ioctl() na %s w celu wyłączenia przerwań uaktualnień"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr ""
-"nieoczekiwanie nie powiódł się ioctl() na %s w celu włączenia przerwań "
-"uaktualnień"
-
-#: sys-utils/hwclock-rtc.c:383
-#, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr "nie powiódł się ioctl(%s) na %s w celu ustawienia czasu"
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "ioctl(%s) powiódł się.\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"Aby zmienić wartość epoch w jądrze, trzeba dostać się do linuksowego "
-"sterownika urządzenia 'rtc' poprzez plik urządzenia specjalnego %s. Ten plik "
-"nie istnieje w tym systemie."
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "nie powiódł się ioctl(RTC_EPOCH_READ) na %s"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr "odczytano wartość epoch %ld z %s przy użyciu ioctl-a RTC_EPOCH_READ.\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr "Wartość epoch nie może być mniejsza niż 1900. Żądano %ld"
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr ""
-"ustawianie wartości epoch na %ld przy użyciu ioctl-a RTC_EPOCH_SET na %s.\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr "Sterownik urządzenia w jądrze dla %s nie ma ioctl-a RTC_EPOCH_SET."
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "nie powiódł się ioctl(RTC_EPOCH_SET) na %s"
 
 #: sys-utils/ipcmk.c:69
 msgid " -M, --shmem <size>       create shared memory segment of size <size>\n"
@@ -15793,6 +15794,11 @@ msgstr ""
 " <urządzenie>           nazwa urządzenia do użycia\n"
 " <plik>                 nazwa pliku do użycia\n"
 
+#: sys-utils/swapon-common.c:62
+#, c-format
+msgid "cannot find the device for %s"
+msgstr "nie można odnaleźć urządzenia dla %s"
+
 #: sys-utils/swapon.c:100
 msgid "device file or partition path"
 msgstr "ścieżka do pliku urządzenia lub partycji"
@@ -16005,11 +16011,6 @@ msgstr "niezrozumiały priorytet"
 #, c-format
 msgid "unsupported discard policy: %s"
 msgstr "nieobsługiwana polityka kasowania: %s"
-
-#: sys-utils/swapon-common.c:62
-#, c-format
-msgid "cannot find the device for %s"
-msgstr "nie można odnaleźć urządzenia dla %s"
 
 #: sys-utils/switch_root.c:57
 msgid "failed to open directory"

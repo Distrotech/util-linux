@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux 2.23.1\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2013-06-07 23:29+0800\n"
 "Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
 "Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
@@ -32,28 +32,29 @@ msgstr " %s <disk device><分割區編號><開始><長度>\n"
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "無法開啟 %s"
@@ -347,8 +348,8 @@ msgstr "%s 未被掛載\n"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, fuzzy, c-format
 msgid "cannot read %s"
@@ -3546,225 +3547,6 @@ msgstr "十六進位編碼 (輸入 L 以列出編碼)："
 msgid "Hex code (type L to list all codes): "
 msgstr "十六進位編碼 (輸入 L 以列出編碼)："
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:60
-#, fuzzy
-msgid " -h                print this help text\n"
-msgstr " -h           顯示這份說明然後離開\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:63
-#, fuzzy
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr " -n, --noparity          設定同位到無\n"
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:65
-#, fuzzy
-msgid " -v                print program version\n"
-msgstr " -a, --all      查詢所有原始裝置\n"
-
-#: fdisks/fdisk.c:66
-#, fuzzy
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr "鍵入磁柱數: "
-
-#: fdisks/fdisk.c:67
-#, fuzzy
-msgid " -H <number>       specify the number of heads\n"
-msgstr "    -H# [或 --heads #]：   設定要用的磁頭數量"
-
-#: fdisks/fdisk.c:68
-#, fuzzy
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr "鍵入每一磁軌的磁區數: "
-
-#: fdisks/fdisk.c:151
-#, fuzzy
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "DOS 相容性旗標已設定 (不宜再用！)\n"
-
-#: fdisks/fdisk.c:152
-#, fuzzy
-msgid "DOS Compatibility flag is not set"
-msgstr "DOS 相容性旗標未設定\n"
-
-#: fdisks/fdisk.c:173
-#, fuzzy, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "分割區 %d 尚不存在！\n"
-
-#: fdisks/fdisk.c:181
-#, fuzzy, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "分割區 %d 的系統類型已變更為 %x (%s)\n"
-
-#: fdisks/fdisk.c:186
-#, fuzzy, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "分割區 %d 的系統類型未被變更：%x (%s)\n"
-
-#: fdisks/fdisk.c:202
-#, fuzzy, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr ""
-"\n"
-"磁碟 %s: %lu 磁柱，%lu 磁頭，%lu 磁區/磁軌\n"
-
-#: fdisks/fdisk.c:209
-#, fuzzy, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "%d 前端，%llu 磁區/軌段，%llu 磁柱\n"
-
-#: fdisks/fdisk.c:212
-#, fuzzy, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "單位=%s 的 %d * %ld=%ld 位元組\n"
-
-#: fdisks/fdisk.c:218
-#, fuzzy, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr "磁區大小 (邏輯的/實體)：%lu 位元組/%lu 位元組\n"
-
-#: fdisks/fdisk.c:220
-#, fuzzy, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr "I/O 大小 (最小/最佳化)：%lu 位元組 / %lu 位元組\n"
-
-#: fdisks/fdisk.c:223
-#, fuzzy, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "對齊偏移值：%lu 位元組\n"
-
-#: fdisks/fdisk.c:226
-#, fuzzy, c-format
-msgid "Disklabel type: %s"
-msgstr "硬碟: %s\n"
-
-#: fdisks/fdisk.c:229
-#, fuzzy, c-format
-msgid "Disk identifier: %s"
-msgstr "磁碟識別碼：0x%08x\n"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-
-#: fdisks/fdisk.c:281
-#, fuzzy
-msgid "cannot seek"
-msgstr "無法衍生執行"
-
-#: fdisks/fdisk.c:286
-#, fuzzy
-msgid "cannot read"
-msgstr "無法讀取 %s"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-#, fuzzy
-msgid "First sector"
-msgstr "起初 %s"
-
-#: fdisks/fdisk.c:386
-#, fuzzy, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "BLKGETSIZE ioctl 失敗的於 %s"
-
-#: fdisks/fdisk.c:412
-#, fuzzy
-msgid "failed to allocate libfdisk context"
-msgstr "配置迭代器時失敗"
-
-#: fdisks/fdisk.c:421
-#, fuzzy
-msgid "invalid sector size argument"
-msgstr "無效的磁區大小引數"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-#, fuzzy
-msgid "invalid cylinders argument"
-msgstr "無效的磁柱引數"
-
-#: fdisks/fdisk.c:439
-#, fuzzy
-msgid "not found DOS label driver"
-msgstr "找不到未使用的裝置"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-#, fuzzy
-msgid "invalid heads argument"
-msgstr "無效的前端引數"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-#, fuzzy
-msgid "invalid sectors argument"
-msgstr "無效的磁區引數"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-#, fuzzy
-msgid "unsupported color mode"
-msgstr "不受支援的命令"
-
-#: fdisks/fdisk.c:480
-#, fuzzy, c-format
-msgid "unsupported disklabel: %s"
-msgstr "不受支援的引數：%s"
-
-#: fdisks/fdisk.c:501
-#, fuzzy
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr "警告：-b (設定磁區大小) 選項應該與一個指定裝置共同使用\n"
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr ""
-
-#: fdisks/fdisk.c:542
-#, fuzzy
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"歡迎使用 fdisk (%s)。\n"
-"\n"
-"變更將剩下在中記憶體只有，直到您決定到寫入它們。\n"
-"請小心之前使用寫入命令。\n"
-"\n"
-
-#: fdisks/fdisk.c:547
-#, fuzzy
-msgid "Device does not contain a recognized partition table."
-msgstr "裝置不包含辨識的分割表\n"
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr ""
@@ -4124,6 +3906,225 @@ msgstr "磁頭數量"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "磁區數量"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:60
+#, fuzzy
+msgid " -h                print this help text\n"
+msgstr " -h           顯示這份說明然後離開\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:63
+#, fuzzy
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr " -n, --noparity          設定同位到無\n"
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:65
+#, fuzzy
+msgid " -v                print program version\n"
+msgstr " -a, --all      查詢所有原始裝置\n"
+
+#: fdisks/fdisk.c:66
+#, fuzzy
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr "鍵入磁柱數: "
+
+#: fdisks/fdisk.c:67
+#, fuzzy
+msgid " -H <number>       specify the number of heads\n"
+msgstr "    -H# [或 --heads #]：   設定要用的磁頭數量"
+
+#: fdisks/fdisk.c:68
+#, fuzzy
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr "鍵入每一磁軌的磁區數: "
+
+#: fdisks/fdisk.c:151
+#, fuzzy
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "DOS 相容性旗標已設定 (不宜再用！)\n"
+
+#: fdisks/fdisk.c:152
+#, fuzzy
+msgid "DOS Compatibility flag is not set"
+msgstr "DOS 相容性旗標未設定\n"
+
+#: fdisks/fdisk.c:173
+#, fuzzy, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "分割區 %d 尚不存在！\n"
+
+#: fdisks/fdisk.c:181
+#, fuzzy, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "分割區 %d 的系統類型已變更為 %x (%s)\n"
+
+#: fdisks/fdisk.c:186
+#, fuzzy, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "分割區 %d 的系統類型未被變更：%x (%s)\n"
+
+#: fdisks/fdisk.c:202
+#, fuzzy, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr ""
+"\n"
+"磁碟 %s: %lu 磁柱，%lu 磁頭，%lu 磁區/磁軌\n"
+
+#: fdisks/fdisk.c:209
+#, fuzzy, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "%d 前端，%llu 磁區/軌段，%llu 磁柱\n"
+
+#: fdisks/fdisk.c:212
+#, fuzzy, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "單位=%s 的 %d * %ld=%ld 位元組\n"
+
+#: fdisks/fdisk.c:218
+#, fuzzy, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr "磁區大小 (邏輯的/實體)：%lu 位元組/%lu 位元組\n"
+
+#: fdisks/fdisk.c:220
+#, fuzzy, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr "I/O 大小 (最小/最佳化)：%lu 位元組 / %lu 位元組\n"
+
+#: fdisks/fdisk.c:223
+#, fuzzy, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "對齊偏移值：%lu 位元組\n"
+
+#: fdisks/fdisk.c:226
+#, fuzzy, c-format
+msgid "Disklabel type: %s"
+msgstr "硬碟: %s\n"
+
+#: fdisks/fdisk.c:229
+#, fuzzy, c-format
+msgid "Disk identifier: %s"
+msgstr "磁碟識別碼：0x%08x\n"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+
+#: fdisks/fdisk.c:281
+#, fuzzy
+msgid "cannot seek"
+msgstr "無法衍生執行"
+
+#: fdisks/fdisk.c:286
+#, fuzzy
+msgid "cannot read"
+msgstr "無法讀取 %s"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+#, fuzzy
+msgid "First sector"
+msgstr "起初 %s"
+
+#: fdisks/fdisk.c:386
+#, fuzzy, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "BLKGETSIZE ioctl 失敗的於 %s"
+
+#: fdisks/fdisk.c:412
+#, fuzzy
+msgid "failed to allocate libfdisk context"
+msgstr "配置迭代器時失敗"
+
+#: fdisks/fdisk.c:421
+#, fuzzy
+msgid "invalid sector size argument"
+msgstr "無效的磁區大小引數"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+#, fuzzy
+msgid "invalid cylinders argument"
+msgstr "無效的磁柱引數"
+
+#: fdisks/fdisk.c:439
+#, fuzzy
+msgid "not found DOS label driver"
+msgstr "找不到未使用的裝置"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+#, fuzzy
+msgid "invalid heads argument"
+msgstr "無效的前端引數"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+#, fuzzy
+msgid "invalid sectors argument"
+msgstr "無效的磁區引數"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+#, fuzzy
+msgid "unsupported color mode"
+msgstr "不受支援的命令"
+
+#: fdisks/fdisk.c:480
+#, fuzzy, c-format
+msgid "unsupported disklabel: %s"
+msgstr "不受支援的引數：%s"
+
+#: fdisks/fdisk.c:501
+#, fuzzy
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr "警告：-b (設定磁區大小) 選項應該與一個指定裝置共同使用\n"
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr ""
+
+#: fdisks/fdisk.c:542
+#, fuzzy
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"歡迎使用 fdisk (%s)。\n"
+"\n"
+"變更將剩下在中記憶體只有，直到您決定到寫入它們。\n"
+"請小心之前使用寫入命令。\n"
+"\n"
+
+#: fdisks/fdisk.c:547
+#, fuzzy
+msgid "Device does not contain a recognized partition table."
+msgstr "裝置不包含辨識的分割表\n"
 
 #: fdisks/sfdisk.c:112
 #, fuzzy, c-format
@@ -5558,6 +5559,25 @@ msgstr "BBT"
 #, c-format
 msgid "failed to execute %s"
 msgstr "執行 %s 時失敗"
+
+#: lib/pager.c:102
+#, fuzzy, c-format
+msgid "waitpid failed (%s)"
+msgstr "waitpid 失敗 (%s)"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+msgid "failed to callocate cpu set"
+msgstr "callocate cpu 集合時失敗"
+
+#: lib/path.c:203
+#, fuzzy, c-format
+msgid "failed to parse CPU list %s"
+msgstr "剖析 CPU 清單 %s 時失敗"
+
+#: lib/path.c:206
+#, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "剖析 CPU 遮罩 %s 時失敗"
 
 #: libfdisk/src/alignment.c:108
 #, c-format
@@ -7235,25 +7255,6 @@ msgstr ""
 "如果您很確定想要該分割區被\n"
 "標示為 82 (Linux 交換區) 就輸入 YES："
 
-#: lib/pager.c:102
-#, fuzzy, c-format
-msgid "waitpid failed (%s)"
-msgstr "waitpid 失敗 (%s)"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-msgid "failed to callocate cpu set"
-msgstr "callocate cpu 集合時失敗"
-
-#: lib/path.c:203
-#, fuzzy, c-format
-msgid "failed to parse CPU list %s"
-msgstr "剖析 CPU 清單 %s 時失敗"
-
-#: lib/path.c:206
-#, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "剖析 CPU 遮罩 %s 時失敗"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, fuzzy, c-format
 msgid " %s [options] [username]\n"
@@ -7495,6 +7496,42 @@ msgstr "沒有已知命令殼。"
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "用法：%s [選項] [檔案...]\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr "用法：last [-#] [-f file] [-t tty] [-h hostname] [user…]\n"
+
+#: login-utils/last-deprecated.c:252
+#, fuzzy, c-format
+msgid "%s: mmap failed"
+msgstr "%s：mmap 失敗"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  仍然在登入狀態"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp 開始 %s"
+
+#: login-utils/last-deprecated.c:433
+#, fuzzy
+msgid "gethostname failed"
+msgstr "gethostname 失敗"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"發生插斷 %10.10s %5.5s\n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, fuzzy, c-format
 msgid "unknown time format: %s"
@@ -7602,42 +7639,6 @@ msgstr "剖析列號的時失敗"
 #, fuzzy, c-format
 msgid "invalid time value \"%s\""
 msgstr "無效的逾時引數"
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr "用法：last [-#] [-f file] [-t tty] [-h hostname] [user…]\n"
-
-#: login-utils/last-deprecated.c:252
-#, fuzzy, c-format
-msgid "%s: mmap failed"
-msgstr "%s：mmap 失敗"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  仍然在登入狀態"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp 開始 %s"
-
-#: login-utils/last-deprecated.c:433
-#, fuzzy
-msgid "gethostname failed"
-msgstr "gethostname 失敗"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"發生插斷 %10.10s %5.5s\n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -12463,6 +12464,190 @@ msgstr "%s：FITRIM ioctl 失敗"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr "%s：%<PRIu64> 位元組被已修整\n"
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "從 MILO 開機\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "Ruffian BCD 時鐘\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "時鐘通訊埠調整到 0x%x\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "畏縮的玩具！\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, fuzzy, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "基元的 %s 失敗的用於 1000 反覆運算！"
+
+#: sys-utils/hwclock-cmos.c:318
+#, fuzzy, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr "cmosread()(_R)：寫入控制位址 %X 失敗：%m\n"
+
+#: sys-utils/hwclock-cmos.c:322
+#, fuzzy, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr "cmosread()(_R)：讀取資料位址 %X 失敗：%m\n"
+
+#: sys-utils/hwclock-cmos.c:359
+#, fuzzy, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr "cmoswrite()(_W)：寫入控制位址 %X 失敗：%m\n"
+
+#: sys-utils/hwclock-cmos.c:364
+#, fuzzy, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr "cmoswrite()(_W)：寫入資料位址 %X 失敗：%m\n"
+
+#: sys-utils/hwclock-cmos.c:639
+#, fuzzy
+msgid "I failed to get permission because I didn't try."
+msgstr "我無法提取權限因為我並未嘗試。"
+
+#: sys-utils/hwclock-cmos.c:642
+#, fuzzy
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr "無法提取 I/O 通訊埠存取： iopl (3) 呼叫失敗。"
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "您大概需要系統管理者權限。\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "循環等待自 KDGHWCLK 變更起的時間\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "KDGHWCLK ioctl 讀取時間失敗"
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr "KDGHWCLK ioctl 讀取時間於循環中失敗"
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+#, fuzzy
+msgid "Timed out waiting for time change."
+msgstr "已逾時等待時間變更。"
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "ioctl() 從 %s 讀取時間失敗"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "ioctl KDSHWCLK 失敗"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "無法開啟 /dev/tty1 或 /dev/vc/1"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "KDGHWCLK ioctl 失敗"
+
+#: sys-utils/hwclock-rtc.c:195
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "ioctl (%s) 到 %s 到讀取時間失敗"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "循環等候自 %s 變更起的時間\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "%s 沒有插斷函式。"
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "%s 的 read() 等候時鐘週期失敗"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "%s 的 select() 等候時鐘週期失敗"
+
+#: sys-utils/hwclock-rtc.c:317
+#, fuzzy, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr "選取() 到 %s 到等待時鐘週期已逾時"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr "%s 的 ioctl() 關閉更新插斷失敗"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr "%s 的 ioctl() 打開更新插斷意外地失敗"
+
+#: sys-utils/hwclock-rtc.c:383
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr "ioctl (%s) 到 %s 到設定時間失敗。"
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "ioctl(%s) 原本成功。\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, fuzzy, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"要操控時期值在中內核，我們必須存取 Linux『rtc』裝置驅動程式透過裝置特殊檔案 "
+"%s。 這個檔案不存在於這個系統。"
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "%s 的 ioctl(RTC_EPOCH_READ) 失敗"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr "我們已從具備 RTC_EPOCH_READ ioctl 的 %2$s 讀取了時期 %1$ld。\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, fuzzy, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr "時期值可能無法是少於 1900. 您要求的 %ld"
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr "設定 epoch 到 %ld 以及 RTC_EPOCH_SET ioctl 到 %s。\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, fuzzy, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr "內核裝置驅動程式用於 %s 沒有 RTC_EPOCH_SET ioctl。"
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "ioctl(RTC_EPOCH_SET) 到 %s 時失敗"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -13010,190 +13195,6 @@ msgstr "無法存取硬體時鐘透過任何已知方法。"
 msgid ""
 "Use the --debug option to see the details of our search for an access method."
 msgstr "使用 --debug 選項到參看細節的我們的搜尋存取方法。"
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "從 MILO 開機\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "Ruffian BCD 時鐘\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "時鐘通訊埠調整到 0x%x\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "畏縮的玩具！\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, fuzzy, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "基元的 %s 失敗的用於 1000 反覆運算！"
-
-#: sys-utils/hwclock-cmos.c:318
-#, fuzzy, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr "cmosread()(_R)：寫入控制位址 %X 失敗：%m\n"
-
-#: sys-utils/hwclock-cmos.c:322
-#, fuzzy, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr "cmosread()(_R)：讀取資料位址 %X 失敗：%m\n"
-
-#: sys-utils/hwclock-cmos.c:359
-#, fuzzy, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr "cmoswrite()(_W)：寫入控制位址 %X 失敗：%m\n"
-
-#: sys-utils/hwclock-cmos.c:364
-#, fuzzy, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr "cmoswrite()(_W)：寫入資料位址 %X 失敗：%m\n"
-
-#: sys-utils/hwclock-cmos.c:639
-#, fuzzy
-msgid "I failed to get permission because I didn't try."
-msgstr "我無法提取權限因為我並未嘗試。"
-
-#: sys-utils/hwclock-cmos.c:642
-#, fuzzy
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr "無法提取 I/O 通訊埠存取： iopl (3) 呼叫失敗。"
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "您大概需要系統管理者權限。\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "循環等待自 KDGHWCLK 變更起的時間\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "KDGHWCLK ioctl 讀取時間失敗"
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr "KDGHWCLK ioctl 讀取時間於循環中失敗"
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-#, fuzzy
-msgid "Timed out waiting for time change."
-msgstr "已逾時等待時間變更。"
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "ioctl() 從 %s 讀取時間失敗"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "ioctl KDSHWCLK 失敗"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "無法開啟 /dev/tty1 或 /dev/vc/1"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "KDGHWCLK ioctl 失敗"
-
-#: sys-utils/hwclock-rtc.c:195
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "ioctl (%s) 到 %s 到讀取時間失敗"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "循環等候自 %s 變更起的時間\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "%s 沒有插斷函式。"
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "%s 的 read() 等候時鐘週期失敗"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "%s 的 select() 等候時鐘週期失敗"
-
-#: sys-utils/hwclock-rtc.c:317
-#, fuzzy, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr "選取() 到 %s 到等待時鐘週期已逾時"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr "%s 的 ioctl() 關閉更新插斷失敗"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr "%s 的 ioctl() 打開更新插斷意外地失敗"
-
-#: sys-utils/hwclock-rtc.c:383
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr "ioctl (%s) 到 %s 到設定時間失敗。"
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "ioctl(%s) 原本成功。\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, fuzzy, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"要操控時期值在中內核，我們必須存取 Linux『rtc』裝置驅動程式透過裝置特殊檔案 "
-"%s。 這個檔案不存在於這個系統。"
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "%s 的 ioctl(RTC_EPOCH_READ) 失敗"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr "我們已從具備 RTC_EPOCH_READ ioctl 的 %2$s 讀取了時期 %1$ld。\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, fuzzy, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr "時期值可能無法是少於 1900. 您要求的 %ld"
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr "設定 epoch 到 %ld 以及 RTC_EPOCH_SET ioctl 到 %s。\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, fuzzy, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr "內核裝置驅動程式用於 %s 沒有 RTC_EPOCH_SET ioctl。"
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "ioctl(RTC_EPOCH_SET) 到 %s 時失敗"
 
 #: sys-utils/ipcmk.c:69
 #, fuzzy
@@ -16406,6 +16407,11 @@ msgstr ""
 "<裝置>              名稱的裝置為使用\n"
 "<檔案>                名稱的檔案為使用\n"
 
+#: sys-utils/swapon-common.c:62
+#, c-format
+msgid "cannot find the device for %s"
+msgstr "找不到做為 %s 的裝置"
+
 #: sys-utils/swapon.c:100
 #, fuzzy
 msgid "device file or partition path"
@@ -16614,11 +16620,6 @@ msgstr "剖析 pid 時失敗"
 #, fuzzy, c-format
 msgid "unsupported discard policy: %s"
 msgstr "不受支援的引數：%s"
-
-#: sys-utils/swapon-common.c:62
-#, c-format
-msgid "cannot find the device for %s"
-msgstr "找不到做為 %s 的裝置"
 
 #: sys-utils/switch_root.c:57
 #, fuzzy

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux 2.24-rc2\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2013-10-11 15:51+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
@@ -35,28 +35,29 @@ msgstr " %s <дисковий пристрій> <номер розділу> <п�
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "не вдалося відкрити %s"
@@ -342,8 +343,8 @@ msgstr "%s не змонтовано\n"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, c-format
 msgid "cannot read %s"
@@ -3539,212 +3540,6 @@ msgstr "Тип розділу (введіть L, щоб переглянути �
 msgid "Hex code (type L to list all codes): "
 msgstr "Шістнадцятковий код (наберіть L, щоб переглянути список кодів): "
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-" %1$s [параметри] <диск>    змірити таблицю розділів\n"
-" %1$s [параметри] -l <диск> показати список таблиць розділів\n"
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr " -b <розмір>       розмір сектора (512, 1024, 2048 або 4096)\n"
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr " -c[=<режим>]      режим сумісності: «dos» або «nondos» (типовий)\n"
-
-#: fdisks/fdisk.c:60
-msgid " -h                print this help text\n"
-msgstr " -h                вивести це довідкове повідомлення\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr ""
-" -L[=<умова>]      розфарбовування виведених даних (auto (авто),\n"
-"                     always (завжди) або never (ніколи))\n"
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr ""
-" -t <тип>          наказати fdisk розпізнавати лише таблицю розділів "
-"вказаного типу\n"
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-" -u[=<одиниця>]    одиниці показу даних: «cylinders» (циліндри) або "
-"«sectors» (сектори, типова)\n"
-
-#: fdisks/fdisk.c:65
-msgid " -v                print program version\n"
-msgstr " -v                вивести дані щодо версії програми\n"
-
-#: fdisks/fdisk.c:66
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr " -C <кількість>    вказати кількість циліндрів\n"
-
-#: fdisks/fdisk.c:67
-msgid " -H <number>       specify the number of heads\n"
-msgstr " -H <кількість>    вказати кількість голівок\n"
-
-#: fdisks/fdisk.c:68
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr " -S <кількість>    вказати кількість секторів на доріжку\n"
-
-#: fdisks/fdisk.c:151
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "Встановлено прапорець сумісності з DOS (ЗАСТАРІЛЕ!)"
-
-#: fdisks/fdisk.c:152
-msgid "DOS Compatibility flag is not set"
-msgstr "Прапорець сумісності з DOS не встановлено"
-
-#: fdisks/fdisk.c:173
-#, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "Розділу %zu ще не існує!"
-
-#: fdisks/fdisk.c:181
-#, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "Тип розділу «%s» змінено на «%s»."
-
-#: fdisks/fdisk.c:186
-#, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "Тип розділу %zu залишився незмінним: %s."
-
-#: fdisks/fdisk.c:202
-#, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr "Диск %s: %s, %llu байтів, %llu секторів"
-
-#: fdisks/fdisk.c:209
-#, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "Геометрія: %d голівок, %llu секторів/доріжку, %llu циліндрів"
-
-#: fdisks/fdisk.c:212
-#, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Одиниці: %s з %d * %ld = %ld байтів"
-
-#: fdisks/fdisk.c:218
-#, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr "Розмір сектора (логічного/фізичного): %lu байтів / %lu байтів"
-
-#: fdisks/fdisk.c:220
-#, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr ""
-"Розмір введення-виведення (мінімальний/оптимальний): %lu байтів / %lu байтів"
-
-#: fdisks/fdisk.c:223
-#, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "Відступ вирівнювання: %lu байтів"
-
-#: fdisks/fdisk.c:226
-#, c-format
-msgid "Disklabel type: %s"
-msgstr "Тип мітки диска: %s"
-
-#: fdisks/fdisk.c:229
-#, c-format
-msgid "Disk identifier: %s"
-msgstr "Ідентифікатор диска: %s"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-"\n"
-"%s: зсув = %ju, розмір = %zu байтів."
-
-#: fdisks/fdisk.c:281
-msgid "cannot seek"
-msgstr "не вдалося виконати позиціювання"
-
-#: fdisks/fdisk.c:286
-msgid "cannot read"
-msgstr "не вдалося виконати читання"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-msgid "First sector"
-msgstr "Перший сектор"
-
-#: fdisks/fdisk.c:386
-#, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "помилка ioctl BLKGETSIZE на %s"
-
-#: fdisks/fdisk.c:412
-msgid "failed to allocate libfdisk context"
-msgstr "не вдалося розмістити контекстні дані libfdisk"
-
-#: fdisks/fdisk.c:421
-msgid "invalid sector size argument"
-msgstr "некоректний аргумент розміру сектора"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-msgid "invalid cylinders argument"
-msgstr "некоректний аргумент кількості циліндрів"
-
-#: fdisks/fdisk.c:439
-msgid "not found DOS label driver"
-msgstr "не знайдено драйвера міток DOS"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-msgid "invalid heads argument"
-msgstr "некоректний аргумент кількості голівок"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-msgid "invalid sectors argument"
-msgstr "некоректний аргумент кількості секторів"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-msgid "unsupported color mode"
-msgstr "непідтримуваний режим розфарбовування"
-
-#: fdisks/fdisk.c:480
-#, c-format
-msgid "unsupported disklabel: %s"
-msgstr "непідтримувана мітка диска: %s"
-
-#: fdisks/fdisk.c:501
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-"Властивості пристрою (розмір сектора та геометрію) слід використовувати лише "
-"для одного вказаного пристрою."
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr "Вітаємо у fdisk (%s)."
-
-#: fdisks/fdisk.c:542
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"Зміни буде збережено у пам'яті, доки ви не вирішите записати їх.\n"
-"Будьте обережні з використанням команди запису.\n"
-
-#: fdisks/fdisk.c:547
-msgid "Device does not contain a recognized partition table."
-msgstr "Пристрій не містить розпізнаної таблиці розділів."
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr "Загальне"
@@ -4049,6 +3844,212 @@ msgstr "Кількість голівок"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "Кількість секторів"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+" %1$s [параметри] <диск>    змірити таблицю розділів\n"
+" %1$s [параметри] -l <диск> показати список таблиць розділів\n"
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr " -b <розмір>       розмір сектора (512, 1024, 2048 або 4096)\n"
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr " -c[=<режим>]      режим сумісності: «dos» або «nondos» (типовий)\n"
+
+#: fdisks/fdisk.c:60
+msgid " -h                print this help text\n"
+msgstr " -h                вивести це довідкове повідомлення\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr ""
+" -L[=<умова>]      розфарбовування виведених даних (auto (авто),\n"
+"                     always (завжди) або never (ніколи))\n"
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr ""
+" -t <тип>          наказати fdisk розпізнавати лише таблицю розділів "
+"вказаного типу\n"
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+" -u[=<одиниця>]    одиниці показу даних: «cylinders» (циліндри) або "
+"«sectors» (сектори, типова)\n"
+
+#: fdisks/fdisk.c:65
+msgid " -v                print program version\n"
+msgstr " -v                вивести дані щодо версії програми\n"
+
+#: fdisks/fdisk.c:66
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr " -C <кількість>    вказати кількість циліндрів\n"
+
+#: fdisks/fdisk.c:67
+msgid " -H <number>       specify the number of heads\n"
+msgstr " -H <кількість>    вказати кількість голівок\n"
+
+#: fdisks/fdisk.c:68
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr " -S <кількість>    вказати кількість секторів на доріжку\n"
+
+#: fdisks/fdisk.c:151
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "Встановлено прапорець сумісності з DOS (ЗАСТАРІЛЕ!)"
+
+#: fdisks/fdisk.c:152
+msgid "DOS Compatibility flag is not set"
+msgstr "Прапорець сумісності з DOS не встановлено"
+
+#: fdisks/fdisk.c:173
+#, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "Розділу %zu ще не існує!"
+
+#: fdisks/fdisk.c:181
+#, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "Тип розділу «%s» змінено на «%s»."
+
+#: fdisks/fdisk.c:186
+#, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "Тип розділу %zu залишився незмінним: %s."
+
+#: fdisks/fdisk.c:202
+#, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr "Диск %s: %s, %llu байтів, %llu секторів"
+
+#: fdisks/fdisk.c:209
+#, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "Геометрія: %d голівок, %llu секторів/доріжку, %llu циліндрів"
+
+#: fdisks/fdisk.c:212
+#, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Одиниці: %s з %d * %ld = %ld байтів"
+
+#: fdisks/fdisk.c:218
+#, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr "Розмір сектора (логічного/фізичного): %lu байтів / %lu байтів"
+
+#: fdisks/fdisk.c:220
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr ""
+"Розмір введення-виведення (мінімальний/оптимальний): %lu байтів / %lu байтів"
+
+#: fdisks/fdisk.c:223
+#, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "Відступ вирівнювання: %lu байтів"
+
+#: fdisks/fdisk.c:226
+#, c-format
+msgid "Disklabel type: %s"
+msgstr "Тип мітки диска: %s"
+
+#: fdisks/fdisk.c:229
+#, c-format
+msgid "Disk identifier: %s"
+msgstr "Ідентифікатор диска: %s"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+"\n"
+"%s: зсув = %ju, розмір = %zu байтів."
+
+#: fdisks/fdisk.c:281
+msgid "cannot seek"
+msgstr "не вдалося виконати позиціювання"
+
+#: fdisks/fdisk.c:286
+msgid "cannot read"
+msgstr "не вдалося виконати читання"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+msgid "First sector"
+msgstr "Перший сектор"
+
+#: fdisks/fdisk.c:386
+#, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "помилка ioctl BLKGETSIZE на %s"
+
+#: fdisks/fdisk.c:412
+msgid "failed to allocate libfdisk context"
+msgstr "не вдалося розмістити контекстні дані libfdisk"
+
+#: fdisks/fdisk.c:421
+msgid "invalid sector size argument"
+msgstr "некоректний аргумент розміру сектора"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+msgid "invalid cylinders argument"
+msgstr "некоректний аргумент кількості циліндрів"
+
+#: fdisks/fdisk.c:439
+msgid "not found DOS label driver"
+msgstr "не знайдено драйвера міток DOS"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+msgid "invalid heads argument"
+msgstr "некоректний аргумент кількості голівок"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+msgid "invalid sectors argument"
+msgstr "некоректний аргумент кількості секторів"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+msgid "unsupported color mode"
+msgstr "непідтримуваний режим розфарбовування"
+
+#: fdisks/fdisk.c:480
+#, c-format
+msgid "unsupported disklabel: %s"
+msgstr "непідтримувана мітка диска: %s"
+
+#: fdisks/fdisk.c:501
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+"Властивості пристрою (розмір сектора та геометрію) слід використовувати лише "
+"для одного вказаного пристрою."
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr "Вітаємо у fdisk (%s)."
+
+#: fdisks/fdisk.c:542
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"Зміни буде збережено у пам'яті, доки ви не вирішите записати їх.\n"
+"Будьте обережні з використанням команди запису.\n"
+
+#: fdisks/fdisk.c:547
+msgid "Device does not contain a recognized partition table."
+msgstr "Пристрій не містить розпізнаної таблиці розділів."
 
 #: fdisks/sfdisk.c:112
 #, c-format
@@ -5454,6 +5455,25 @@ msgstr "BBT"
 #, c-format
 msgid "failed to execute %s"
 msgstr "не вдалося виконати %s"
+
+#: lib/pager.c:102
+#, c-format
+msgid "waitpid failed (%s)"
+msgstr "помилка waitpid (%s)"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+msgid "failed to callocate cpu set"
+msgstr "не вдалося виконати callocate для набору процесорів"
+
+#: lib/path.c:203
+#, c-format
+msgid "failed to parse CPU list %s"
+msgstr "не вдалося обробити список процесорів %s"
+
+#: lib/path.c:206
+#, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "не вдалося обробити маску процесорів %s"
 
 #: libfdisk/src/alignment.c:108
 #, c-format
@@ -7035,25 +7055,6 @@ msgstr ""
 "можна зруйнувати таблицю розділів та завантажувальний блок.\n"
 "Ви справді хочете позначити розділ як резервний розділ (swap) Linux?"
 
-#: lib/pager.c:102
-#, c-format
-msgid "waitpid failed (%s)"
-msgstr "помилка waitpid (%s)"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-msgid "failed to callocate cpu set"
-msgstr "не вдалося виконати callocate для набору процесорів"
-
-#: lib/path.c:203
-#, c-format
-msgid "failed to parse CPU list %s"
-msgstr "не вдалося обробити список процесорів %s"
-
-#: lib/path.c:206
-#, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "не вдалося обробити маску процесорів %s"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, c-format
 msgid " %s [options] [username]\n"
@@ -7277,6 +7278,43 @@ msgstr "Немає відомих оболонок."
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "Користування: %s <файл_паролів> <користувач>...\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr ""
+"Користування: last [-#] [-f file] [-t tty] [-h назва_вузла] "
+"[користувач ...]\n"
+
+#: login-utils/last-deprecated.c:252
+#, c-format
+msgid "%s: mmap failed"
+msgstr "%s: помилка mmap"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  досі у системі"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp починається %s"
+
+#: login-utils/last-deprecated.c:433
+msgid "gethostname failed"
+msgstr "помилка gethostname"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"перервано %10.10s %5.5s \n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, c-format
 msgid "unknown time format: %s"
@@ -7386,43 +7424,6 @@ msgstr "не вдалося обробити число"
 #, c-format
 msgid "invalid time value \"%s\""
 msgstr "некоректне значення часу, «%s»"
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr ""
-"Користування: last [-#] [-f file] [-t tty] [-h назва_вузла] "
-"[користувач ...]\n"
-
-#: login-utils/last-deprecated.c:252
-#, c-format
-msgid "%s: mmap failed"
-msgstr "%s: помилка mmap"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  досі у системі"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp починається %s"
-
-#: login-utils/last-deprecated.c:433
-msgid "gethostname failed"
-msgstr "помилка gethostname"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"перервано %10.10s %5.5s \n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -12162,6 +12163,192 @@ msgstr "%s: помилка ioctl FITRIM"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr "%s: %s (%<PRIu64> байтів) обрізано\n"
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "система завантажена з MILO\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "Ruffian BCD годинник\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "порт годинника настроєно на 0x%x\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "боязливий TOY!\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "помилка атомарної дії %s протягом 1000 ітерацій!"
+
+#: sys-utils/hwclock-cmos.c:318
+#, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr "cmos_read(): спроба запису за контрольною адресою %X зазнала невдачі"
+
+#: sys-utils/hwclock-cmos.c:322
+#, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr "cmos_read(): спроба читання за адресою %X зазнала невдачі"
+
+#: sys-utils/hwclock-cmos.c:359
+#, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr "cmos_write(): спроба запису за контрольною адресою %X зазнала невдачі"
+
+#: sys-utils/hwclock-cmos.c:364
+#, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr "cmos_write(): спроба запису даних за адресою %X зазнала невдачі"
+
+#: sys-utils/hwclock-cmos.c:639
+msgid "I failed to get permission because I didn't try."
+msgstr "Не вдалося отримати дозвіл, оскільки не було зроблено спроби."
+
+#: sys-utils/hwclock-cmos.c:642
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr ""
+"не вдалося отримати доступ до порту введення-виведення:  помилка системного "
+"виклику iopl(3)."
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "Можливо слід мати права адміністратора.\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "Очікування зміни часу з KDGHWCLK у циклі\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "Помилка зчитування часу з системному виклику ioctl KDGHWCLK"
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr "Помилка зчитування у циклі часу з системному виклику ioctl KDGHWCLK"
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+msgid "Timed out waiting for time change."
+msgstr "Перевищено час очікування на зміну часу."
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "помилка зчитування часу у ioctl() з %s"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "помилка ioctl KDSHWCLK"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "не вдалося відкрити /dev/tty1 чи /dev/vc/1"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "помилка ioctl KDSHWCLK"
+
+#: sys-utils/hwclock-rtc.c:195
+#, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "спроба виконання ioctl(%s) до %s для читання часу зазнала невдачі"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "Очікування зміни часу з %s у циклі\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "%s не має функції переривання."
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "помилка очікування у циклі в read() для %s"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "помилка очікування у циклі в select() для %s"
+
+#: sys-utils/hwclock-rtc.c:317
+#, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr "перевищено час очікування у циклі для select() щодо %s"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr "помилка вимкнення оновлення переривань у ioctl() для %s"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr "неочікувана помилка вимкнення оновлення переривань у ioctl() для %s"
+
+#: sys-utils/hwclock-rtc.c:383
+#, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr ""
+"спроба виконання ioctl(%s) для %s з метою встановлення значення часу зазнала "
+"невдачі."
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "ioctl(%s) успішно виконано.\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"Для роботи зі значенням епохи у ядрі потрібен доступ до драйвера пристрою "
+"«rtc» Linux за допомогою спеціального файла %s. У цій системі такого файла "
+"не існує."
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "помилка у ioctl(RTC_EPOCH_READ) для %s"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr "прочитано значення епохи %ld з %s через RTC_EPOCH_READ ioctl.\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr "Значення епохи не може бути нижчим за 1900. Ви вказали %ld"
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr "встановлюється епоха = %ld через RTC_EPOCH_SET ioctl у %s.\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr "Драйвер ядра для пристрою %s не містить ioctl RTC_EPOCH_SET."
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "помилка у ioctl(RTC_EPOCH_SET) для %s"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12727,192 +12914,6 @@ msgid ""
 msgstr ""
 "Скористайтеся параметром --debug для отримання додаткових відомостей щодо "
 "пошуку способу доступу."
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "система завантажена з MILO\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "Ruffian BCD годинник\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "порт годинника настроєно на 0x%x\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "боязливий TOY!\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "помилка атомарної дії %s протягом 1000 ітерацій!"
-
-#: sys-utils/hwclock-cmos.c:318
-#, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr "cmos_read(): спроба запису за контрольною адресою %X зазнала невдачі"
-
-#: sys-utils/hwclock-cmos.c:322
-#, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr "cmos_read(): спроба читання за адресою %X зазнала невдачі"
-
-#: sys-utils/hwclock-cmos.c:359
-#, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr "cmos_write(): спроба запису за контрольною адресою %X зазнала невдачі"
-
-#: sys-utils/hwclock-cmos.c:364
-#, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr "cmos_write(): спроба запису даних за адресою %X зазнала невдачі"
-
-#: sys-utils/hwclock-cmos.c:639
-msgid "I failed to get permission because I didn't try."
-msgstr "Не вдалося отримати дозвіл, оскільки не було зроблено спроби."
-
-#: sys-utils/hwclock-cmos.c:642
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr ""
-"не вдалося отримати доступ до порту введення-виведення:  помилка системного "
-"виклику iopl(3)."
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "Можливо слід мати права адміністратора.\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "Очікування зміни часу з KDGHWCLK у циклі\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "Помилка зчитування часу з системному виклику ioctl KDGHWCLK"
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr "Помилка зчитування у циклі часу з системному виклику ioctl KDGHWCLK"
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-msgid "Timed out waiting for time change."
-msgstr "Перевищено час очікування на зміну часу."
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "помилка зчитування часу у ioctl() з %s"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "помилка ioctl KDSHWCLK"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "не вдалося відкрити /dev/tty1 чи /dev/vc/1"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "помилка ioctl KDSHWCLK"
-
-#: sys-utils/hwclock-rtc.c:195
-#, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "спроба виконання ioctl(%s) до %s для читання часу зазнала невдачі"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "Очікування зміни часу з %s у циклі\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "%s не має функції переривання."
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "помилка очікування у циклі в read() для %s"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "помилка очікування у циклі в select() для %s"
-
-#: sys-utils/hwclock-rtc.c:317
-#, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr "перевищено час очікування у циклі для select() щодо %s"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr "помилка вимкнення оновлення переривань у ioctl() для %s"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr "неочікувана помилка вимкнення оновлення переривань у ioctl() для %s"
-
-#: sys-utils/hwclock-rtc.c:383
-#, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr ""
-"спроба виконання ioctl(%s) для %s з метою встановлення значення часу зазнала "
-"невдачі."
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "ioctl(%s) успішно виконано.\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"Для роботи зі значенням епохи у ядрі потрібен доступ до драйвера пристрою "
-"«rtc» Linux за допомогою спеціального файла %s. У цій системі такого файла "
-"не існує."
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "помилка у ioctl(RTC_EPOCH_READ) для %s"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr "прочитано значення епохи %ld з %s через RTC_EPOCH_READ ioctl.\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr "Значення епохи не може бути нижчим за 1900. Ви вказали %ld"
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr "встановлюється епоха = %ld через RTC_EPOCH_SET ioctl у %s.\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr "Драйвер ядра для пристрою %s не містить ioctl RTC_EPOCH_SET."
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "помилка у ioctl(RTC_EPOCH_SET) для %s"
 
 #: sys-utils/ipcmk.c:69
 msgid " -M, --shmem <size>       create shared memory segment of size <size>\n"
@@ -16008,6 +16009,11 @@ msgstr ""
 " <пристрій>             назва пристрою, який буде використано\n"
 " <файл>                 назва файла, який буде використано\n"
 
+#: sys-utils/swapon-common.c:62
+#, c-format
+msgid "cannot find the device for %s"
+msgstr "не вдалося знайти пристрій для %s"
+
 #: sys-utils/swapon.c:100
 msgid "device file or partition path"
 msgstr "файл пристрою або шлях до розділу"
@@ -16224,11 +16230,6 @@ msgstr "не вдалося обробити значення пріоритет
 #, c-format
 msgid "unsupported discard policy: %s"
 msgstr "непідтримувані правила відкидання: %s"
-
-#: sys-utils/swapon-common.c:62
-#, c-format
-msgid "cannot find the device for %s"
-msgstr "не вдалося знайти пристрій для %s"
 
 #: sys-utils/switch_root.c:57
 msgid "failed to open directory"

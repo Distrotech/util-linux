@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux-ng 2.17.1-rc1\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2010-02-16 19:58+0100\n"
 "Last-Translator: Mikel Olasagasti Uranga <hey_neken@mundurat.net>\n"
 "Language-Team: Basque <translation-team-eu@lists.sourceforge.net>\n"
@@ -33,28 +33,29 @@ msgstr ""
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "ezin da %s ireki"
@@ -334,8 +335,8 @@ msgstr "fsck: %s: ez da aurkitu\n"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, fuzzy, c-format
 msgid "cannot read %s"
@@ -3461,219 +3462,6 @@ msgstr "Kode hexadezimala (sakatu L kodeak zerrendatzeko): "
 msgid "Hex code (type L to list all codes): "
 msgstr "Kode hexadezimala (sakatu L kodeak zerrendatzeko): "
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:60
-#, fuzzy
-msgid " -h                print this help text\n"
-msgstr "Inprimatu taula sektore bidez ordenatua"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr ""
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:65
-#, fuzzy
-msgid " -v                print program version\n"
-msgstr "Inprimatu taula sektore bidez ordenatua"
-
-#: fdisks/fdisk.c:66
-#, fuzzy
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr "Sartu zilindro kopurua:"
-
-#: fdisks/fdisk.c:67
-#, fuzzy
-msgid " -H <number>       specify the number of heads\n"
-msgstr "Sartu buru kopurua:"
-
-#: fdisks/fdisk.c:68
-#, fuzzy
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr "Sartu pistako zenbat sektore kopurua:"
-
-#: fdisks/fdisk.c:151
-#, fuzzy
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "DOS bateragarritasun marka ezarrita dago\n"
-
-#: fdisks/fdisk.c:152
-#, fuzzy
-msgid "DOS Compatibility flag is not set"
-msgstr "DOS bateragarritasun marka ez dago ezarrita\n"
-
-#: fdisks/fdisk.c:173
-#, fuzzy, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr ""
-"\n"
-"Ez da swap partiziorik existitzen.\n"
-
-#: fdisks/fdisk.c:181
-#, fuzzy, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "   t   aldatu paritzioaren fitxategi sistema IDa"
-
-#: fdisks/fdisk.c:186
-#, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr ""
-
-#: fdisks/fdisk.c:202
-#, fuzzy, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr "Buruak: %d   Sektoreak pistako: %d   Zilindroak: %lld"
-
-#: fdisks/fdisk.c:209
-#, fuzzy, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "%d buru, %llu sektore pistako, %d zilindro"
-
-#: fdisks/fdisk.c:212
-#, fuzzy, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Unitateak: %s %d-(e)tik * %d = %d byte\n"
-
-#: fdisks/fdisk.c:218
-#, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr ""
-
-#: fdisks/fdisk.c:220
-#, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr ""
-
-#: fdisks/fdisk.c:223
-#, fuzzy, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "lortu irakurketa soilik"
-
-#: fdisks/fdisk.c:226
-#, fuzzy, c-format
-msgid "Disklabel type: %s"
-msgstr "Disko unitatea: %s\n"
-
-#: fdisks/fdisk.c:229
-#, fuzzy, c-format
-msgid "Disk identifier: %s"
-msgstr "Disko identifikatzailea: 0x%08x\n"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-
-#: fdisks/fdisk.c:281
-#, fuzzy
-msgid "cannot seek"
-msgstr "ezin da fork egin"
-
-#: fdisks/fdisk.c:286
-#, fuzzy
-msgid "cannot read"
-msgstr "hexdump: ezin da %s  irakurri.\n"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-#, fuzzy
-msgid "First sector"
-msgstr "Lehenengo %s"
-
-#: fdisks/fdisk.c:386
-#, fuzzy, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "KDGHWCLK ioctl-ek huts egin du"
-
-#: fdisks/fdisk.c:412
-#, fuzzy
-msgid "failed to allocate libfdisk context"
-msgstr "huts egin da lerro buffer-a hasieratzen\n"
-
-#: fdisks/fdisk.c:421
-#, fuzzy
-msgid "invalid sector size argument"
-msgstr "baliogabeko aukera"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-#, fuzzy
-msgid "invalid cylinders argument"
-msgstr "baliogabeko aukera"
-
-#: fdisks/fdisk.c:439
-#, fuzzy
-msgid "not found DOS label driver"
-msgstr ""
-"\n"
-"BSD etiketa gailuarentzat: %s\n"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-#, fuzzy
-msgid "invalid heads argument"
-msgstr "baliogabeko aukera"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-#, fuzzy
-msgid "invalid sectors argument"
-msgstr "baliogabeko aukera"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-#, fuzzy
-msgid "unsupported color mode"
-msgstr "%s: Komando ezezaguna: %s\n"
-
-#: fdisks/fdisk.c:480
-#, fuzzy, c-format
-msgid "unsupported disklabel: %s"
-msgstr "%s: Komando ezezaguna: %s\n"
-
-#: fdisks/fdisk.c:501
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr ""
-
-#: fdisks/fdisk.c:542
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-
-#: fdisks/fdisk.c:547
-#, fuzzy
-msgid "Device does not contain a recognized partition table."
-msgstr "%s diskak ez dauka partizio taula zuzena\n"
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr ""
@@ -4037,6 +3825,219 @@ msgstr "Buru kopurua"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "Sektore kopurua pistako"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:60
+#, fuzzy
+msgid " -h                print this help text\n"
+msgstr "Inprimatu taula sektore bidez ordenatua"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr ""
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:65
+#, fuzzy
+msgid " -v                print program version\n"
+msgstr "Inprimatu taula sektore bidez ordenatua"
+
+#: fdisks/fdisk.c:66
+#, fuzzy
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr "Sartu zilindro kopurua:"
+
+#: fdisks/fdisk.c:67
+#, fuzzy
+msgid " -H <number>       specify the number of heads\n"
+msgstr "Sartu buru kopurua:"
+
+#: fdisks/fdisk.c:68
+#, fuzzy
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr "Sartu pistako zenbat sektore kopurua:"
+
+#: fdisks/fdisk.c:151
+#, fuzzy
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "DOS bateragarritasun marka ezarrita dago\n"
+
+#: fdisks/fdisk.c:152
+#, fuzzy
+msgid "DOS Compatibility flag is not set"
+msgstr "DOS bateragarritasun marka ez dago ezarrita\n"
+
+#: fdisks/fdisk.c:173
+#, fuzzy, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr ""
+"\n"
+"Ez da swap partiziorik existitzen.\n"
+
+#: fdisks/fdisk.c:181
+#, fuzzy, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "   t   aldatu paritzioaren fitxategi sistema IDa"
+
+#: fdisks/fdisk.c:186
+#, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr ""
+
+#: fdisks/fdisk.c:202
+#, fuzzy, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr "Buruak: %d   Sektoreak pistako: %d   Zilindroak: %lld"
+
+#: fdisks/fdisk.c:209
+#, fuzzy, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "%d buru, %llu sektore pistako, %d zilindro"
+
+#: fdisks/fdisk.c:212
+#, fuzzy, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Unitateak: %s %d-(e)tik * %d = %d byte\n"
+
+#: fdisks/fdisk.c:218
+#, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr ""
+
+#: fdisks/fdisk.c:220
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr ""
+
+#: fdisks/fdisk.c:223
+#, fuzzy, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "lortu irakurketa soilik"
+
+#: fdisks/fdisk.c:226
+#, fuzzy, c-format
+msgid "Disklabel type: %s"
+msgstr "Disko unitatea: %s\n"
+
+#: fdisks/fdisk.c:229
+#, fuzzy, c-format
+msgid "Disk identifier: %s"
+msgstr "Disko identifikatzailea: 0x%08x\n"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+
+#: fdisks/fdisk.c:281
+#, fuzzy
+msgid "cannot seek"
+msgstr "ezin da fork egin"
+
+#: fdisks/fdisk.c:286
+#, fuzzy
+msgid "cannot read"
+msgstr "hexdump: ezin da %s  irakurri.\n"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+#, fuzzy
+msgid "First sector"
+msgstr "Lehenengo %s"
+
+#: fdisks/fdisk.c:386
+#, fuzzy, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "KDGHWCLK ioctl-ek huts egin du"
+
+#: fdisks/fdisk.c:412
+#, fuzzy
+msgid "failed to allocate libfdisk context"
+msgstr "huts egin da lerro buffer-a hasieratzen\n"
+
+#: fdisks/fdisk.c:421
+#, fuzzy
+msgid "invalid sector size argument"
+msgstr "baliogabeko aukera"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+#, fuzzy
+msgid "invalid cylinders argument"
+msgstr "baliogabeko aukera"
+
+#: fdisks/fdisk.c:439
+#, fuzzy
+msgid "not found DOS label driver"
+msgstr ""
+"\n"
+"BSD etiketa gailuarentzat: %s\n"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+#, fuzzy
+msgid "invalid heads argument"
+msgstr "baliogabeko aukera"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+#, fuzzy
+msgid "invalid sectors argument"
+msgstr "baliogabeko aukera"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+#, fuzzy
+msgid "unsupported color mode"
+msgstr "%s: Komando ezezaguna: %s\n"
+
+#: fdisks/fdisk.c:480
+#, fuzzy, c-format
+msgid "unsupported disklabel: %s"
+msgstr "%s: Komando ezezaguna: %s\n"
+
+#: fdisks/fdisk.c:501
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr ""
+
+#: fdisks/fdisk.c:542
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+
+#: fdisks/fdisk.c:547
+#, fuzzy
+msgid "Device does not contain a recognized partition table."
+msgstr "%s diskak ez dauka partizio taula zuzena\n"
 
 #: fdisks/sfdisk.c:112
 #, fuzzy, c-format
@@ -5329,6 +5330,26 @@ msgstr "BBT"
 #, c-format
 msgid "failed to execute %s"
 msgstr "huts egin da %s exekutatzen"
+
+#: lib/pager.c:102
+#, fuzzy, c-format
+msgid "waitpid failed (%s)"
+msgstr "waitpid-ek huts egin du"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+#, fuzzy
+msgid "failed to callocate cpu set"
+msgstr "huts egin da lerro buffer-a hasieratzen\n"
+
+#: lib/path.c:203
+#, fuzzy, c-format
+msgid "failed to parse CPU list %s"
+msgstr "huts egin da lerro buffer-a hasieratzen\n"
+
+#: lib/path.c:206
+#, fuzzy, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "huts egin da lerro buffer-a hasieratzen\n"
 
 #: libfdisk/src/alignment.c:108
 #, fuzzy, c-format
@@ -6921,26 +6942,6 @@ msgid ""
 "Are you sure you want to tag the partition as Linux swap?"
 msgstr ""
 
-#: lib/pager.c:102
-#, fuzzy, c-format
-msgid "waitpid failed (%s)"
-msgstr "waitpid-ek huts egin du"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-#, fuzzy
-msgid "failed to callocate cpu set"
-msgstr "huts egin da lerro buffer-a hasieratzen\n"
-
-#: lib/path.c:203
-#, fuzzy, c-format
-msgid "failed to parse CPU list %s"
-msgstr "huts egin da lerro buffer-a hasieratzen\n"
-
-#: lib/path.c:206
-#, fuzzy, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "huts egin da lerro buffer-a hasieratzen\n"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, fuzzy, c-format
 msgid " %s [options] [username]\n"
@@ -7170,6 +7171,39 @@ msgstr "Ez dago partizio taularik.\n"
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "erabilera: %s [fitxategia]\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr ""
+
+#: login-utils/last-deprecated.c:252
+#, fuzzy, c-format
+msgid "%s: mmap failed"
+msgstr "%s: swapon-ek huts egin du"
+
+#: login-utils/last-deprecated.c:312
+#, fuzzy
+msgid "  still logged in"
+msgstr "Markatu erabilia dagoela"
+
+#: login-utils/last-deprecated.c:334
+#, fuzzy, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr "Partizioa 0 sektorea baina lehenago hasten da"
+
+#: login-utils/last-deprecated.c:433
+#, fuzzy
+msgid "gethostname failed"
+msgstr "errorea: uname-k huts egin du"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, fuzzy, c-format
 msgid "unknown time format: %s"
@@ -7272,39 +7306,6 @@ msgstr "huts egin da lerro buffer-a hasieratzen\n"
 #, fuzzy, c-format
 msgid "invalid time value \"%s\""
 msgstr "baliogabeko aukera"
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr ""
-
-#: login-utils/last-deprecated.c:252
-#, fuzzy, c-format
-msgid "%s: mmap failed"
-msgstr "%s: swapon-ek huts egin du"
-
-#: login-utils/last-deprecated.c:312
-#, fuzzy
-msgid "  still logged in"
-msgstr "Markatu erabilia dagoela"
-
-#: login-utils/last-deprecated.c:334
-#, fuzzy, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr "Partizioa 0 sektorea baina lehenago hasten da"
-
-#: login-utils/last-deprecated.c:433
-#, fuzzy
-msgid "gethostname failed"
-msgstr "errorea: uname-k huts egin du"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -11717,6 +11718,188 @@ msgstr " %s: write-k huts egin du"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr ""
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "Ruffian BCD erlojua\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:292
+#, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:318
+#, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:322
+#, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:359
+#, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:364
+#, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:639
+#, fuzzy
+msgid "I failed to get permission because I didn't try."
+msgstr "huts egin da lerro buffer-a hasieratzen\n"
+
+#: sys-utils/hwclock-cmos.c:642
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr ""
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr ""
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr ""
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr ""
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+msgid "Timed out waiting for time change."
+msgstr ""
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr ""
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "ioctl KDSHWCLK-ek huts egin du"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr ""
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "KDGHWCLK ioctl-ek huts egin du"
+
+#: sys-utils/hwclock-rtc.c:195
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "irakurri sistemaren ordua"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:279
+#, fuzzy, c-format
+msgid "%s does not have interrupt functions. "
+msgstr ""
+"\n"
+"Ez da swap partiziorik existitzen.\n"
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:317
+#, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:383
+#, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:468
+#, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:493
+#, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr ""
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr ""
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12176,188 +12359,6 @@ msgstr ""
 #: sys-utils/hwclock.c:1814
 msgid ""
 "Use the --debug option to see the details of our search for an access method."
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "Ruffian BCD erlojua\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:292
-#, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:318
-#, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:322
-#, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:359
-#, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:364
-#, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:639
-#, fuzzy
-msgid "I failed to get permission because I didn't try."
-msgstr "huts egin da lerro buffer-a hasieratzen\n"
-
-#: sys-utils/hwclock-cmos.c:642
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr ""
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr ""
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr ""
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr ""
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-msgid "Timed out waiting for time change."
-msgstr ""
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr ""
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "ioctl KDSHWCLK-ek huts egin du"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr ""
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "KDGHWCLK ioctl-ek huts egin du"
-
-#: sys-utils/hwclock-rtc.c:195
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "irakurri sistemaren ordua"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:279
-#, fuzzy, c-format
-msgid "%s does not have interrupt functions. "
-msgstr ""
-"\n"
-"Ez da swap partiziorik existitzen.\n"
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:317
-#, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:383
-#, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:468
-#, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:493
-#, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr ""
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
 msgstr ""
 
 #: sys-utils/ipcmk.c:69
@@ -15333,6 +15334,13 @@ msgid ""
 " <file>                 name of file to be used\n"
 msgstr ""
 
+#: sys-utils/swapon-common.c:62
+#, fuzzy, c-format
+msgid "cannot find the device for %s"
+msgstr ""
+"\n"
+"BSD etiketa gailuarentzat: %s\n"
+
 #: sys-utils/swapon.c:100
 #, fuzzy
 msgid "device file or partition path"
@@ -15515,13 +15523,6 @@ msgstr "huts egin da lerro buffer-a hasieratzen\n"
 #, fuzzy, c-format
 msgid "unsupported discard policy: %s"
 msgstr "%s: Komando ezezaguna: %s\n"
-
-#: sys-utils/swapon-common.c:62
-#, fuzzy, c-format
-msgid "cannot find the device for %s"
-msgstr ""
-"\n"
-"BSD etiketa gailuarentzat: %s\n"
 
 #: sys-utils/switch_root.c:57
 #, fuzzy

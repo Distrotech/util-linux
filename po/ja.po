@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux 2.20-rc2\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2011-08-29 00:19+0900\n"
 "Last-Translator: Takeshi Hamasaki <hmatrjp@users.sourceforge.jp>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -38,28 +38,29 @@ msgstr "使い方: sfdisk --id デバイス パーティション番号 [ID]\n"
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "%s を open できません"
@@ -343,8 +344,8 @@ msgstr "%s は書庫ではありません"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, fuzzy, c-format
 msgid "cannot read %s"
@@ -3514,223 +3515,6 @@ msgstr "16進数コード (L コマンドでコードリスト表示): "
 msgid "Hex code (type L to list all codes): "
 msgstr "16進数コード (L コマンドでコードリスト表示): "
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:60
-#, fuzzy
-msgid " -h                print this help text\n"
-msgstr "  -h, --help                   このちょっとした使い方を表示する\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr ""
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:65
-#, fuzzy
-msgid " -v                print program version\n"
-msgstr "  -h, --help                   このちょっとした使い方を表示する\n"
-
-#: fdisks/fdisk.c:66
-#, fuzzy
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr "シリンダ数を入力してください: "
-
-#: fdisks/fdisk.c:67
-#, fuzzy
-msgid " -H <number>       specify the number of heads\n"
-msgstr "    -H# [or --heads #]:    使用するヘッド数を設定する"
-
-#: fdisks/fdisk.c:68
-#, fuzzy
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr "トラック当たりのセクタ数を入力してください: "
-
-#: fdisks/fdisk.c:151
-#, fuzzy
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "DOS互換フラグが設定されました (廃止予定)\n"
-
-#: fdisks/fdisk.c:152
-#, fuzzy
-msgid "DOS Compatibility flag is not set"
-msgstr "DOS互換フラグは設定されていません\n"
-
-#: fdisks/fdisk.c:173
-#, fuzzy, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "パーティション %d はまだ存在しません！\n"
-
-#: fdisks/fdisk.c:181
-#, fuzzy, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "パーティションのシステムタイプを %d から %x (%s) に変更しました\n"
-
-#: fdisks/fdisk.c:186
-#, fuzzy, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "パーティション %d のシステムタイプは変更されません: %x (%s)\n"
-
-#: fdisks/fdisk.c:202
-#, fuzzy, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr ""
-"\n"
-"ディスク %s: シリンダ数 %lu、ヘッド数 %lu、%lu セクタ/トラック\n"
-
-#: fdisks/fdisk.c:209
-#, fuzzy, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "ヘッド %d, セクタ %llu, シリンダ %d"
-
-#: fdisks/fdisk.c:212
-#, fuzzy, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Units = %s of %d * %d = %d バイト\n"
-
-#: fdisks/fdisk.c:218
-#, fuzzy, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr "セクタサイズ (論理 / 物理): %u バイト / %lu バイト\n"
-
-#: fdisks/fdisk.c:220
-#, fuzzy, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr "I/O サイズ (最小 / 推奨): %lu バイト / %lu バイト\n"
-
-#: fdisks/fdisk.c:223
-#, fuzzy, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "アライメントオフセット: %lu バイト\n"
-
-#: fdisks/fdisk.c:226
-#, fuzzy, c-format
-msgid "Disklabel type: %s"
-msgstr "ディスクドライブ: %s\n"
-
-#: fdisks/fdisk.c:229
-#, fuzzy, c-format
-msgid "Disk identifier: %s"
-msgstr "ディスク識別子: 0x%08x\n"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-
-#: fdisks/fdisk.c:281
-#, fuzzy
-msgid "cannot seek"
-msgstr "子プロセスを起動できません"
-
-#: fdisks/fdisk.c:286
-#, fuzzy
-msgid "cannot read"
-msgstr "「%s」を読めません: %s\n"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-#, fuzzy
-msgid "First sector"
-msgstr "最初 %s"
-
-#: fdisks/fdisk.c:386
-#, fuzzy, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "シンボリックリンク %s のチェックに失敗しました: %s"
-
-#: fdisks/fdisk.c:412
-#, fuzzy
-msgid "failed to allocate libfdisk context"
-msgstr "メモリの割り当てに失敗しました"
-
-#: fdisks/fdisk.c:421
-#, fuzzy
-msgid "invalid sector size argument"
-msgstr "%2$s に対する引数 %1$s が間違っています"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-#, fuzzy
-msgid "invalid cylinders argument"
-msgstr "%2$s に対する引数 %1$s が間違っています"
-
-#: fdisks/fdisk.c:439
-#, fuzzy
-msgid "not found DOS label driver"
-msgstr "%s 用のデバイスが見つかりません"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-#, fuzzy
-msgid "invalid heads argument"
-msgstr "%2$s に対する引数 %1$s が間違っています"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-#, fuzzy
-msgid "invalid sectors argument"
-msgstr "%2$s に対する引数 %1$s が間違っています"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-#, fuzzy
-msgid "unsupported color mode"
-msgstr "サポートしていないコマンドです。"
-
-#: fdisks/fdisk.c:480
-#, fuzzy, c-format
-msgid "unsupported disklabel: %s"
-msgstr "%s: 不明な引数 %s\n"
-
-#: fdisks/fdisk.c:501
-#, fuzzy
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-"警告: -b (セクタサイズ設定) オプションは 1 つのデバイス指定と共に\n"
-"使用されるべきです\n"
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr ""
-
-#: fdisks/fdisk.c:542
-#, fuzzy
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"新たな sun disklabel を構築します。変更はあなたが書き込みを決定するまで、\n"
-"メモリにのみ残します。その後はもちろん、以前の内容は復元できません。\n"
-
-#: fdisks/fdisk.c:547
-#, fuzzy
-msgid "Device does not contain a recognized partition table."
-msgstr "ディスク %s は正常なパーティションテーブルを含んでいません\n"
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr ""
@@ -4090,6 +3874,223 @@ msgstr "ヘッド数"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "セクタ数"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:60
+#, fuzzy
+msgid " -h                print this help text\n"
+msgstr "  -h, --help                   このちょっとした使い方を表示する\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr ""
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:65
+#, fuzzy
+msgid " -v                print program version\n"
+msgstr "  -h, --help                   このちょっとした使い方を表示する\n"
+
+#: fdisks/fdisk.c:66
+#, fuzzy
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr "シリンダ数を入力してください: "
+
+#: fdisks/fdisk.c:67
+#, fuzzy
+msgid " -H <number>       specify the number of heads\n"
+msgstr "    -H# [or --heads #]:    使用するヘッド数を設定する"
+
+#: fdisks/fdisk.c:68
+#, fuzzy
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr "トラック当たりのセクタ数を入力してください: "
+
+#: fdisks/fdisk.c:151
+#, fuzzy
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "DOS互換フラグが設定されました (廃止予定)\n"
+
+#: fdisks/fdisk.c:152
+#, fuzzy
+msgid "DOS Compatibility flag is not set"
+msgstr "DOS互換フラグは設定されていません\n"
+
+#: fdisks/fdisk.c:173
+#, fuzzy, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "パーティション %d はまだ存在しません！\n"
+
+#: fdisks/fdisk.c:181
+#, fuzzy, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "パーティションのシステムタイプを %d から %x (%s) に変更しました\n"
+
+#: fdisks/fdisk.c:186
+#, fuzzy, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "パーティション %d のシステムタイプは変更されません: %x (%s)\n"
+
+#: fdisks/fdisk.c:202
+#, fuzzy, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr ""
+"\n"
+"ディスク %s: シリンダ数 %lu、ヘッド数 %lu、%lu セクタ/トラック\n"
+
+#: fdisks/fdisk.c:209
+#, fuzzy, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "ヘッド %d, セクタ %llu, シリンダ %d"
+
+#: fdisks/fdisk.c:212
+#, fuzzy, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Units = %s of %d * %d = %d バイト\n"
+
+#: fdisks/fdisk.c:218
+#, fuzzy, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr "セクタサイズ (論理 / 物理): %u バイト / %lu バイト\n"
+
+#: fdisks/fdisk.c:220
+#, fuzzy, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr "I/O サイズ (最小 / 推奨): %lu バイト / %lu バイト\n"
+
+#: fdisks/fdisk.c:223
+#, fuzzy, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "アライメントオフセット: %lu バイト\n"
+
+#: fdisks/fdisk.c:226
+#, fuzzy, c-format
+msgid "Disklabel type: %s"
+msgstr "ディスクドライブ: %s\n"
+
+#: fdisks/fdisk.c:229
+#, fuzzy, c-format
+msgid "Disk identifier: %s"
+msgstr "ディスク識別子: 0x%08x\n"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+
+#: fdisks/fdisk.c:281
+#, fuzzy
+msgid "cannot seek"
+msgstr "子プロセスを起動できません"
+
+#: fdisks/fdisk.c:286
+#, fuzzy
+msgid "cannot read"
+msgstr "「%s」を読めません: %s\n"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+#, fuzzy
+msgid "First sector"
+msgstr "最初 %s"
+
+#: fdisks/fdisk.c:386
+#, fuzzy, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "シンボリックリンク %s のチェックに失敗しました: %s"
+
+#: fdisks/fdisk.c:412
+#, fuzzy
+msgid "failed to allocate libfdisk context"
+msgstr "メモリの割り当てに失敗しました"
+
+#: fdisks/fdisk.c:421
+#, fuzzy
+msgid "invalid sector size argument"
+msgstr "%2$s に対する引数 %1$s が間違っています"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+#, fuzzy
+msgid "invalid cylinders argument"
+msgstr "%2$s に対する引数 %1$s が間違っています"
+
+#: fdisks/fdisk.c:439
+#, fuzzy
+msgid "not found DOS label driver"
+msgstr "%s 用のデバイスが見つかりません"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+#, fuzzy
+msgid "invalid heads argument"
+msgstr "%2$s に対する引数 %1$s が間違っています"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+#, fuzzy
+msgid "invalid sectors argument"
+msgstr "%2$s に対する引数 %1$s が間違っています"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+#, fuzzy
+msgid "unsupported color mode"
+msgstr "サポートしていないコマンドです。"
+
+#: fdisks/fdisk.c:480
+#, fuzzy, c-format
+msgid "unsupported disklabel: %s"
+msgstr "%s: 不明な引数 %s\n"
+
+#: fdisks/fdisk.c:501
+#, fuzzy
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+"警告: -b (セクタサイズ設定) オプションは 1 つのデバイス指定と共に\n"
+"使用されるべきです\n"
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr ""
+
+#: fdisks/fdisk.c:542
+#, fuzzy
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"新たな sun disklabel を構築します。変更はあなたが書き込みを決定するまで、\n"
+"メモリにのみ残します。その後はもちろん、以前の内容は復元できません。\n"
+
+#: fdisks/fdisk.c:547
+#, fuzzy
+msgid "Device does not contain a recognized partition table."
+msgstr "ディスク %s は正常なパーティションテーブルを含んでいません\n"
 
 #: fdisks/sfdisk.c:112
 #, fuzzy, c-format
@@ -5484,6 +5485,26 @@ msgstr "BBT"
 #, fuzzy, c-format
 msgid "failed to execute %s"
 msgstr "%s の実行に失敗しました: %s"
+
+#: lib/pager.c:102
+#, fuzzy, c-format
+msgid "waitpid failed (%s)"
+msgstr "waitpid に失敗"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+#, fuzzy
+msgid "failed to callocate cpu set"
+msgstr "'%s' のモード設定が失敗しました: %s"
+
+#: lib/path.c:203
+#, fuzzy, c-format
+msgid "failed to parse CPU list %s"
+msgstr "ファイルの一覧を取得できませんでした"
+
+#: lib/path.c:206
+#, fuzzy, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "ポート番号の解析に失敗: %s\n"
 
 #: libfdisk/src/alignment.c:108
 #, c-format
@@ -7153,26 +7174,6 @@ msgstr ""
 "もし、あなたが本当にパーティションに符合 82 (Linux swap) をつけたければ\n"
 "YES と答えてください: "
 
-#: lib/pager.c:102
-#, fuzzy, c-format
-msgid "waitpid failed (%s)"
-msgstr "waitpid に失敗"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-#, fuzzy
-msgid "failed to callocate cpu set"
-msgstr "'%s' のモード設定が失敗しました: %s"
-
-#: lib/path.c:203
-#, fuzzy, c-format
-msgid "failed to parse CPU list %s"
-msgstr "ファイルの一覧を取得できませんでした"
-
-#: lib/path.c:206
-#, fuzzy, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "ポート番号の解析に失敗: %s\n"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, fuzzy, c-format
 msgid " %s [options] [username]\n"
@@ -7408,6 +7409,42 @@ msgstr "知らないシェルです。\n"
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "使い方: passwd [ユーザ名 [パスワード]]\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr "使い方: last [-#] [-f ファイル] [-t 端末] [-h ホスト名] [ユーザ ...]\n"
+
+#: login-utils/last-deprecated.c:252
+#, fuzzy, c-format
+msgid "%s: mmap failed"
+msgstr "キャッシュファイルのmmapに失敗しました.\n"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  ログインしたままです"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp は %s から始まります "
+
+#: login-utils/last-deprecated.c:433
+#, fuzzy
+msgid "gethostname failed"
+msgstr "fork に失敗しました"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"割り込みが入りました %10.10s %5.5s \n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, fuzzy, c-format
 msgid "unknown time format: %s"
@@ -7513,42 +7550,6 @@ msgstr "ポート番号の解析に失敗: %s\n"
 #, fuzzy, c-format
 msgid "invalid time value \"%s\""
 msgstr "%2$s に対する引数 %1$s が間違っています"
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr "使い方: last [-#] [-f ファイル] [-t 端末] [-h ホスト名] [ユーザ ...]\n"
-
-#: login-utils/last-deprecated.c:252
-#, fuzzy, c-format
-msgid "%s: mmap failed"
-msgstr "キャッシュファイルのmmapに失敗しました.\n"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  ログインしたままです"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp は %s から始まります "
-
-#: login-utils/last-deprecated.c:433
-#, fuzzy
-msgid "gethostname failed"
-msgstr "fork に失敗しました"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"割り込みが入りました %10.10s %5.5s \n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -12079,6 +12080,195 @@ msgstr "_open_osfhandle 失敗"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr ""
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "MILO からブートされました\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "粗忽な BCD クロック\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "クロックポートを 0x%x に修正しました\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "イカした TOY!\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, fuzzy, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "%s: 不可分な%sの 1000 回の反復が失敗!"
+
+#: sys-utils/hwclock-cmos.c:318
+#, fuzzy, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr "cmos_read(): コントロールアドレス %X への書き込みに失敗しました: %s\n"
+
+#: sys-utils/hwclock-cmos.c:322
+#, fuzzy, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr "cmos_read(): データアドレス %X から読み込みに失敗しました: %s\n"
+
+#: sys-utils/hwclock-cmos.c:359
+#, fuzzy, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr "cmos_write(): コントロールアドレス %X への書き込みに失敗しました: %s\n"
+
+#: sys-utils/hwclock-cmos.c:364
+#, fuzzy, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr "cmos_write(): データアドレス %X への書き込みに失敗しました: %s\n"
+
+#: sys-utils/hwclock-cmos.c:639
+#, fuzzy
+msgid "I failed to get permission because I didn't try."
+msgstr "許可の取得を試さなかったので、許可の取得に失敗しました。\n"
+
+#: sys-utils/hwclock-cmos.c:642
+#, fuzzy
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr "%s は I/O ポートアクセスができません: iopl(3) コールに失敗。\n"
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "恐らくルート権限が必要です。\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "KDGHWCLK から変更のための時刻を取得するループ中です\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "KDGHWCLK の時刻読み取りが失敗しました"
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr "時刻読み込みのための KDGHWCLK ioctl がループ内で失敗しました"
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+#, fuzzy
+msgid "Timed out waiting for time change."
+msgstr "時刻変更待ちがタイムアウトしました。\n"
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "%s から時刻を読込むための ioctl() に失敗しました"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "KDSHWCLK ioctl に失敗しました"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "/dev/tty1 または /dev/vc/1 を開けません"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "KDGHWCLK ioctl に失敗しました"
+
+#: sys-utils/hwclock-rtc.c:195
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "変更時刻の設定に失敗しました"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "%s から時刻を変更するためのループ中です\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "%s は割り込み機能を持っていません。 "
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "クロックチックを待つための %s への read() が失敗しました"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "クロックチックを待つための %s への select() が失敗しました"
+
+#: sys-utils/hwclock-rtc.c:317
+#, fuzzy, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr "クロックチックを待つための %s への select() がタイムアウトしました\n"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr "割り込み更新をオフにするための %s への ioctl() が失敗しました"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr ""
+"割り込み更新をオンにするための %s への ioctl() が予期せぬ失敗に終わりました"
+
+#: sys-utils/hwclock-rtc.c:383
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr "変更時刻の設定に失敗しました"
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "ioctl(%s) に成功しました。\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, fuzzy, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"カーネル内のエポック値を算出するには、スペシャルファイル %s を通じて\n"
+"Linux の 'rtc' デバイスドライバにアクセスする必要があります。しかし、この\n"
+"ファイルがシステムに存在しません。\n"
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "%s への ioctl(RTC_EPOCH_READ) が失敗しました"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr ""
+"%2$s から RTC_EPOCH_READ ioctl によってエポック %1$ld を読み取りました。\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, fuzzy, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr ""
+"エポック値は 1900 年以前ではあり得ません。あなたは %ld を要求しました\n"
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr ""
+"%2$s から RTC_EPOCH_READ ioctl によってエポック %1$ld を読み取りました。\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, fuzzy, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr "%s のカーネルドライバは RTC_EPOCH_SET ioctl を持っていません。\n"
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "%s への ioctl(RTC_EPOCH_SET) が失敗しました"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12601,195 +12791,6 @@ msgstr "既知のどんな方法でも、ハードウェア時計にアクセス
 msgid ""
 "Use the --debug option to see the details of our search for an access method."
 msgstr "--debug オプションでアクセス方法検索の詳細について見てください。\n"
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "MILO からブートされました\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "粗忽な BCD クロック\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "クロックポートを 0x%x に修正しました\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "イカした TOY!\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, fuzzy, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "%s: 不可分な%sの 1000 回の反復が失敗!"
-
-#: sys-utils/hwclock-cmos.c:318
-#, fuzzy, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr "cmos_read(): コントロールアドレス %X への書き込みに失敗しました: %s\n"
-
-#: sys-utils/hwclock-cmos.c:322
-#, fuzzy, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr "cmos_read(): データアドレス %X から読み込みに失敗しました: %s\n"
-
-#: sys-utils/hwclock-cmos.c:359
-#, fuzzy, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr "cmos_write(): コントロールアドレス %X への書き込みに失敗しました: %s\n"
-
-#: sys-utils/hwclock-cmos.c:364
-#, fuzzy, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr "cmos_write(): データアドレス %X への書き込みに失敗しました: %s\n"
-
-#: sys-utils/hwclock-cmos.c:639
-#, fuzzy
-msgid "I failed to get permission because I didn't try."
-msgstr "許可の取得を試さなかったので、許可の取得に失敗しました。\n"
-
-#: sys-utils/hwclock-cmos.c:642
-#, fuzzy
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr "%s は I/O ポートアクセスができません: iopl(3) コールに失敗。\n"
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "恐らくルート権限が必要です。\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "KDGHWCLK から変更のための時刻を取得するループ中です\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "KDGHWCLK の時刻読み取りが失敗しました"
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr "時刻読み込みのための KDGHWCLK ioctl がループ内で失敗しました"
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-#, fuzzy
-msgid "Timed out waiting for time change."
-msgstr "時刻変更待ちがタイムアウトしました。\n"
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "%s から時刻を読込むための ioctl() に失敗しました"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "KDSHWCLK ioctl に失敗しました"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "/dev/tty1 または /dev/vc/1 を開けません"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "KDGHWCLK ioctl に失敗しました"
-
-#: sys-utils/hwclock-rtc.c:195
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "変更時刻の設定に失敗しました"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "%s から時刻を変更するためのループ中です\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "%s は割り込み機能を持っていません。 "
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "クロックチックを待つための %s への read() が失敗しました"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "クロックチックを待つための %s への select() が失敗しました"
-
-#: sys-utils/hwclock-rtc.c:317
-#, fuzzy, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr "クロックチックを待つための %s への select() がタイムアウトしました\n"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr "割り込み更新をオフにするための %s への ioctl() が失敗しました"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr ""
-"割り込み更新をオンにするための %s への ioctl() が予期せぬ失敗に終わりました"
-
-#: sys-utils/hwclock-rtc.c:383
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr "変更時刻の設定に失敗しました"
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "ioctl(%s) に成功しました。\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, fuzzy, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"カーネル内のエポック値を算出するには、スペシャルファイル %s を通じて\n"
-"Linux の 'rtc' デバイスドライバにアクセスする必要があります。しかし、この\n"
-"ファイルがシステムに存在しません。\n"
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "%s への ioctl(RTC_EPOCH_READ) が失敗しました"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr ""
-"%2$s から RTC_EPOCH_READ ioctl によってエポック %1$ld を読み取りました。\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, fuzzy, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr ""
-"エポック値は 1900 年以前ではあり得ません。あなたは %ld を要求しました\n"
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr ""
-"%2$s から RTC_EPOCH_READ ioctl によってエポック %1$ld を読み取りました。\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, fuzzy, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr "%s のカーネルドライバは RTC_EPOCH_SET ioctl を持っていません。\n"
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "%s への ioctl(RTC_EPOCH_SET) が失敗しました"
 
 #: sys-utils/ipcmk.c:69
 msgid " -M, --shmem <size>       create shared memory segment of size <size>\n"
@@ -15822,6 +15823,11 @@ msgstr ""
 " <file>                               使用するファイルの名前\n"
 "\n"
 
+#: sys-utils/swapon-common.c:62
+#, c-format
+msgid "cannot find the device for %s"
+msgstr "%s 用のデバイスが見つかりません"
+
 #: sys-utils/swapon.c:100
 #, fuzzy
 msgid "device file or partition path"
@@ -16014,11 +16020,6 @@ msgstr "pid の解析に失敗しました"
 #, fuzzy, c-format
 msgid "unsupported discard policy: %s"
 msgstr "%s: 不明な引数 %s\n"
-
-#: sys-utils/swapon-common.c:62
-#, c-format
-msgid "cannot find the device for %s"
-msgstr "%s 用のデバイスが見つかりません"
 
 #: sys-utils/switch_root.c:57
 #, fuzzy

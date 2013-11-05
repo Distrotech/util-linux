@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: util-linux 2.24-rc2\n"
 "Report-Msgid-Bugs-To: util-linux@vger.kernel.org\n"
-"POT-Creation-Date: 2013-10-21 13:14+0200\n"
+"POT-Creation-Date: 2013-11-05 17:01+0200\n"
 "PO-Revision-Date: 2013-10-13 19:06+0200\n"
 "Last-Translator: Lauri Nurmi <lanurmi@iki.fi>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
@@ -45,28 +45,29 @@ msgstr ""
 #: disk-utils/partx.c:933 disk-utils/resizepart.c:97
 #: disk-utils/swaplabel.c:105 fdisks/cfdisk.c:1831 fdisks/cfdisk.c:1953
 #: fdisks/cfdisk.c:2041 fdisks/fdisk.c:333 fdisks/fdisk.c:349
-#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 libfdisk/src/bsd.c:522 lib/path.c:60
-#: lib/path.c:72 login-utils/islocal.c:87 login-utils/last.c:613
-#: login-utils/last-deprecated.c:245 login-utils/sulogin.c:399
-#: login-utils/sulogin.c:437 login-utils/utmpdump.c:125
-#: login-utils/utmpdump.c:344 login-utils/utmpdump.c:366
-#: login-utils/vipw.c:265 login-utils/vipw.c:283 misc-utils/findmnt.c:1019
-#: misc-utils/mcookie.c:145 misc-utils/mcookie.c:181 misc-utils/uuidd.c:221
-#: sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178 sys-utils/cytune.c:404
-#: sys-utils/cytune.c:418 sys-utils/cytune.c:434 sys-utils/dmesg.c:515
-#: sys-utils/eject.c:510 sys-utils/eject.c:711 sys-utils/fallocate.c:153
-#: sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142 sys-utils/hwclock.c:265
+#: fdisks/fdisk.c:383 fdisks/fdisk.c:536 lib/path.c:60 lib/path.c:72
+#: libfdisk/src/bsd.c:522 login-utils/islocal.c:87
+#: login-utils/last-deprecated.c:245 login-utils/last.c:613
+#: login-utils/sulogin.c:399 login-utils/sulogin.c:437
+#: login-utils/utmpdump.c:125 login-utils/utmpdump.c:344
+#: login-utils/utmpdump.c:366 login-utils/vipw.c:265 login-utils/vipw.c:283
+#: misc-utils/findmnt.c:1019 misc-utils/mcookie.c:145 misc-utils/mcookie.c:181
+#: misc-utils/uuidd.c:221 sys-utils/blkdiscard.c:135 sys-utils/cytune.c:178
+#: sys-utils/cytune.c:404 sys-utils/cytune.c:418 sys-utils/cytune.c:434
+#: sys-utils/dmesg.c:515 sys-utils/eject.c:510 sys-utils/eject.c:711
+#: sys-utils/fallocate.c:153 sys-utils/fsfreeze.c:124 sys-utils/fstrim.c:142
 #: sys-utils/hwclock-cmos.c:632 sys-utils/hwclock-rtc.c:162
 #: sys-utils/hwclock-rtc.c:256 sys-utils/hwclock-rtc.c:414
 #: sys-utils/hwclock-rtc.c:435 sys-utils/hwclock-rtc.c:482
-#: sys-utils/ldattach.c:290 sys-utils/nsenter.c:112 sys-utils/rtcwake.c:106
-#: sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525 sys-utils/setpriv.c:224
-#: sys-utils/setpriv.c:521 sys-utils/setpriv.c:544 sys-utils/swapon.c:322
-#: sys-utils/swapon.c:488 sys-utils/switch_root.c:158 sys-utils/wdctl.c:310
-#: sys-utils/wdctl.c:366 term-utils/script.c:208 term-utils/script.c:233
-#: term-utils/script.c:568 term-utils/scriptreplay.c:197
-#: term-utils/scriptreplay.c:200 term-utils/wall.c:268 text-utils/rev.c:141
-#: text-utils/tailf.c:61 text-utils/tailf.c:98 text-utils/ul.c:232
+#: sys-utils/hwclock.c:265 sys-utils/ldattach.c:290 sys-utils/nsenter.c:112
+#: sys-utils/rtcwake.c:106 sys-utils/rtcwake.c:265 sys-utils/rtcwake.c:525
+#: sys-utils/setpriv.c:224 sys-utils/setpriv.c:521 sys-utils/setpriv.c:544
+#: sys-utils/swapon.c:322 sys-utils/swapon.c:488 sys-utils/switch_root.c:158
+#: sys-utils/wdctl.c:310 sys-utils/wdctl.c:366 term-utils/script.c:208
+#: term-utils/script.c:233 term-utils/script.c:568
+#: term-utils/scriptreplay.c:197 term-utils/scriptreplay.c:200
+#: term-utils/wall.c:268 text-utils/rev.c:141 text-utils/tailf.c:61
+#: text-utils/tailf.c:98 text-utils/ul.c:232
 #, c-format
 msgid "cannot open %s"
 msgstr "laitetta %s ei voi avata"
@@ -349,8 +350,8 @@ msgstr "fsck: %s: ei löytynyt\n"
 
 #: disk-utils/fsck.c:307 disk-utils/fsck.cramfs.c:169
 #: disk-utils/fsck.cramfs.c:176 disk-utils/fsck.cramfs.c:233
-#: disk-utils/fsck.cramfs.c:251 libfdisk/src/bsd.c:527 lib/path.c:100
-#: lib/path.c:121 lib/path.c:142 lib/path.c:190 login-utils/last.c:194
+#: disk-utils/fsck.cramfs.c:251 lib/path.c:100 lib/path.c:121 lib/path.c:142
+#: lib/path.c:190 libfdisk/src/bsd.c:527 login-utils/last.c:194
 #: login-utils/last.c:231 login-utils/sulogin.c:605 sys-utils/setpriv.c:233
 #, fuzzy, c-format
 msgid "cannot read %s"
@@ -3524,224 +3525,6 @@ msgstr "Heksakoodi (L listaa koodit): "
 msgid "Hex code (type L to list all codes): "
 msgstr "Heksakoodi (L listaa koodit): "
 
-#: fdisks/fdisk.c:53
-#, c-format
-msgid ""
-" %1$s [options] <disk>    change partition table\n"
-" %1$s [options] -l <disk> list partition table(s)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:58
-msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
-msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:60
-#, fuzzy
-msgid " -h                print this help text\n"
-msgstr "  -h, --help                   Tämä pieni käyttöopas\n"
-
-#: fdisks/fdisk.c:62
-msgid " -L[=<when>]       colorize output (auto, always or never)\n"
-msgstr " -L[=<milloin>]    väritä tuloste (auto, always tai never)\n"
-
-#: fdisks/fdisk.c:63
-msgid ""
-" -t <type>         force fdisk to recognize specified partition table type "
-"only\n"
-msgstr ""
-
-#: fdisks/fdisk.c:64
-msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
-msgstr ""
-
-#: fdisks/fdisk.c:65
-#, fuzzy
-msgid " -v                print program version\n"
-msgstr "  -h, --help                   Tämä pieni käyttöopas\n"
-
-#: fdisks/fdisk.c:66
-#, fuzzy
-msgid " -C <number>       specify the number of cylinders\n"
-msgstr "Anna sylinterien määrä: "
-
-#: fdisks/fdisk.c:67
-#, fuzzy
-msgid " -H <number>       specify the number of heads\n"
-msgstr "    -h# [tai --heads #]:    aseta käytettävä päiden määrä"
-
-#: fdisks/fdisk.c:68
-#, fuzzy
-msgid " -S <number>       specify the number of sectors per track\n"
-msgstr "Anna sektorien määrä uraa kohden: "
-
-#: fdisks/fdisk.c:151
-#, fuzzy
-msgid "DOS Compatibility flag is set (DEPRECATED!)"
-msgstr "DOS-yhteensopivuuslippu on asetettu\n"
-
-#: fdisks/fdisk.c:152
-#, fuzzy
-msgid "DOS Compatibility flag is not set"
-msgstr "DOS-yhteensopivuuslippua ei ole asetettu\n"
-
-#: fdisks/fdisk.c:173
-#, fuzzy, c-format
-msgid "Partition %zu does not exist yet!"
-msgstr "Osiota %d ei ole vielä olemassa!\n"
-
-#: fdisks/fdisk.c:181
-#, fuzzy, c-format
-msgid "Changed type of partition '%s' to '%s'."
-msgstr "Osion %d järjestelmätyypiksi vaihdettiin %x (%s)\n"
-
-#: fdisks/fdisk.c:186
-#, fuzzy, c-format
-msgid "Type of partition %zu is unchanged: %s."
-msgstr "Osion %d järjestelmätyyppinä säilyi %x (%s)\n"
-
-#: fdisks/fdisk.c:202
-#, fuzzy, c-format
-msgid "Disk %s: %s, %llu bytes, %llu sectors"
-msgstr ""
-"\n"
-"Levy %s: %lu sylinteriä, %lu päätä, %lu sektoria/ura\n"
-
-#: fdisks/fdisk.c:209
-#, fuzzy, c-format
-msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
-msgstr "%d päätä, %llu sektoria/ura, %d sylinteriä"
-
-#: fdisks/fdisk.c:212
-#, fuzzy, c-format
-msgid "Units: %s of %d * %ld = %ld bytes"
-msgstr "Yksiköt = %2$d * %3$d = %4$d -tavuiset %1$s\n"
-
-#: fdisks/fdisk.c:218
-#, c-format
-msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
-msgstr ""
-
-#: fdisks/fdisk.c:220
-#, c-format
-msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
-msgstr ""
-
-#: fdisks/fdisk.c:223
-#, fuzzy, c-format
-msgid "Alignment offset: %lu bytes"
-msgstr "virheellinen i-solmun koko"
-
-#: fdisks/fdisk.c:226
-#, fuzzy, c-format
-msgid "Disklabel type: %s"
-msgstr "Levyasema: %s\n"
-
-#: fdisks/fdisk.c:229
-#, fuzzy, c-format
-msgid "Disk identifier: %s"
-msgstr "Levyn tunniste: 0x%08x\n"
-
-#: fdisks/fdisk.c:277
-#, c-format
-msgid ""
-"\n"
-"%s: offset = %ju, size = %zu bytes."
-msgstr ""
-
-#: fdisks/fdisk.c:281
-#, fuzzy
-msgid "cannot seek"
-msgstr "haarauttaminen ei onnistu"
-
-#: fdisks/fdisk.c:286
-#, fuzzy
-msgid "cannot read"
-msgstr "%s: tiedostoa %s ei voi lukea.\n"
-
-#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
-#: libfdisk/src/gpt.c:1698
-#, fuzzy
-msgid "First sector"
-msgstr "Ensimmäinen %s"
-
-#: fdisks/fdisk.c:386
-#, fuzzy, c-format
-msgid "BLKGETSIZE ioctl failed on %s"
-msgstr "BLKGETSIZE-ioctl epäonnistui laitteelle %s\n"
-
-#: fdisks/fdisk.c:412
-#, fuzzy
-msgid "failed to allocate libfdisk context"
-msgstr "Puskuria ei voi varata.\n"
-
-#: fdisks/fdisk.c:421
-#, fuzzy
-msgid "invalid sector size argument"
-msgstr "virheellinen valitsin"
-
-#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
-#, fuzzy
-msgid "invalid cylinders argument"
-msgstr "virheellinen valitsin"
-
-#: fdisks/fdisk.c:439
-#, fuzzy
-msgid "not found DOS label driver"
-msgstr "%s: tiedostolle %s ei löydy laitetta\n"
-
-#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
-#, fuzzy
-msgid "invalid heads argument"
-msgstr "virheellinen valitsin"
-
-#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
-#, fuzzy
-msgid "invalid sectors argument"
-msgstr "virheellinen valitsin"
-
-#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
-msgid "unsupported color mode"
-msgstr "tuntematon värimoodi"
-
-#: fdisks/fdisk.c:480
-#, fuzzy, c-format
-msgid "unsupported disklabel: %s"
-msgstr "%s: tuntematon argumentti: %s\n"
-
-#: fdisks/fdisk.c:501
-#, fuzzy
-msgid ""
-"The device properties (sector size and geometry) should be used with one "
-"specified device only."
-msgstr ""
-"Varoitus: valitsinta -b (sektorikoon asetus) tulee käyttää yhden annetun "
-"laitteen kanssa\n"
-
-#: fdisks/fdisk.c:540
-#, c-format
-msgid "Welcome to fdisk (%s)."
-msgstr ""
-
-#: fdisks/fdisk.c:542
-#, fuzzy
-msgid ""
-"Changes will remain in memory only, until you decide to write them.\n"
-"Be careful before using the write command.\n"
-msgstr ""
-"Luodaan uutta Sun-levynimiötä. Muutokset tehdään vain käyttömuistiin,\n"
-"kunnes päätät kirjoittaa ne levylle. Sen jälkeen edellinen sisältö ei\n"
-"tietenkään ole palautettavissa.\n"
-"\n"
-
-#: fdisks/fdisk.c:547
-#, fuzzy
-msgid "Device does not contain a recognized partition table."
-msgstr "Levy %s ei sisällä kelvollista osiotaulua\n"
-
 #: fdisks/fdisk-menu.c:90
 msgid "Generic"
 msgstr ""
@@ -4102,6 +3885,224 @@ msgstr "Päiden määrä"
 #: fdisks/fdisk-menu.c:762
 msgid "Number of sectors"
 msgstr "Sektorien määrä"
+
+#: fdisks/fdisk.c:53
+#, c-format
+msgid ""
+" %1$s [options] <disk>    change partition table\n"
+" %1$s [options] -l <disk> list partition table(s)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:58
+msgid " -b <size>         sector size (512, 1024, 2048 or 4096)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:59 fdisks/fdisk.c:61
+msgid " -c[=<mode>]       compatible mode: 'dos' or 'nondos' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:60
+#, fuzzy
+msgid " -h                print this help text\n"
+msgstr "  -h, --help                   Tämä pieni käyttöopas\n"
+
+#: fdisks/fdisk.c:62
+msgid " -L[=<when>]       colorize output (auto, always or never)\n"
+msgstr " -L[=<milloin>]    väritä tuloste (auto, always tai never)\n"
+
+#: fdisks/fdisk.c:63
+msgid ""
+" -t <type>         force fdisk to recognize specified partition table type "
+"only\n"
+msgstr ""
+
+#: fdisks/fdisk.c:64
+msgid " -u[=<unit>]       display units: 'cylinders' or 'sectors' (default)\n"
+msgstr ""
+
+#: fdisks/fdisk.c:65
+#, fuzzy
+msgid " -v                print program version\n"
+msgstr "  -h, --help                   Tämä pieni käyttöopas\n"
+
+#: fdisks/fdisk.c:66
+#, fuzzy
+msgid " -C <number>       specify the number of cylinders\n"
+msgstr "Anna sylinterien määrä: "
+
+#: fdisks/fdisk.c:67
+#, fuzzy
+msgid " -H <number>       specify the number of heads\n"
+msgstr "    -h# [tai --heads #]:    aseta käytettävä päiden määrä"
+
+#: fdisks/fdisk.c:68
+#, fuzzy
+msgid " -S <number>       specify the number of sectors per track\n"
+msgstr "Anna sektorien määrä uraa kohden: "
+
+#: fdisks/fdisk.c:151
+#, fuzzy
+msgid "DOS Compatibility flag is set (DEPRECATED!)"
+msgstr "DOS-yhteensopivuuslippu on asetettu\n"
+
+#: fdisks/fdisk.c:152
+#, fuzzy
+msgid "DOS Compatibility flag is not set"
+msgstr "DOS-yhteensopivuuslippua ei ole asetettu\n"
+
+#: fdisks/fdisk.c:173
+#, fuzzy, c-format
+msgid "Partition %zu does not exist yet!"
+msgstr "Osiota %d ei ole vielä olemassa!\n"
+
+#: fdisks/fdisk.c:181
+#, fuzzy, c-format
+msgid "Changed type of partition '%s' to '%s'."
+msgstr "Osion %d järjestelmätyypiksi vaihdettiin %x (%s)\n"
+
+#: fdisks/fdisk.c:186
+#, fuzzy, c-format
+msgid "Type of partition %zu is unchanged: %s."
+msgstr "Osion %d järjestelmätyyppinä säilyi %x (%s)\n"
+
+#: fdisks/fdisk.c:202
+#, fuzzy, c-format
+msgid "Disk %s: %s, %llu bytes, %llu sectors"
+msgstr ""
+"\n"
+"Levy %s: %lu sylinteriä, %lu päätä, %lu sektoria/ura\n"
+
+#: fdisks/fdisk.c:209
+#, fuzzy, c-format
+msgid "Geometry: %d heads, %llu sectors/track, %llu cylinders"
+msgstr "%d päätä, %llu sektoria/ura, %d sylinteriä"
+
+#: fdisks/fdisk.c:212
+#, fuzzy, c-format
+msgid "Units: %s of %d * %ld = %ld bytes"
+msgstr "Yksiköt = %2$d * %3$d = %4$d -tavuiset %1$s\n"
+
+#: fdisks/fdisk.c:218
+#, c-format
+msgid "Sector size (logical/physical): %lu bytes / %lu bytes"
+msgstr ""
+
+#: fdisks/fdisk.c:220
+#, c-format
+msgid "I/O size (minimum/optimal): %lu bytes / %lu bytes"
+msgstr ""
+
+#: fdisks/fdisk.c:223
+#, fuzzy, c-format
+msgid "Alignment offset: %lu bytes"
+msgstr "virheellinen i-solmun koko"
+
+#: fdisks/fdisk.c:226
+#, fuzzy, c-format
+msgid "Disklabel type: %s"
+msgstr "Levyasema: %s\n"
+
+#: fdisks/fdisk.c:229
+#, fuzzy, c-format
+msgid "Disk identifier: %s"
+msgstr "Levyn tunniste: 0x%08x\n"
+
+#: fdisks/fdisk.c:277
+#, c-format
+msgid ""
+"\n"
+"%s: offset = %ju, size = %zu bytes."
+msgstr ""
+
+#: fdisks/fdisk.c:281
+#, fuzzy
+msgid "cannot seek"
+msgstr "haarauttaminen ei onnistu"
+
+#: fdisks/fdisk.c:286
+#, fuzzy
+msgid "cannot read"
+msgstr "%s: tiedostoa %s ei voi lukea.\n"
+
+#: fdisks/fdisk.c:300 libfdisk/src/bsd.c:215 libfdisk/src/dos.c:877
+#: libfdisk/src/gpt.c:1698
+#, fuzzy
+msgid "First sector"
+msgstr "Ensimmäinen %s"
+
+#: fdisks/fdisk.c:386
+#, fuzzy, c-format
+msgid "BLKGETSIZE ioctl failed on %s"
+msgstr "BLKGETSIZE-ioctl epäonnistui laitteelle %s\n"
+
+#: fdisks/fdisk.c:412
+#, fuzzy
+msgid "failed to allocate libfdisk context"
+msgstr "Puskuria ei voi varata.\n"
+
+#: fdisks/fdisk.c:421
+#, fuzzy
+msgid "invalid sector size argument"
+msgstr "virheellinen valitsin"
+
+#: fdisks/fdisk.c:430 fdisks/sfdisk.c:2597
+#, fuzzy
+msgid "invalid cylinders argument"
+msgstr "virheellinen valitsin"
+
+#: fdisks/fdisk.c:439
+#, fuzzy
+msgid "not found DOS label driver"
+msgstr "%s: tiedostolle %s ei löydy laitetta\n"
+
+#: fdisks/fdisk.c:452 fdisks/sfdisk.c:2606
+#, fuzzy
+msgid "invalid heads argument"
+msgstr "virheellinen valitsin"
+
+#: fdisks/fdisk.c:458 fdisks/sfdisk.c:2624
+#, fuzzy
+msgid "invalid sectors argument"
+msgstr "virheellinen valitsin"
+
+#: fdisks/fdisk.c:466 misc-utils/cal.c:353 sys-utils/dmesg.c:1286
+msgid "unsupported color mode"
+msgstr "tuntematon värimoodi"
+
+#: fdisks/fdisk.c:480
+#, fuzzy, c-format
+msgid "unsupported disklabel: %s"
+msgstr "%s: tuntematon argumentti: %s\n"
+
+#: fdisks/fdisk.c:501
+#, fuzzy
+msgid ""
+"The device properties (sector size and geometry) should be used with one "
+"specified device only."
+msgstr ""
+"Varoitus: valitsinta -b (sektorikoon asetus) tulee käyttää yhden annetun "
+"laitteen kanssa\n"
+
+#: fdisks/fdisk.c:540
+#, c-format
+msgid "Welcome to fdisk (%s)."
+msgstr ""
+
+#: fdisks/fdisk.c:542
+#, fuzzy
+msgid ""
+"Changes will remain in memory only, until you decide to write them.\n"
+"Be careful before using the write command.\n"
+msgstr ""
+"Luodaan uutta Sun-levynimiötä. Muutokset tehdään vain käyttömuistiin,\n"
+"kunnes päätät kirjoittaa ne levylle. Sen jälkeen edellinen sisältö ei\n"
+"tietenkään ole palautettavissa.\n"
+"\n"
+
+#: fdisks/fdisk.c:547
+#, fuzzy
+msgid "Device does not contain a recognized partition table."
+msgstr "Levy %s ei sisällä kelvollista osiotaulua\n"
 
 #: fdisks/sfdisk.c:112
 #, fuzzy, c-format
@@ -5467,6 +5468,26 @@ msgstr "BBT"
 #, fuzzy, c-format
 msgid "failed to execute %s"
 msgstr "ioctl() ei onnistunut lukemaan aikaa kohteesta %s"
+
+#: lib/pager.c:102
+#, fuzzy, c-format
+msgid "waitpid failed (%s)"
+msgstr "setuid() epäonnistui"
+
+#: lib/path.c:199 sys-utils/lscpu.c:1252
+#, fuzzy
+msgid "failed to callocate cpu set"
+msgstr "Puskuria ei voi varata.\n"
+
+#: lib/path.c:203
+#, fuzzy, c-format
+msgid "failed to parse CPU list %s"
+msgstr "%s: avaaminen epäonnistui: %s\n"
+
+#: lib/path.c:206
+#, fuzzy, c-format
+msgid "failed to parse CPU mask %s"
+msgstr "%s: avaaminen epäonnistui: %s\n"
 
 #: libfdisk/src/alignment.c:108
 #, c-format
@@ -7119,26 +7140,6 @@ msgstr ""
 "Kirjoita JAA, jos olet erittäin varma, että haluat osion tyypiksi\n"
 "merkittävän 82 (Linux-sivutus): "
 
-#: lib/pager.c:102
-#, fuzzy, c-format
-msgid "waitpid failed (%s)"
-msgstr "setuid() epäonnistui"
-
-#: lib/path.c:199 sys-utils/lscpu.c:1252
-#, fuzzy
-msgid "failed to callocate cpu set"
-msgstr "Puskuria ei voi varata.\n"
-
-#: lib/path.c:203
-#, fuzzy, c-format
-msgid "failed to parse CPU list %s"
-msgstr "%s: avaaminen epäonnistui: %s\n"
-
-#: lib/path.c:206
-#, fuzzy, c-format
-msgid "failed to parse CPU mask %s"
-msgstr "%s: avaaminen epäonnistui: %s\n"
-
 #: login-utils/chfn.c:83 login-utils/chsh.c:72
 #, c-format
 msgid " %s [options] [username]\n"
@@ -7376,6 +7377,43 @@ msgstr "Ei tunnettuja kuoria.\n"
 msgid "Usage: %s <passwordfile> <username>...\n"
 msgstr "käyttö: %s [tiedosto]\n"
 
+#: login-utils/last-deprecated.c:155
+msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
+msgstr ""
+"käyttö: last [-#] [-f tiedosto] [-t tty] [-h konenimi] [käyttäjä ...]\n"
+
+#: login-utils/last-deprecated.c:252
+#, fuzzy, c-format
+msgid "%s: mmap failed"
+msgstr "%s epäonnistui.\n"
+
+#: login-utils/last-deprecated.c:312
+msgid "  still logged in"
+msgstr "  edelleen kirjautuneena"
+
+#: login-utils/last-deprecated.c:334
+#, c-format
+msgid ""
+"\n"
+"wtmp begins %s"
+msgstr ""
+"\n"
+"wtmp alkaa %s"
+
+#: login-utils/last-deprecated.c:433
+#, fuzzy
+msgid "gethostname failed"
+msgstr "virhe: UUID:n jäsennys epäonnistui"
+
+#: login-utils/last-deprecated.c:479
+#, c-format
+msgid ""
+"\n"
+"interrupted %10.10s %5.5s \n"
+msgstr ""
+"\n"
+"keskeytetty %10.10s %5.5s \n"
+
 #: login-utils/last.c:154 sys-utils/dmesg.c:1170
 #, fuzzy, c-format
 msgid "unknown time format: %s"
@@ -7483,43 +7521,6 @@ msgstr "Osion kirjoitus epäonnistui laitteelle %s"
 #, fuzzy, c-format
 msgid "invalid time value \"%s\""
 msgstr "virheellinen valitsin"
-
-#: login-utils/last-deprecated.c:155
-msgid "usage: last [-#] [-f file] [-t tty] [-h hostname] [user ...]\n"
-msgstr ""
-"käyttö: last [-#] [-f tiedosto] [-t tty] [-h konenimi] [käyttäjä ...]\n"
-
-#: login-utils/last-deprecated.c:252
-#, fuzzy, c-format
-msgid "%s: mmap failed"
-msgstr "%s epäonnistui.\n"
-
-#: login-utils/last-deprecated.c:312
-msgid "  still logged in"
-msgstr "  edelleen kirjautuneena"
-
-#: login-utils/last-deprecated.c:334
-#, c-format
-msgid ""
-"\n"
-"wtmp begins %s"
-msgstr ""
-"\n"
-"wtmp alkaa %s"
-
-#: login-utils/last-deprecated.c:433
-#, fuzzy
-msgid "gethostname failed"
-msgstr "virhe: UUID:n jäsennys epäonnistui"
-
-#: login-utils/last-deprecated.c:479
-#, c-format
-msgid ""
-"\n"
-"interrupted %10.10s %5.5s \n"
-msgstr ""
-"\n"
-"keskeytetty %10.10s %5.5s \n"
 
 #: login-utils/libuser.c:29 login-utils/libuser.c:31
 msgid "Couldn't drop group privileges"
@@ -12044,6 +12045,191 @@ msgstr "openpty epäonnistui\n"
 msgid "%s: %s (%<PRIu64> bytes) trimmed\n"
 msgstr ""
 
+#: sys-utils/hwclock-cmos.c:217
+#, c-format
+msgid "booted from MILO\n"
+msgstr "käynnistetty MILOsta\n"
+
+#: sys-utils/hwclock-cmos.c:229
+#, c-format
+msgid "Ruffian BCD clock\n"
+msgstr "Ruffian BCD -kello\n"
+
+#: sys-utils/hwclock-cmos.c:248
+#, c-format
+msgid "clockport adjusted to 0x%x\n"
+msgstr "kelloportiksi asetettu 0x%x\n"
+
+#: sys-utils/hwclock-cmos.c:264
+#, c-format
+msgid "funky TOY!\n"
+msgstr "funky TOY!\n"
+
+#: sys-utils/hwclock-cmos.c:292
+#, c-format
+msgid "atomic %s failed for 1000 iterations!"
+msgstr "atominen %s epäonnistui tuhannen iteraation ajan!"
+
+#: sys-utils/hwclock-cmos.c:318
+#, c-format
+msgid "cmos_read(): write to control address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:322
+#, c-format
+msgid "cmos_read(): read data address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:359
+#, c-format
+msgid "cmos_write(): write to control address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:364
+#, c-format
+msgid "cmos_write(): write to data address %X failed"
+msgstr ""
+
+#: sys-utils/hwclock-cmos.c:639
+msgid "I failed to get permission because I didn't try."
+msgstr "En saanut käyttöoikeutta, koska en yrittänyt."
+
+#: sys-utils/hwclock-cmos.c:642
+#, fuzzy
+msgid "unable to get I/O port access:  the iopl(3) call failed."
+msgstr "%s ei saa käyttöoikeutta I/O-porttiin:  iopl(3)-kutsu epäonnistui.\n"
+
+#: sys-utils/hwclock-cmos.c:645
+msgid "Probably you need root privileges.\n"
+msgstr "Tarvitset todennäköisesti pääkäyttäjän oikeudet.\n"
+
+#: sys-utils/hwclock-kd.c:47
+#, c-format
+msgid "Waiting in loop for time from KDGHWCLK to change\n"
+msgstr "Odotetaan silmukassa KDGHWCLK-ajan muuttumista\n"
+
+#: sys-utils/hwclock-kd.c:50
+msgid "KDGHWCLK ioctl to read time failed"
+msgstr "ajan lukeva KDGHWCLK-ioctl epäonnistui"
+
+#: sys-utils/hwclock-kd.c:72
+msgid "KDGHWCLK ioctl to read time failed in loop"
+msgstr "ajan lukeva KDGHWCLK-ioctl epäonnistui silmukassa"
+
+#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
+msgid "Timed out waiting for time change."
+msgstr "Aikakatkaisu odotettaessa ajan muutosta."
+
+#: sys-utils/hwclock-kd.c:98
+#, c-format
+msgid "ioctl() failed to read time from %s"
+msgstr "ioctl() ei onnistunut lukemaan aikaa kohteesta %s"
+
+#: sys-utils/hwclock-kd.c:134
+msgid "ioctl KDSHWCLK failed"
+msgstr "ioctl KDSHWCLK epäonnistui"
+
+#: sys-utils/hwclock-kd.c:170
+msgid "Can't open /dev/tty1 or /dev/vc/1"
+msgstr "Laitetta /dev/tty1 tai /dev/vc/1 ei voi avata"
+
+#: sys-utils/hwclock-kd.c:174
+msgid "KDGHWCLK ioctl failed"
+msgstr "KDGHWCLK-ioctl epäonnistui"
+
+#: sys-utils/hwclock-rtc.c:195
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to read the time failed"
+msgstr "aikaa lukeva ioctl() laitteelle %s epäonnistui.\n"
+
+#: sys-utils/hwclock-rtc.c:217
+#, c-format
+msgid "Waiting in loop for time from %s to change\n"
+msgstr "Odotetaan silmukassa laitteen %s ajan muuttumista\n"
+
+#: sys-utils/hwclock-rtc.c:279
+#, c-format
+msgid "%s does not have interrupt functions. "
+msgstr "laitteella %s ei ole keskeytysfunktioita. "
+
+#: sys-utils/hwclock-rtc.c:290
+#, c-format
+msgid "read() to %s to wait for clock tick failed"
+msgstr "kellon tikitystä odottava read()-kutsu laitteelle %s epäonnistui"
+
+#: sys-utils/hwclock-rtc.c:314
+#, c-format
+msgid "select() to %s to wait for clock tick failed"
+msgstr "kellon tikitystä odottava select()-kutsu laitteelle %s epäonnistui"
+
+#: sys-utils/hwclock-rtc.c:317
+#, fuzzy, c-format
+msgid "select() to %s to wait for clock tick timed out"
+msgstr ""
+"kellon tikitystä odottava select()-kutsu laitteelle %s aikakatkaistiin\n"
+
+#: sys-utils/hwclock-rtc.c:326
+#, c-format
+msgid "ioctl() to %s to turn off update interrupts failed"
+msgstr "päivityskeskeytykset lopettava ioctl() laitteelle %s epäonnistui"
+
+#: sys-utils/hwclock-rtc.c:329
+#, c-format
+msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
+msgstr ""
+"päivityskeskeytykset aloittava ioctl() laitteelle %s epäonnistui "
+"odottamattomasti"
+
+#: sys-utils/hwclock-rtc.c:383
+#, fuzzy, c-format
+msgid "ioctl(%s) to %s to set the time failed."
+msgstr "ajan asettava ioctl() laitteelle %s epäonnistui.\n"
+
+#: sys-utils/hwclock-rtc.c:389
+#, c-format
+msgid "ioctl(%s) was successful.\n"
+msgstr "ioctl(%s) onnistui.\n"
+
+#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
+#, fuzzy, c-format
+msgid ""
+"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
+"device driver via the device special file %s.  This file does not exist on "
+"this system."
+msgstr ""
+"Ytimen epoch-arvon muuttamiseksi on käytettävä Linuxin ”rtc”-laiteajuria "
+"laitetiedoston %s kautta. Tässä järjestelmässä ei ole kyseistä tiedostoa.\n"
+
+#: sys-utils/hwclock-rtc.c:442
+#, c-format
+msgid "ioctl(RTC_EPOCH_READ) to %s failed"
+msgstr "ioctl(RTC_EPOCH_READ) laitteelle %s epäonnistui"
+
+#: sys-utils/hwclock-rtc.c:448
+#, c-format
+msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
+msgstr "luimme epoch-arvon %ld laitteelta %s ioctl:llä RTC_EPOCH_READ.\n"
+
+#: sys-utils/hwclock-rtc.c:468
+#, fuzzy, c-format
+msgid "The epoch value may not be less than 1900.  You requested %ld"
+msgstr "Epoch-arvo ei voi olla pienempi kuin 1900. Pyyntö oli %ld\n"
+
+#: sys-utils/hwclock-rtc.c:487
+#, c-format
+msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
+msgstr "asetetaan epoch-arvoksi %ld, ioctl RTC_EPOCH_SET laitteelle %s.\n"
+
+#: sys-utils/hwclock-rtc.c:493
+#, fuzzy, c-format
+msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
+msgstr "Ytimen laiteajurissa laitteelle %s ei ole ioctl:ää RTC_EPOCH_SET.\n"
+
+#: sys-utils/hwclock-rtc.c:497
+#, c-format
+msgid "ioctl(RTC_EPOCH_SET) to %s failed"
+msgstr "ioctl(RTC_EPOCH_SET) laitteelle %s epäonnistui"
+
 #: sys-utils/hwclock.c:226
 #, c-format
 msgid "Assuming hardware clock is kept in %s time.\n"
@@ -12573,191 +12759,6 @@ msgid ""
 "Use the --debug option to see the details of our search for an access method."
 msgstr ""
 "Käytä --debug -valitsinta nähdäksesi yksityiskohdat käyttötavan etsinnästä."
-
-#: sys-utils/hwclock-cmos.c:217
-#, c-format
-msgid "booted from MILO\n"
-msgstr "käynnistetty MILOsta\n"
-
-#: sys-utils/hwclock-cmos.c:229
-#, c-format
-msgid "Ruffian BCD clock\n"
-msgstr "Ruffian BCD -kello\n"
-
-#: sys-utils/hwclock-cmos.c:248
-#, c-format
-msgid "clockport adjusted to 0x%x\n"
-msgstr "kelloportiksi asetettu 0x%x\n"
-
-#: sys-utils/hwclock-cmos.c:264
-#, c-format
-msgid "funky TOY!\n"
-msgstr "funky TOY!\n"
-
-#: sys-utils/hwclock-cmos.c:292
-#, c-format
-msgid "atomic %s failed for 1000 iterations!"
-msgstr "atominen %s epäonnistui tuhannen iteraation ajan!"
-
-#: sys-utils/hwclock-cmos.c:318
-#, c-format
-msgid "cmos_read(): write to control address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:322
-#, c-format
-msgid "cmos_read(): read data address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:359
-#, c-format
-msgid "cmos_write(): write to control address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:364
-#, c-format
-msgid "cmos_write(): write to data address %X failed"
-msgstr ""
-
-#: sys-utils/hwclock-cmos.c:639
-msgid "I failed to get permission because I didn't try."
-msgstr "En saanut käyttöoikeutta, koska en yrittänyt."
-
-#: sys-utils/hwclock-cmos.c:642
-#, fuzzy
-msgid "unable to get I/O port access:  the iopl(3) call failed."
-msgstr "%s ei saa käyttöoikeutta I/O-porttiin:  iopl(3)-kutsu epäonnistui.\n"
-
-#: sys-utils/hwclock-cmos.c:645
-msgid "Probably you need root privileges.\n"
-msgstr "Tarvitset todennäköisesti pääkäyttäjän oikeudet.\n"
-
-#: sys-utils/hwclock-kd.c:47
-#, c-format
-msgid "Waiting in loop for time from KDGHWCLK to change\n"
-msgstr "Odotetaan silmukassa KDGHWCLK-ajan muuttumista\n"
-
-#: sys-utils/hwclock-kd.c:50
-msgid "KDGHWCLK ioctl to read time failed"
-msgstr "ajan lukeva KDGHWCLK-ioctl epäonnistui"
-
-#: sys-utils/hwclock-kd.c:72
-msgid "KDGHWCLK ioctl to read time failed in loop"
-msgstr "ajan lukeva KDGHWCLK-ioctl epäonnistui silmukassa"
-
-#: sys-utils/hwclock-kd.c:79 sys-utils/hwclock-rtc.c:236
-msgid "Timed out waiting for time change."
-msgstr "Aikakatkaisu odotettaessa ajan muutosta."
-
-#: sys-utils/hwclock-kd.c:98
-#, c-format
-msgid "ioctl() failed to read time from %s"
-msgstr "ioctl() ei onnistunut lukemaan aikaa kohteesta %s"
-
-#: sys-utils/hwclock-kd.c:134
-msgid "ioctl KDSHWCLK failed"
-msgstr "ioctl KDSHWCLK epäonnistui"
-
-#: sys-utils/hwclock-kd.c:170
-msgid "Can't open /dev/tty1 or /dev/vc/1"
-msgstr "Laitetta /dev/tty1 tai /dev/vc/1 ei voi avata"
-
-#: sys-utils/hwclock-kd.c:174
-msgid "KDGHWCLK ioctl failed"
-msgstr "KDGHWCLK-ioctl epäonnistui"
-
-#: sys-utils/hwclock-rtc.c:195
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to read the time failed"
-msgstr "aikaa lukeva ioctl() laitteelle %s epäonnistui.\n"
-
-#: sys-utils/hwclock-rtc.c:217
-#, c-format
-msgid "Waiting in loop for time from %s to change\n"
-msgstr "Odotetaan silmukassa laitteen %s ajan muuttumista\n"
-
-#: sys-utils/hwclock-rtc.c:279
-#, c-format
-msgid "%s does not have interrupt functions. "
-msgstr "laitteella %s ei ole keskeytysfunktioita. "
-
-#: sys-utils/hwclock-rtc.c:290
-#, c-format
-msgid "read() to %s to wait for clock tick failed"
-msgstr "kellon tikitystä odottava read()-kutsu laitteelle %s epäonnistui"
-
-#: sys-utils/hwclock-rtc.c:314
-#, c-format
-msgid "select() to %s to wait for clock tick failed"
-msgstr "kellon tikitystä odottava select()-kutsu laitteelle %s epäonnistui"
-
-#: sys-utils/hwclock-rtc.c:317
-#, fuzzy, c-format
-msgid "select() to %s to wait for clock tick timed out"
-msgstr ""
-"kellon tikitystä odottava select()-kutsu laitteelle %s aikakatkaistiin\n"
-
-#: sys-utils/hwclock-rtc.c:326
-#, c-format
-msgid "ioctl() to %s to turn off update interrupts failed"
-msgstr "päivityskeskeytykset lopettava ioctl() laitteelle %s epäonnistui"
-
-#: sys-utils/hwclock-rtc.c:329
-#, c-format
-msgid "ioctl() to %s to turn on update interrupts failed unexpectedly"
-msgstr ""
-"päivityskeskeytykset aloittava ioctl() laitteelle %s epäonnistui "
-"odottamattomasti"
-
-#: sys-utils/hwclock-rtc.c:383
-#, fuzzy, c-format
-msgid "ioctl(%s) to %s to set the time failed."
-msgstr "ajan asettava ioctl() laitteelle %s epäonnistui.\n"
-
-#: sys-utils/hwclock-rtc.c:389
-#, c-format
-msgid "ioctl(%s) was successful.\n"
-msgstr "ioctl(%s) onnistui.\n"
-
-#: sys-utils/hwclock-rtc.c:430 sys-utils/hwclock-rtc.c:477
-#, fuzzy, c-format
-msgid ""
-"To manipulate the epoch value in the kernel, we must access the Linux 'rtc' "
-"device driver via the device special file %s.  This file does not exist on "
-"this system."
-msgstr ""
-"Ytimen epoch-arvon muuttamiseksi on käytettävä Linuxin ”rtc”-laiteajuria "
-"laitetiedoston %s kautta. Tässä järjestelmässä ei ole kyseistä tiedostoa.\n"
-
-#: sys-utils/hwclock-rtc.c:442
-#, c-format
-msgid "ioctl(RTC_EPOCH_READ) to %s failed"
-msgstr "ioctl(RTC_EPOCH_READ) laitteelle %s epäonnistui"
-
-#: sys-utils/hwclock-rtc.c:448
-#, c-format
-msgid "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.\n"
-msgstr "luimme epoch-arvon %ld laitteelta %s ioctl:llä RTC_EPOCH_READ.\n"
-
-#: sys-utils/hwclock-rtc.c:468
-#, fuzzy, c-format
-msgid "The epoch value may not be less than 1900.  You requested %ld"
-msgstr "Epoch-arvo ei voi olla pienempi kuin 1900. Pyyntö oli %ld\n"
-
-#: sys-utils/hwclock-rtc.c:487
-#, c-format
-msgid "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.\n"
-msgstr "asetetaan epoch-arvoksi %ld, ioctl RTC_EPOCH_SET laitteelle %s.\n"
-
-#: sys-utils/hwclock-rtc.c:493
-#, fuzzy, c-format
-msgid "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl."
-msgstr "Ytimen laiteajurissa laitteelle %s ei ole ioctl:ää RTC_EPOCH_SET.\n"
-
-#: sys-utils/hwclock-rtc.c:497
-#, c-format
-msgid "ioctl(RTC_EPOCH_SET) to %s failed"
-msgstr "ioctl(RTC_EPOCH_SET) laitteelle %s epäonnistui"
 
 #: sys-utils/ipcmk.c:69
 msgid " -M, --shmem <size>       create shared memory segment of size <size>\n"
@@ -15780,6 +15781,11 @@ msgid ""
 " <file>                 name of file to be used\n"
 msgstr ""
 
+#: sys-utils/swapon-common.c:62
+#, fuzzy, c-format
+msgid "cannot find the device for %s"
+msgstr "%s: tiedostolle %s ei löydy laitetta\n"
+
 #: sys-utils/swapon.c:100
 #, fuzzy
 msgid "device file or partition path"
@@ -15967,11 +15973,6 @@ msgstr "Osion kirjoitus epäonnistui laitteelle %s"
 #, fuzzy, c-format
 msgid "unsupported discard policy: %s"
 msgstr "%s: tuntematon argumentti: %s\n"
-
-#: sys-utils/swapon-common.c:62
-#, fuzzy, c-format
-msgid "cannot find the device for %s"
-msgstr "%s: tiedostolle %s ei löydy laitetta\n"
 
 #: sys-utils/switch_root.c:57
 #, fuzzy
