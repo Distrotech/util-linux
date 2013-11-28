@@ -17,9 +17,9 @@ for lnsbin in `ls ${3}/sbin`;do
 done;
 
 for lulib in libblkid.so libmount.so libuuid.so;do
-  if [ -e ${3}/${B_LIBDIRS}/${lulib} ];then
+  if [ -h ${3}/${B_LIBDIRS}/${lulib} ];then
     rm ${3}/${B_LIBDIRS}/${lulib}
-    if [ -e ${3}/${B_LIBDIRS}/${lulib}.1 ];then
+    if [ -h ${3}/${B_LIBDIRS}/${lulib}.1 ];then
       ln -s ${lulib}.1 ${3}/${B_LIBDIRS}/${lulib}
     fi;
   fi;
