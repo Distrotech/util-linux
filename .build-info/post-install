@@ -1,0 +1,26 @@
+#!/bin/bash
+
+if [ ! -d ${3}/usr/bin ];then
+  mkdir -p ${3}/usr/bin
+fi;
+
+if [ ! -d ${3}/usr/sbin ];then
+  mkdir -p ${3}/usr/sbin
+fi;
+
+for lnbin in `ls ${3}/bin`;do
+  ln -s /bin/$lnbin ${3}/usr/bin
+done;
+
+for lnsbin in `ls ${3}/sbin`;do
+  ln -s /sbin/$lnsbin ${3}/usr/sbin
+done;
+
+for lulib in libblkid.so libmount.so libuuid.so;do
+  if [ -h ${3}/${C_LIBDIRS}/${lulib} ];then
+    rm ${3}/${C_LIBDIRS}/${lulib}
+    if [ -h ${3}/${C_LIBDIRS}/${lulib}.1 ];then
+      ln -s ${lulib}.1 ${3}/${C_LIBDIRS}/${lulib}
+    fi;
+  fi;
+done
