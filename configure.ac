@@ -625,6 +625,9 @@ AC_ARG_WITH([selinux],
 
 AS_IF([test "x$with_selinux" = xno], [
   AM_CONDITIONAL([HAVE_SELINUX], [false])
+  AM_CONDITIONAL([HAVE_SEPOL], [false])
+  AM_CONDITIONAL([HAVE_PTHREAD], [false])
+  AM_CONDITIONAL([HAVE_PCRE], [false])
 ], [
   PKG_CHECK_MODULES([SELINUX], [libselinux >= 2.0],
 	[AC_DEFINE([HAVE_LIBSELINUX], [1], [Define if SELinux is available])
@@ -639,6 +642,21 @@ AS_IF([test "x$with_selinux" = xno], [
 
   AS_IF([test "x$have_selinux" = xyes], [
     UL_SET_FLAGS([], [], [$SELINUX_LIBS])
+    UL_CHECK_LIB(sepol, sepol_load_policy)
+    UL_CHECK_LIB(pcre, pcre_version)
+    UL_CHECK_LIB(pthread, pthread_create)
+    if test "x$have_sepol" = xyes;then
+      SELINUX_LIBS="${SELINUX_LIBS} -lsepol";
+      SELINUX_LIBS_STATIC="${SELINUX_LIBS_STATIC} -lsepol";
+    fi;
+    if test "x$have_pcre" = xyes;then
+      SELINUX_LIBS="${SELINUX_LIBS} -lpcre";
+      SELINUX_LIBS_STATIC="${SELINUX_LIBS_STATIC} -lpcre";
+    fi;
+    if test "x$have_pthread" = xyes;then
+      SELINUX_LIBS="${SELINUX_LIBS} -lpthread";
+      SELINUX_LIBS_STATIC="${SELINUX_LIBS_STATIC} -lpthread";
+    fi;
     # This function is missing in old libselinux 1.xx versions
     AC_CHECK_FUNCS([security_get_initial_context])
     UL_RESTORE_FLAGS
