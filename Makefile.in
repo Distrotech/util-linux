@@ -450,329 +450,328 @@ DIST_COMMON = $(srcdir)/include/Makemodule.am \
 @BUILD_NEWGRP_TRUE@am__append_159 = newgrp
 @BUILD_NEWGRP_TRUE@am__append_160 = login-utils/newgrp.1
 @BUILD_NEWGRP_TRUE@@HAVE_LIBCRYPT_TRUE@am__append_161 = -lcrypt
-@BUILD_LSLOGINS_TRUE@am__append_162 = lslogins
-@BUILD_LSLOGINS_TRUE@am__append_163 = login-utils/lslogins.1
-@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@am__append_164 = -lselinux
-@BUILD_LSLOGINS_TRUE@@HAVE_SYSTEMD_TRUE@am__append_165 = $(SYSTEMD_LIBS) $(SYSTEMD_JOURNAL_LIBS)
-@BUILD_LSLOGINS_TRUE@@HAVE_SYSTEMD_TRUE@am__append_166 = $(SYSTEMD_CFLAGS) $(SYSTEMD_JOURNAL_CFLAGS)
-@BUILD_VIPW_TRUE@am__append_167 = vipw
-@BUILD_VIPW_TRUE@am__append_168 = \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@am__append_162 = lslogins
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@am__append_163 = login-utils/lslogins.1
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@@HAVE_SYSTEMD_TRUE@am__append_164 = $(SYSTEMD_LIBS) $(SYSTEMD_JOURNAL_LIBS)
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@@HAVE_SYSTEMD_TRUE@am__append_165 = $(SYSTEMD_CFLAGS) $(SYSTEMD_JOURNAL_CFLAGS)
+@BUILD_VIPW_TRUE@am__append_166 = vipw
+@BUILD_VIPW_TRUE@am__append_167 = \
 @BUILD_VIPW_TRUE@	login-utils/vigr.8 \
 @BUILD_VIPW_TRUE@	login-utils/vipw.8
 
-@BUILD_VIPW_TRUE@@HAVE_SELINUX_TRUE@am__append_169 = $(SELINUX_LIBS)
-@BUILD_VIPW_TRUE@am__append_170 = install-exec-hook-vipw
-@BUILD_FLOCK_TRUE@am__append_171 = flock
-@BUILD_FLOCK_TRUE@am__append_172 = sys-utils/flock.1
-@BUILD_IPCMK_TRUE@am__append_173 = ipcmk
-@BUILD_IPCMK_TRUE@am__append_174 = sys-utils/ipcmk.1
-@BUILD_IPCRM_TRUE@am__append_175 = ipcrm
-@BUILD_IPCRM_TRUE@am__append_176 = sys-utils/ipcrm.1
-@BUILD_IPCS_TRUE@am__append_177 = ipcs
-@BUILD_IPCS_TRUE@am__append_178 = sys-utils/ipcs.1
-@BUILD_RENICE_TRUE@am__append_179 = renice
-@BUILD_RENICE_TRUE@am__append_180 = sys-utils/renice.1
-@BUILD_SETSID_TRUE@am__append_181 = setsid
-@BUILD_SETSID_TRUE@am__append_182 = sys-utils/setsid.1
-@BUILD_READPROFILE_TRUE@am__append_183 = readprofile
-@BUILD_READPROFILE_TRUE@am__append_184 = sys-utils/readprofile.8
-@BUILD_TUNELP_TRUE@am__append_185 = tunelp
-@BUILD_TUNELP_TRUE@am__append_186 = sys-utils/tunelp.8
-@BUILD_FSTRIM_TRUE@am__append_187 = fstrim
-@BUILD_FSTRIM_TRUE@am__append_188 = sys-utils/fstrim.8
-@BUILD_FSTRIM_TRUE@@HAVE_SYSTEMD_TRUE@am__append_189 = \
+@BUILD_VIPW_TRUE@@HAVE_SELINUX_TRUE@am__append_168 = $(SELINUX_LIBS)
+@BUILD_VIPW_TRUE@am__append_169 = install-exec-hook-vipw
+@BUILD_FLOCK_TRUE@am__append_170 = flock
+@BUILD_FLOCK_TRUE@am__append_171 = sys-utils/flock.1
+@BUILD_IPCMK_TRUE@am__append_172 = ipcmk
+@BUILD_IPCMK_TRUE@am__append_173 = sys-utils/ipcmk.1
+@BUILD_IPCRM_TRUE@am__append_174 = ipcrm
+@BUILD_IPCRM_TRUE@am__append_175 = sys-utils/ipcrm.1
+@BUILD_IPCS_TRUE@am__append_176 = ipcs
+@BUILD_IPCS_TRUE@am__append_177 = sys-utils/ipcs.1
+@BUILD_RENICE_TRUE@am__append_178 = renice
+@BUILD_RENICE_TRUE@am__append_179 = sys-utils/renice.1
+@BUILD_SETSID_TRUE@am__append_180 = setsid
+@BUILD_SETSID_TRUE@am__append_181 = sys-utils/setsid.1
+@BUILD_READPROFILE_TRUE@am__append_182 = readprofile
+@BUILD_READPROFILE_TRUE@am__append_183 = sys-utils/readprofile.8
+@BUILD_TUNELP_TRUE@am__append_184 = tunelp
+@BUILD_TUNELP_TRUE@am__append_185 = sys-utils/tunelp.8
+@BUILD_FSTRIM_TRUE@am__append_186 = fstrim
+@BUILD_FSTRIM_TRUE@am__append_187 = sys-utils/fstrim.8
+@BUILD_FSTRIM_TRUE@@HAVE_SYSTEMD_TRUE@am__append_188 = \
 @BUILD_FSTRIM_TRUE@@HAVE_SYSTEMD_TRUE@		sys-utils/fstrim.service \
 @BUILD_FSTRIM_TRUE@@HAVE_SYSTEMD_TRUE@		sys-utils/fstrim.timer
 
-@BUILD_DMESG_TRUE@am__append_190 = dmesg
-@BUILD_DMESG_TRUE@am__append_191 = sys-utils/dmesg.1
-@BUILD_CTRLALTDEL_TRUE@am__append_192 = ctrlaltdel
-@BUILD_CTRLALTDEL_TRUE@am__append_193 = sys-utils/ctrlaltdel.8
-@BUILD_FSFREEZE_TRUE@am__append_194 = fsfreeze
-@BUILD_FSFREEZE_TRUE@am__append_195 = sys-utils/fsfreeze.8
-@BUILD_BLKDISCARD_TRUE@am__append_196 = blkdiscard
-@BUILD_BLKDISCARD_TRUE@am__append_197 = sys-utils/blkdiscard.8
-@BUILD_LDATTACH_TRUE@am__append_198 = ldattach
-@BUILD_LDATTACH_TRUE@am__append_199 = sys-utils/ldattach.8
-@BUILD_RTCWAKE_TRUE@am__append_200 = rtcwake
+@BUILD_DMESG_TRUE@am__append_189 = dmesg
+@BUILD_DMESG_TRUE@am__append_190 = sys-utils/dmesg.1
+@BUILD_CTRLALTDEL_TRUE@am__append_191 = ctrlaltdel
+@BUILD_CTRLALTDEL_TRUE@am__append_192 = sys-utils/ctrlaltdel.8
+@BUILD_FSFREEZE_TRUE@am__append_193 = fsfreeze
+@BUILD_FSFREEZE_TRUE@am__append_194 = sys-utils/fsfreeze.8
+@BUILD_BLKDISCARD_TRUE@am__append_195 = blkdiscard
+@BUILD_BLKDISCARD_TRUE@am__append_196 = sys-utils/blkdiscard.8
+@BUILD_LDATTACH_TRUE@am__append_197 = ldattach
+@BUILD_LDATTACH_TRUE@am__append_198 = sys-utils/ldattach.8
+@BUILD_RTCWAKE_TRUE@am__append_199 = rtcwake
+@BUILD_RTCWAKE_TRUE@am__append_200 = sys-utils/rtcwake.8
 @BUILD_RTCWAKE_TRUE@am__append_201 = sys-utils/rtcwake.8
-@BUILD_RTCWAKE_TRUE@am__append_202 = sys-utils/rtcwake.8
-@BUILD_SETARCH_TRUE@am__append_203 = setarch
-@BUILD_SETARCH_TRUE@am__append_204 = sys-utils/setarch.8
-@ARCH_S390_TRUE@@BUILD_SETARCH_TRUE@am__append_205 = s390 s390x
-@ARCH_I86_TRUE@@BUILD_SETARCH_TRUE@am__append_206 = i386
-@ARCH_86_64_TRUE@@BUILD_SETARCH_TRUE@am__append_207 = i386 x86_64
-@ARCH_PPC_TRUE@@BUILD_SETARCH_TRUE@am__append_208 = ppc ppc64 ppc32
-@ARCH_SPARC_TRUE@@BUILD_SETARCH_TRUE@am__append_209 = sparc sparc64 sparc32 sparc32bash
-@ARCH_MIPS_TRUE@@BUILD_SETARCH_TRUE@am__append_210 = mips mips64 mips32
-@ARCH_IA64_TRUE@@BUILD_SETARCH_TRUE@am__append_211 = i386 ia64
-@ARCH_HPPA_TRUE@@BUILD_SETARCH_TRUE@am__append_212 = parisc parisc64 parisc32
+@BUILD_SETARCH_TRUE@am__append_202 = setarch
+@BUILD_SETARCH_TRUE@am__append_203 = sys-utils/setarch.8
+@ARCH_S390_TRUE@@BUILD_SETARCH_TRUE@am__append_204 = s390 s390x
+@ARCH_I86_TRUE@@BUILD_SETARCH_TRUE@am__append_205 = i386
+@ARCH_86_64_TRUE@@BUILD_SETARCH_TRUE@am__append_206 = i386 x86_64
+@ARCH_PPC_TRUE@@BUILD_SETARCH_TRUE@am__append_207 = ppc ppc64 ppc32
+@ARCH_SPARC_TRUE@@BUILD_SETARCH_TRUE@am__append_208 = sparc sparc64 sparc32 sparc32bash
+@ARCH_MIPS_TRUE@@BUILD_SETARCH_TRUE@am__append_209 = mips mips64 mips32
+@ARCH_IA64_TRUE@@BUILD_SETARCH_TRUE@am__append_210 = i386 ia64
+@ARCH_HPPA_TRUE@@BUILD_SETARCH_TRUE@am__append_211 = parisc parisc64 parisc32
+@BUILD_SETARCH_TRUE@am__append_212 = $(SETARCH_MAN_LINKS)
 @BUILD_SETARCH_TRUE@am__append_213 = $(SETARCH_MAN_LINKS)
-@BUILD_SETARCH_TRUE@am__append_214 = $(SETARCH_MAN_LINKS)
-@BUILD_SETARCH_TRUE@am__append_215 = install-exec-hook-setarch
-@BUILD_SETARCH_TRUE@am__append_216 = uninstall-hook-setarch
-@BUILD_EJECT_TRUE@am__append_217 = eject
-@BUILD_EJECT_TRUE@am__append_218 = sys-utils/eject.1
-@BUILD_LOSETUP_TRUE@am__append_219 = losetup
-@BUILD_LOSETUP_TRUE@am__append_220 = sys-utils/losetup.8
-@BUILD_LOSETUP_TRUE@@HAVE_STATIC_LOSETUP_TRUE@am__append_221 = losetup.static
-@BUILD_ZRAMCTL_TRUE@am__append_222 = zramctl
-@BUILD_ZRAMCTL_TRUE@am__append_223 = sys-utils/zramctl.8
-@BUILD_PRLIMIT_TRUE@am__append_224 = prlimit
-@BUILD_PRLIMIT_TRUE@am__append_225 = sys-utils/prlimit.1
+@BUILD_SETARCH_TRUE@am__append_214 = install-exec-hook-setarch
+@BUILD_SETARCH_TRUE@am__append_215 = uninstall-hook-setarch
+@BUILD_EJECT_TRUE@am__append_216 = eject
+@BUILD_EJECT_TRUE@am__append_217 = sys-utils/eject.1
+@BUILD_LOSETUP_TRUE@am__append_218 = losetup
+@BUILD_LOSETUP_TRUE@am__append_219 = sys-utils/losetup.8
+@BUILD_LOSETUP_TRUE@@HAVE_STATIC_LOSETUP_TRUE@am__append_220 = losetup.static
+@BUILD_ZRAMCTL_TRUE@am__append_221 = zramctl
+@BUILD_ZRAMCTL_TRUE@am__append_222 = sys-utils/zramctl.8
+@BUILD_PRLIMIT_TRUE@am__append_223 = prlimit
+@BUILD_PRLIMIT_TRUE@am__append_224 = sys-utils/prlimit.1
 
 #
 # The original mount is in mount/ directory
 # -- temporary we share some man pages
 #
-@BUILD_MOUNT_TRUE@am__append_226 = mount umount
-@BUILD_MOUNT_TRUE@am__append_227 = \
+@BUILD_MOUNT_TRUE@am__append_225 = mount umount
+@BUILD_MOUNT_TRUE@am__append_226 = \
 @BUILD_MOUNT_TRUE@	sys-utils/mount.8 \
 @BUILD_MOUNT_TRUE@	sys-utils/fstab.5 \
 @BUILD_MOUNT_TRUE@	sys-utils/umount.8
 
-@BUILD_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@am__append_228 = mount.static
-@BUILD_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@am__append_229 = umount.static
-@BUILD_MOUNT_TRUE@@MAKEINSTALL_DO_SETUID_TRUE@am__append_230 = install-exec-hook-mount
-@BUILD_SWAPON_TRUE@am__append_231 = swapon swapoff
-@BUILD_SWAPON_TRUE@am__append_232 = \
+@BUILD_MOUNT_TRUE@@HAVE_STATIC_MOUNT_TRUE@am__append_227 = mount.static
+@BUILD_MOUNT_TRUE@@HAVE_STATIC_UMOUNT_TRUE@am__append_228 = umount.static
+@BUILD_MOUNT_TRUE@@MAKEINSTALL_DO_SETUID_TRUE@am__append_229 = install-exec-hook-mount
+@BUILD_SWAPON_TRUE@am__append_230 = swapon swapoff
+@BUILD_SWAPON_TRUE@am__append_231 = \
 @BUILD_SWAPON_TRUE@	sys-utils/swapoff.8 \
 @BUILD_SWAPON_TRUE@	sys-utils/swapon.8
 
-@BUILD_LSCPU_TRUE@am__append_233 = lscpu
-@BUILD_LSCPU_TRUE@am__append_234 = sys-utils/lscpu.1
-@BUILD_CHCPU_TRUE@am__append_235 = chcpu
-@BUILD_CHCPU_TRUE@am__append_236 = sys-utils/chcpu.8
-@BUILD_WDCTL_TRUE@am__append_237 = wdctl
-@BUILD_WDCTL_TRUE@am__append_238 = sys-utils/wdctl.8
-@BUILD_MOUNTPOINT_TRUE@am__append_239 = mountpoint
-@BUILD_MOUNTPOINT_TRUE@am__append_240 = sys-utils/mountpoint.1
-@BUILD_FALLOCATE_TRUE@am__append_241 = fallocate
-@BUILD_FALLOCATE_TRUE@am__append_242 = sys-utils/fallocate.1
-@BUILD_PIVOT_ROOT_TRUE@am__append_243 = pivot_root
-@BUILD_PIVOT_ROOT_TRUE@am__append_244 = sys-utils/pivot_root.8
-@BUILD_SWITCH_ROOT_TRUE@am__append_245 = switch_root
-@BUILD_SWITCH_ROOT_TRUE@am__append_246 = sys-utils/switch_root.8
-@BUILD_UNSHARE_TRUE@am__append_247 = unshare
-@BUILD_UNSHARE_TRUE@am__append_248 = sys-utils/unshare.1
-@BUILD_NSENTER_TRUE@am__append_249 = nsenter
-@BUILD_NSENTER_TRUE@am__append_250 = sys-utils/nsenter.1
-@BUILD_NSENTER_TRUE@@HAVE_STATIC_NSENTER_TRUE@am__append_251 = nsenter.static
-@BUILD_HWCLOCK_TRUE@am__append_252 = hwclock
+@BUILD_LSCPU_TRUE@am__append_232 = lscpu
+@BUILD_LSCPU_TRUE@am__append_233 = sys-utils/lscpu.1
+@BUILD_CHCPU_TRUE@am__append_234 = chcpu
+@BUILD_CHCPU_TRUE@am__append_235 = sys-utils/chcpu.8
+@BUILD_WDCTL_TRUE@am__append_236 = wdctl
+@BUILD_WDCTL_TRUE@am__append_237 = sys-utils/wdctl.8
+@BUILD_MOUNTPOINT_TRUE@am__append_238 = mountpoint
+@BUILD_MOUNTPOINT_TRUE@am__append_239 = sys-utils/mountpoint.1
+@BUILD_FALLOCATE_TRUE@am__append_240 = fallocate
+@BUILD_FALLOCATE_TRUE@am__append_241 = sys-utils/fallocate.1
+@BUILD_PIVOT_ROOT_TRUE@am__append_242 = pivot_root
+@BUILD_PIVOT_ROOT_TRUE@am__append_243 = sys-utils/pivot_root.8
+@BUILD_SWITCH_ROOT_TRUE@am__append_244 = switch_root
+@BUILD_SWITCH_ROOT_TRUE@am__append_245 = sys-utils/switch_root.8
+@BUILD_UNSHARE_TRUE@am__append_246 = unshare
+@BUILD_UNSHARE_TRUE@am__append_247 = sys-utils/unshare.1
+@BUILD_NSENTER_TRUE@am__append_248 = nsenter
+@BUILD_NSENTER_TRUE@am__append_249 = sys-utils/nsenter.1
+@BUILD_NSENTER_TRUE@@HAVE_STATIC_NSENTER_TRUE@am__append_250 = nsenter.static
+@BUILD_HWCLOCK_TRUE@am__append_251 = hwclock
+@BUILD_HWCLOCK_TRUE@am__append_252 = sys-utils/hwclock.8
 @BUILD_HWCLOCK_TRUE@am__append_253 = sys-utils/hwclock.8
-@BUILD_HWCLOCK_TRUE@am__append_254 = sys-utils/hwclock.8
-@BUILD_HWCLOCK_TRUE@@LINUX_TRUE@am__append_255 = sys-utils/hwclock-rtc.c
-@BUILD_HWCLOCK_TRUE@@HAVE_AUDIT_TRUE@am__append_256 = -laudit
-@BUILD_SETPRIV_TRUE@am__append_257 = setpriv
-@BUILD_SETPRIV_TRUE@am__append_258 = sys-utils/setpriv.1
-@BUILD_CAL_TRUE@am__append_259 = cal
-@BUILD_CAL_TRUE@am__append_260 = misc-utils/cal.1
-@BUILD_CAL_TRUE@@HAVE_LANGINFO_FALSE@am__append_261 = lib/langinfo.c
-@BUILD_CAL_TRUE@@HAVE_TERMCAP_TRUE@am__append_262 = -ltermcap
-@BUILD_LOGGER_TRUE@am__append_263 = logger
-@BUILD_LOGGER_TRUE@am__append_264 = misc-utils/logger.1
-@BUILD_LOGGER_TRUE@am__append_265 = test_logger
-@BUILD_LOOK_TRUE@am__append_266 = look
-@BUILD_LOOK_TRUE@am__append_267 = misc-utils/look.1
-@BUILD_MCOOKIE_TRUE@am__append_268 = mcookie
-@BUILD_MCOOKIE_TRUE@am__append_269 = misc-utils/mcookie.1
-@BUILD_NAMEI_TRUE@am__append_270 = namei
-@BUILD_NAMEI_TRUE@am__append_271 = misc-utils/namei.1
-@BUILD_WHEREIS_TRUE@am__append_272 = whereis
-@BUILD_WHEREIS_TRUE@am__append_273 = misc-utils/whereis.1
-@BUILD_LSLOCKS_TRUE@am__append_274 = lslocks
-@BUILD_LSLOCKS_TRUE@am__append_275 = misc-utils/lslocks.8
-@BUILD_LSBLK_TRUE@am__append_276 = lsblk
-@BUILD_LSBLK_TRUE@am__append_277 = misc-utils/lsblk.8
-@BUILD_LSBLK_TRUE@@HAVE_UDEV_TRUE@am__append_278 = -ludev
-@BUILD_UUIDGEN_TRUE@am__append_279 = uuidgen
-@BUILD_UUIDGEN_TRUE@am__append_280 = misc-utils/uuidgen.1
-@BUILD_UUIDD_TRUE@am__append_281 = uuidd
-@BUILD_UUIDD_TRUE@am__append_282 = misc-utils/uuidd.8
-@BUILD_UUIDD_TRUE@@HAVE_SYSTEMD_TRUE@am__append_283 = $(SYSTEMD_LIBS) $(SYSTEMD_DAEMON_LIBS)
-@BUILD_UUIDD_TRUE@@HAVE_SYSTEMD_TRUE@am__append_284 = $(SYSTEMD_CFLAGS) $(SYSTEMD_DAEMON_CFLAGS)
-@BUILD_UUIDD_TRUE@@HAVE_SYSTEMD_TRUE@am__append_285 = \
+@BUILD_HWCLOCK_TRUE@@LINUX_TRUE@am__append_254 = sys-utils/hwclock-rtc.c
+@BUILD_HWCLOCK_TRUE@@HAVE_AUDIT_TRUE@am__append_255 = -laudit
+@BUILD_SETPRIV_TRUE@am__append_256 = setpriv
+@BUILD_SETPRIV_TRUE@am__append_257 = sys-utils/setpriv.1
+@BUILD_CAL_TRUE@am__append_258 = cal
+@BUILD_CAL_TRUE@am__append_259 = misc-utils/cal.1
+@BUILD_CAL_TRUE@@HAVE_LANGINFO_FALSE@am__append_260 = lib/langinfo.c
+@BUILD_CAL_TRUE@@HAVE_TERMCAP_TRUE@am__append_261 = -ltermcap
+@BUILD_LOGGER_TRUE@am__append_262 = logger
+@BUILD_LOGGER_TRUE@am__append_263 = misc-utils/logger.1
+@BUILD_LOGGER_TRUE@am__append_264 = test_logger
+@BUILD_LOOK_TRUE@am__append_265 = look
+@BUILD_LOOK_TRUE@am__append_266 = misc-utils/look.1
+@BUILD_MCOOKIE_TRUE@am__append_267 = mcookie
+@BUILD_MCOOKIE_TRUE@am__append_268 = misc-utils/mcookie.1
+@BUILD_NAMEI_TRUE@am__append_269 = namei
+@BUILD_NAMEI_TRUE@am__append_270 = misc-utils/namei.1
+@BUILD_WHEREIS_TRUE@am__append_271 = whereis
+@BUILD_WHEREIS_TRUE@am__append_272 = misc-utils/whereis.1
+@BUILD_LSLOCKS_TRUE@am__append_273 = lslocks
+@BUILD_LSLOCKS_TRUE@am__append_274 = misc-utils/lslocks.8
+@BUILD_LSBLK_TRUE@am__append_275 = lsblk
+@BUILD_LSBLK_TRUE@am__append_276 = misc-utils/lsblk.8
+@BUILD_LSBLK_TRUE@@HAVE_UDEV_TRUE@am__append_277 = -ludev
+@BUILD_UUIDGEN_TRUE@am__append_278 = uuidgen
+@BUILD_UUIDGEN_TRUE@am__append_279 = misc-utils/uuidgen.1
+@BUILD_UUIDD_TRUE@am__append_280 = uuidd
+@BUILD_UUIDD_TRUE@am__append_281 = misc-utils/uuidd.8
+@BUILD_UUIDD_TRUE@@HAVE_SYSTEMD_TRUE@am__append_282 = $(SYSTEMD_LIBS) $(SYSTEMD_DAEMON_LIBS)
+@BUILD_UUIDD_TRUE@@HAVE_SYSTEMD_TRUE@am__append_283 = $(SYSTEMD_CFLAGS) $(SYSTEMD_DAEMON_CFLAGS)
+@BUILD_UUIDD_TRUE@@HAVE_SYSTEMD_TRUE@am__append_284 = \
 @BUILD_UUIDD_TRUE@@HAVE_SYSTEMD_TRUE@	misc-utils/uuidd.service \
 @BUILD_UUIDD_TRUE@@HAVE_SYSTEMD_TRUE@	misc-utils/uuidd.socket
 
-@BUILD_BLKID_TRUE@am__append_286 = blkid
-@BUILD_BLKID_TRUE@am__append_287 = misc-utils/blkid.8
-@BUILD_BLKID_TRUE@@HAVE_STATIC_BLKID_TRUE@am__append_288 = blkid.static
-@BUILD_FINDFS_TRUE@am__append_289 = findfs
-@BUILD_FINDFS_TRUE@am__append_290 = misc-utils/findfs.8
-@BUILD_WIPEFS_TRUE@am__append_291 = wipefs
-@BUILD_WIPEFS_TRUE@am__append_292 = misc-utils/wipefs.8
-@BUILD_FINDMNT_TRUE@am__append_293 = findmnt
-@BUILD_FINDMNT_TRUE@am__append_294 = misc-utils/findmnt.8
-@BUILD_FINDMNT_TRUE@@HAVE_UDEV_TRUE@am__append_295 = -ludev
-@BUILD_KILL_TRUE@am__append_296 = kill
-@BUILD_KILL_TRUE@am__append_297 = misc-utils/kill.1
-@BUILD_RENAME_TRUE@am__append_298 = rename
-@BUILD_RENAME_TRUE@am__append_299 = misc-utils/rename.1
-@BUILD_GETOPT_TRUE@am__append_300 = getopt
-@BUILD_GETOPT_TRUE@am__append_301 = misc-utils/getopt.1
-@BUILD_MINIX_TRUE@am__append_302 = fsck.minix mkfs.minix
-@BUILD_MINIX_TRUE@am__append_303 = disk-utils/fsck.minix.8 \
+@BUILD_BLKID_TRUE@am__append_285 = blkid
+@BUILD_BLKID_TRUE@am__append_286 = misc-utils/blkid.8
+@BUILD_BLKID_TRUE@@HAVE_STATIC_BLKID_TRUE@am__append_287 = blkid.static
+@BUILD_FINDFS_TRUE@am__append_288 = findfs
+@BUILD_FINDFS_TRUE@am__append_289 = misc-utils/findfs.8
+@BUILD_WIPEFS_TRUE@am__append_290 = wipefs
+@BUILD_WIPEFS_TRUE@am__append_291 = misc-utils/wipefs.8
+@BUILD_FINDMNT_TRUE@am__append_292 = findmnt
+@BUILD_FINDMNT_TRUE@am__append_293 = misc-utils/findmnt.8
+@BUILD_FINDMNT_TRUE@@HAVE_UDEV_TRUE@am__append_294 = -ludev
+@BUILD_KILL_TRUE@am__append_295 = kill
+@BUILD_KILL_TRUE@am__append_296 = misc-utils/kill.1
+@BUILD_RENAME_TRUE@am__append_297 = rename
+@BUILD_RENAME_TRUE@am__append_298 = misc-utils/rename.1
+@BUILD_GETOPT_TRUE@am__append_299 = getopt
+@BUILD_GETOPT_TRUE@am__append_300 = misc-utils/getopt.1
+@BUILD_MINIX_TRUE@am__append_301 = fsck.minix mkfs.minix
+@BUILD_MINIX_TRUE@am__append_302 = disk-utils/fsck.minix.8 \
 @BUILD_MINIX_TRUE@	disk-utils/mkfs.minix.8
-@BUILD_MKFS_TRUE@am__append_304 = mkfs
-@BUILD_MKFS_TRUE@am__append_305 = disk-utils/mkfs.8
-@BUILD_ISOSIZE_TRUE@am__append_306 = isosize
-@BUILD_ISOSIZE_TRUE@am__append_307 = disk-utils/isosize.8
-@BUILD_BFS_TRUE@am__append_308 = mkfs.bfs
-@BUILD_BFS_TRUE@am__append_309 = disk-utils/mkfs.bfs.8
-@BUILD_MKSWAP_TRUE@am__append_310 = mkswap
-@BUILD_MKSWAP_TRUE@am__append_311 = disk-utils/mkswap.8
-@BUILD_LIBUUID_TRUE@@BUILD_MKSWAP_TRUE@am__append_312 = -I$(ul_libuuid_incdir)
-@BUILD_LIBUUID_TRUE@@BUILD_MKSWAP_TRUE@am__append_313 = libuuid.la
-@BUILD_LIBBLKID_TRUE@@BUILD_MKSWAP_TRUE@am__append_314 = -I$(ul_libblkid_incdir)
-@BUILD_LIBBLKID_TRUE@@BUILD_MKSWAP_TRUE@am__append_315 = libblkid.la
-@BUILD_MKSWAP_TRUE@@HAVE_SELINUX_TRUE@am__append_316 = $(SELINUX_LIBS)
-@BUILD_SWAPLABEL_TRUE@am__append_317 = swaplabel
-@BUILD_SWAPLABEL_TRUE@am__append_318 = disk-utils/swaplabel.8
-@BUILD_LIBUUID_TRUE@@BUILD_SWAPLABEL_TRUE@am__append_319 = libuuid.la
-@BUILD_LIBUUID_TRUE@@BUILD_SWAPLABEL_TRUE@am__append_320 = -I$(ul_libuuid_incdir)
-@BUILD_FSCK_TRUE@am__append_321 = fsck
-@BUILD_FSCK_TRUE@am__append_322 = disk-utils/fsck.8
-@BUILD_RAW_TRUE@am__append_323 = raw
-@BUILD_RAW_TRUE@am__append_324 = disk-utils/raw.8
-@BUILD_CRAMFS_TRUE@am__append_325 = fsck.cramfs mkfs.cramfs
-@BUILD_CRAMFS_TRUE@am__append_326 = disk-utils/fsck.cramfs.8 \
+@BUILD_MKFS_TRUE@am__append_303 = mkfs
+@BUILD_MKFS_TRUE@am__append_304 = disk-utils/mkfs.8
+@BUILD_ISOSIZE_TRUE@am__append_305 = isosize
+@BUILD_ISOSIZE_TRUE@am__append_306 = disk-utils/isosize.8
+@BUILD_BFS_TRUE@am__append_307 = mkfs.bfs
+@BUILD_BFS_TRUE@am__append_308 = disk-utils/mkfs.bfs.8
+@BUILD_MKSWAP_TRUE@am__append_309 = mkswap
+@BUILD_MKSWAP_TRUE@am__append_310 = disk-utils/mkswap.8
+@BUILD_LIBUUID_TRUE@@BUILD_MKSWAP_TRUE@am__append_311 = -I$(ul_libuuid_incdir)
+@BUILD_LIBUUID_TRUE@@BUILD_MKSWAP_TRUE@am__append_312 = libuuid.la
+@BUILD_LIBBLKID_TRUE@@BUILD_MKSWAP_TRUE@am__append_313 = -I$(ul_libblkid_incdir)
+@BUILD_LIBBLKID_TRUE@@BUILD_MKSWAP_TRUE@am__append_314 = libblkid.la
+@BUILD_MKSWAP_TRUE@@HAVE_SELINUX_TRUE@am__append_315 = $(SELINUX_LIBS)
+@BUILD_SWAPLABEL_TRUE@am__append_316 = swaplabel
+@BUILD_SWAPLABEL_TRUE@am__append_317 = disk-utils/swaplabel.8
+@BUILD_LIBUUID_TRUE@@BUILD_SWAPLABEL_TRUE@am__append_318 = libuuid.la
+@BUILD_LIBUUID_TRUE@@BUILD_SWAPLABEL_TRUE@am__append_319 = -I$(ul_libuuid_incdir)
+@BUILD_FSCK_TRUE@am__append_320 = fsck
+@BUILD_FSCK_TRUE@am__append_321 = disk-utils/fsck.8
+@BUILD_RAW_TRUE@am__append_322 = raw
+@BUILD_RAW_TRUE@am__append_323 = disk-utils/raw.8
+@BUILD_CRAMFS_TRUE@am__append_324 = fsck.cramfs mkfs.cramfs
+@BUILD_CRAMFS_TRUE@am__append_325 = disk-utils/fsck.cramfs.8 \
 @BUILD_CRAMFS_TRUE@	disk-utils/mkfs.cramfs.8
-@BUILD_FDFORMAT_TRUE@am__append_327 = fdformat
-@BUILD_FDFORMAT_TRUE@am__append_328 = disk-utils/fdformat.8
-@BUILD_BLOCKDEV_TRUE@am__append_329 = blockdev
-@BUILD_BLOCKDEV_TRUE@am__append_330 = disk-utils/blockdev.8
-@BUILD_FDISK_TRUE@am__append_331 = fdisk
-@BUILD_FDISK_TRUE@am__append_332 = disk-utils/fdisk.8
-@BUILD_FDISK_TRUE@@BUILD_LIBBLKID_TRUE@am__append_333 = -I$(ul_libblkid_incdir)
-@BUILD_FDISK_TRUE@@BUILD_LIBBLKID_TRUE@am__append_334 = libblkid.la
-@BUILD_FDISK_TRUE@@BUILD_LIBUUID_TRUE@am__append_335 = -I$(ul_libuuid_incdir)
-@BUILD_FDISK_TRUE@@BUILD_LIBUUID_TRUE@am__append_336 = libuuid.la
-@BUILD_FDISK_TRUE@@HAVE_STATIC_FDISK_TRUE@am__append_337 = fdisk.static
-@BUILD_SFDISK_TRUE@am__append_338 = sfdisk
-@BUILD_SFDISK_TRUE@am__append_339 = disk-utils/sfdisk.8
-@BUILD_LIBUUID_TRUE@@BUILD_SFDISK_TRUE@am__append_340 = -I$(ul_libuuid_incdir)
-@BUILD_LIBUUID_TRUE@@BUILD_SFDISK_TRUE@am__append_341 = libuuid.la
-@BUILD_LIBBLKID_TRUE@@BUILD_SFDISK_TRUE@am__append_342 = -I$(ul_libblkid_incdir)
-@BUILD_LIBBLKID_TRUE@@BUILD_SFDISK_TRUE@am__append_343 = libblkid.la
-@BUILD_SFDISK_TRUE@@HAVE_STATIC_SFDISK_TRUE@am__append_344 = sfdisk.static
-@BUILD_CFDISK_TRUE@am__append_345 = cfdisk
-@BUILD_CFDISK_TRUE@am__append_346 = disk-utils/cfdisk.8
-@BUILD_CFDISK_TRUE@@BUILD_LIBUUID_TRUE@am__append_347 = -I$(ul_libuuid_incdir)
-@BUILD_CFDISK_TRUE@@BUILD_LIBUUID_TRUE@am__append_348 = libuuid.la
-@BUILD_CFDISK_TRUE@@BUILD_LIBBLKID_TRUE@am__append_349 = -I$(ul_libblkid_incdir)
-@BUILD_CFDISK_TRUE@@BUILD_LIBBLKID_TRUE@am__append_350 = libblkid.la
-@BUILD_CFDISK_TRUE@@BUILD_LIBSMARTCOLS_TRUE@am__append_351 = -I$(ul_libsmartcols_incdir)
-@BUILD_CFDISK_TRUE@@BUILD_LIBSMARTCOLS_TRUE@am__append_352 = libsmartcols.la
-@BUILD_CFDISK_TRUE@@HAVE_SLANG_TRUE@am__append_353 = -lslang
-@BUILD_CFDISK_TRUE@@HAVE_SLANG_FALSE@am__append_354 = $(NCURSES_CFLAGS)
-@BUILD_CFDISK_TRUE@@HAVE_SLANG_FALSE@am__append_355 = $(NCURSES_LIBS)
-@BUILD_PARTX_TRUE@am__append_356 = partx addpart delpart resizepart
-@BUILD_PARTX_TRUE@am__append_357 = \
+@BUILD_FDFORMAT_TRUE@am__append_326 = fdformat
+@BUILD_FDFORMAT_TRUE@am__append_327 = disk-utils/fdformat.8
+@BUILD_BLOCKDEV_TRUE@am__append_328 = blockdev
+@BUILD_BLOCKDEV_TRUE@am__append_329 = disk-utils/blockdev.8
+@BUILD_FDISK_TRUE@am__append_330 = fdisk
+@BUILD_FDISK_TRUE@am__append_331 = disk-utils/fdisk.8
+@BUILD_FDISK_TRUE@@BUILD_LIBBLKID_TRUE@am__append_332 = -I$(ul_libblkid_incdir)
+@BUILD_FDISK_TRUE@@BUILD_LIBBLKID_TRUE@am__append_333 = libblkid.la
+@BUILD_FDISK_TRUE@@BUILD_LIBUUID_TRUE@am__append_334 = -I$(ul_libuuid_incdir)
+@BUILD_FDISK_TRUE@@BUILD_LIBUUID_TRUE@am__append_335 = libuuid.la
+@BUILD_FDISK_TRUE@@HAVE_STATIC_FDISK_TRUE@am__append_336 = fdisk.static
+@BUILD_SFDISK_TRUE@am__append_337 = sfdisk
+@BUILD_SFDISK_TRUE@am__append_338 = disk-utils/sfdisk.8
+@BUILD_LIBUUID_TRUE@@BUILD_SFDISK_TRUE@am__append_339 = -I$(ul_libuuid_incdir)
+@BUILD_LIBUUID_TRUE@@BUILD_SFDISK_TRUE@am__append_340 = libuuid.la
+@BUILD_LIBBLKID_TRUE@@BUILD_SFDISK_TRUE@am__append_341 = -I$(ul_libblkid_incdir)
+@BUILD_LIBBLKID_TRUE@@BUILD_SFDISK_TRUE@am__append_342 = libblkid.la
+@BUILD_SFDISK_TRUE@@HAVE_STATIC_SFDISK_TRUE@am__append_343 = sfdisk.static
+@BUILD_CFDISK_TRUE@am__append_344 = cfdisk
+@BUILD_CFDISK_TRUE@am__append_345 = disk-utils/cfdisk.8
+@BUILD_CFDISK_TRUE@@BUILD_LIBUUID_TRUE@am__append_346 = -I$(ul_libuuid_incdir)
+@BUILD_CFDISK_TRUE@@BUILD_LIBUUID_TRUE@am__append_347 = libuuid.la
+@BUILD_CFDISK_TRUE@@BUILD_LIBBLKID_TRUE@am__append_348 = -I$(ul_libblkid_incdir)
+@BUILD_CFDISK_TRUE@@BUILD_LIBBLKID_TRUE@am__append_349 = libblkid.la
+@BUILD_CFDISK_TRUE@@BUILD_LIBSMARTCOLS_TRUE@am__append_350 = -I$(ul_libsmartcols_incdir)
+@BUILD_CFDISK_TRUE@@BUILD_LIBSMARTCOLS_TRUE@am__append_351 = libsmartcols.la
+@BUILD_CFDISK_TRUE@@HAVE_SLANG_TRUE@am__append_352 = -lslang
+@BUILD_CFDISK_TRUE@@HAVE_SLANG_FALSE@am__append_353 = $(NCURSES_CFLAGS)
+@BUILD_CFDISK_TRUE@@HAVE_SLANG_FALSE@am__append_354 = $(NCURSES_LIBS)
+@BUILD_PARTX_TRUE@am__append_355 = partx addpart delpart resizepart
+@BUILD_PARTX_TRUE@am__append_356 = \
 @BUILD_PARTX_TRUE@	disk-utils/addpart.8 \
 @BUILD_PARTX_TRUE@	disk-utils/delpart.8 \
 @BUILD_PARTX_TRUE@	disk-utils/resizepart.8 \
 @BUILD_PARTX_TRUE@	disk-utils/partx.8
 
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_BLKID_TRUE@am__append_358 = bash-completion/blkid
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_CAL_TRUE@am__append_359 = bash-completion/cal
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_COL_TRUE@am__append_360 = bash-completion/col
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_COLCRT_TRUE@am__append_361 = bash-completion/colcrt
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_COLRM_TRUE@am__append_362 = bash-completion/colrm
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_COLUMN_TRUE@am__append_363 = bash-completion/column
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_FINDMNT_TRUE@am__append_364 = bash-completion/findmnt
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_FLOCK_TRUE@am__append_365 = bash-completion/flock
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_GETOPT_TRUE@am__append_366 = bash-completion/getopt
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_HEXDUMP_TRUE@am__append_367 = bash-completion/hexdump
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_IPCRM_TRUE@am__append_368 = bash-completion/ipcrm
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_IPCS_TRUE@am__append_369 = bash-completion/ipcs
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_ISOSIZE_TRUE@am__append_370 = bash-completion/isosize
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LOGGER_TRUE@am__append_371 = bash-completion/logger
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LOOK_TRUE@am__append_372 = bash-completion/look
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_MCOOKIE_TRUE@am__append_373 = bash-completion/mcookie
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_MKFS_TRUE@am__append_374 = bash-completion/mkfs
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_MKSWAP_TRUE@am__append_375 = bash-completion/mkswap
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_NAMEI_TRUE@am__append_376 = bash-completion/namei
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_PRLIMIT_TRUE@am__append_377 = bash-completion/prlimit
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_READPROFILE_TRUE@am__append_378 = bash-completion/readprofile
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_RENICE_TRUE@am__append_379 = bash-completion/renice
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_REV_TRUE@am__append_380 = bash-completion/rev
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SCRIPT_TRUE@am__append_381 = bash-completion/script
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SCRIPTREPLAY_TRUE@am__append_382 = bash-completion/scriptreplay
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SETSID_TRUE@am__append_383 = bash-completion/setsid
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_TAILF_TRUE@am__append_384 = bash-completion/tailf
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_WHEREIS_TRUE@am__append_385 = bash-completion/whereis
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_WIPEFS_TRUE@am__append_386 = bash-completion/wipefs
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_FSCK_TRUE@am__append_387 = bash-completion/fsck
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_BFS_TRUE@am__append_388 = bash-completion/mkfs.bfs
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_MINIX_TRUE@am__append_389 = \
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_BLKID_TRUE@am__append_357 = bash-completion/blkid
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_CAL_TRUE@am__append_358 = bash-completion/cal
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_COL_TRUE@am__append_359 = bash-completion/col
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_COLCRT_TRUE@am__append_360 = bash-completion/colcrt
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_COLRM_TRUE@am__append_361 = bash-completion/colrm
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_COLUMN_TRUE@am__append_362 = bash-completion/column
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_FINDMNT_TRUE@am__append_363 = bash-completion/findmnt
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_FLOCK_TRUE@am__append_364 = bash-completion/flock
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_GETOPT_TRUE@am__append_365 = bash-completion/getopt
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_HEXDUMP_TRUE@am__append_366 = bash-completion/hexdump
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_IPCRM_TRUE@am__append_367 = bash-completion/ipcrm
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_IPCS_TRUE@am__append_368 = bash-completion/ipcs
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_ISOSIZE_TRUE@am__append_369 = bash-completion/isosize
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LOGGER_TRUE@am__append_370 = bash-completion/logger
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LOOK_TRUE@am__append_371 = bash-completion/look
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_MCOOKIE_TRUE@am__append_372 = bash-completion/mcookie
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_MKFS_TRUE@am__append_373 = bash-completion/mkfs
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_MKSWAP_TRUE@am__append_374 = bash-completion/mkswap
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_NAMEI_TRUE@am__append_375 = bash-completion/namei
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_PRLIMIT_TRUE@am__append_376 = bash-completion/prlimit
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_READPROFILE_TRUE@am__append_377 = bash-completion/readprofile
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_RENICE_TRUE@am__append_378 = bash-completion/renice
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_REV_TRUE@am__append_379 = bash-completion/rev
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SCRIPT_TRUE@am__append_380 = bash-completion/script
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SCRIPTREPLAY_TRUE@am__append_381 = bash-completion/scriptreplay
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SETSID_TRUE@am__append_382 = bash-completion/setsid
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_TAILF_TRUE@am__append_383 = bash-completion/tailf
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_WHEREIS_TRUE@am__append_384 = bash-completion/whereis
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_WIPEFS_TRUE@am__append_385 = bash-completion/wipefs
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_FSCK_TRUE@am__append_386 = bash-completion/fsck
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_BFS_TRUE@am__append_387 = bash-completion/mkfs.bfs
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_MINIX_TRUE@am__append_388 = \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_MINIX_TRUE@	bash-completion/fsck.minix \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_MINIX_TRUE@	bash-completion/mkfs.minix
 
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_CRAMFS_TRUE@am__append_390 = \
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_CRAMFS_TRUE@am__append_389 = \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_CRAMFS_TRUE@	bash-completion/fsck.cramfs \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_CRAMFS_TRUE@	bash-completion/mkfs.cramfs
 
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_PARTX_TRUE@am__append_391 = \
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_PARTX_TRUE@am__append_390 = \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_PARTX_TRUE@	bash-completion/addpart \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_PARTX_TRUE@	bash-completion/delpart \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_PARTX_TRUE@	bash-completion/resizepart \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_PARTX_TRUE@	bash-completion/partx
 
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_RAW_TRUE@am__append_392 = bash-completion/raw
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SWAPLABEL_TRUE@am__append_393 = bash-completion/swaplabel
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_FDFORMAT_TRUE@am__append_394 = bash-completion/fdformat
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_BLOCKDEV_TRUE@am__append_395 = bash-completion/blockdev
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_FDISK_TRUE@am__append_396 = bash-completion/fdisk
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SFDISK_TRUE@am__append_397 = bash-completion/sfdisk
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_CFDISK_TRUE@am__append_398 = bash-completion/cfdisk
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_CHFN_CHSH_TRUE@am__append_399 = \
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_RAW_TRUE@am__append_391 = bash-completion/raw
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SWAPLABEL_TRUE@am__append_392 = bash-completion/swaplabel
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_FDFORMAT_TRUE@am__append_393 = bash-completion/fdformat
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_BLOCKDEV_TRUE@am__append_394 = bash-completion/blockdev
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_FDISK_TRUE@am__append_395 = bash-completion/fdisk
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SFDISK_TRUE@am__append_396 = bash-completion/sfdisk
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_CFDISK_TRUE@am__append_397 = bash-completion/cfdisk
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_CHFN_CHSH_TRUE@am__append_398 = \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_CHFN_CHSH_TRUE@	bash-completion/chfn \
 @BUILD_BASH_COMPLETION_TRUE@@BUILD_CHFN_CHSH_TRUE@	bash-completion/chsh
 
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LAST_TRUE@am__append_400 = bash-completion/last
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_NEWGRP_TRUE@am__append_401 = bash-completion/newgrp
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SU_TRUE@am__append_402 = bash-completion/su
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_RUNUSER_TRUE@am__append_403 = install-data-hook-bashcomp-runuser
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_UTMPDUMP_TRUE@am__append_404 = bash-completion/utmpdump
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LIBUUID_TRUE@am__append_405 = bash-completion/uuidgen
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_UUIDD_TRUE@am__append_406 = bash-completion/uuidd
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LSBLK_TRUE@am__append_407 = bash-completion/lsblk
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LSLOCKS_TRUE@am__append_408 = bash-completion/lslocks
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_RENAME_TRUE@am__append_409 = bash-completion/rename
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_CHRT_TRUE@am__append_410 = bash-completion/chrt
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_IONICE_TRUE@am__append_411 = bash-completion/ionice
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_TASKSET_TRUE@am__append_412 = bash-completion/taskset
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_CHCPU_TRUE@am__append_413 = bash-completion/chcpu
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_EJECT_TRUE@am__append_414 = bash-completion/eject
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_FALLOCATE_TRUE@am__append_415 = bash-completion/fallocate
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_HWCLOCK_TRUE@am__append_416 = bash-completion/hwclock
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_TUNELP_TRUE@am__append_417 = bash-completion/tunelp
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LSCPU_TRUE@am__append_418 = bash-completion/lscpu
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LOSETUP_TRUE@am__append_419 = bash-completion/losetup
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_MOUNTPOINT_TRUE@am__append_420 = bash-completion/mountpoint
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_NSENTER_TRUE@am__append_421 = bash-completion/nsenter
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_PIVOT_ROOT_TRUE@am__append_422 = bash-completion/pivot_root
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SETPRIV_TRUE@am__append_423 = bash-completion/setpriv
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SWAPON_TRUE@am__append_424 = bash-completion/swapon
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_UNSHARE_TRUE@am__append_425 = bash-completion/unshare
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_WDCTL_TRUE@am__append_426 = bash-completion/wdctl
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_BLKDISCARD_TRUE@am__append_427 = bash-completion/blkdiscard
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_CTRLALTDEL_TRUE@am__append_428 = bash-completion/ctrlaltdel
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_DMESG_TRUE@am__append_429 = bash-completion/dmesg
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_FSFREEZE_TRUE@am__append_430 = bash-completion/fsfreeze
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_FSTRIM_TRUE@am__append_431 = bash-completion/fstrim
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_LDATTACH_TRUE@am__append_432 = bash-completion/ldattach
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_RTCWAKE_TRUE@am__append_433 = bash-completion/rtcwake
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SETARCH_TRUE@am__append_434 = bash-completion/setarch
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_ZRAMCTL_TRUE@am__append_435 = bash-completion/zramctl
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_MESG_TRUE@am__append_436 = bash-completion/mesg
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_WALL_TRUE@am__append_437 = bash-completion/wall
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_WRITE_TRUE@am__append_438 = bash-completion/write
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_SETTERM_TRUE@am__append_439 = bash-completion/setterm
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_MORE_TRUE@am__append_440 = bash-completion/more
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_PG_TRUE@am__append_441 = bash-completion/pg
-@BUILD_BASH_COMPLETION_TRUE@@BUILD_UL_TRUE@am__append_442 = bash-completion/ul
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LAST_TRUE@am__append_399 = bash-completion/last
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_NEWGRP_TRUE@am__append_400 = bash-completion/newgrp
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SU_TRUE@am__append_401 = bash-completion/su
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_RUNUSER_TRUE@am__append_402 = install-data-hook-bashcomp-runuser
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_UTMPDUMP_TRUE@am__append_403 = bash-completion/utmpdump
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LIBUUID_TRUE@am__append_404 = bash-completion/uuidgen
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_UUIDD_TRUE@am__append_405 = bash-completion/uuidd
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LSBLK_TRUE@am__append_406 = bash-completion/lsblk
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LSLOCKS_TRUE@am__append_407 = bash-completion/lslocks
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_RENAME_TRUE@am__append_408 = bash-completion/rename
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_CHRT_TRUE@am__append_409 = bash-completion/chrt
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_IONICE_TRUE@am__append_410 = bash-completion/ionice
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_TASKSET_TRUE@am__append_411 = bash-completion/taskset
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_CHCPU_TRUE@am__append_412 = bash-completion/chcpu
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_EJECT_TRUE@am__append_413 = bash-completion/eject
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_FALLOCATE_TRUE@am__append_414 = bash-completion/fallocate
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_HWCLOCK_TRUE@am__append_415 = bash-completion/hwclock
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_TUNELP_TRUE@am__append_416 = bash-completion/tunelp
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LSCPU_TRUE@am__append_417 = bash-completion/lscpu
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LOSETUP_TRUE@am__append_418 = bash-completion/losetup
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_MOUNTPOINT_TRUE@am__append_419 = bash-completion/mountpoint
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_NSENTER_TRUE@am__append_420 = bash-completion/nsenter
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_PIVOT_ROOT_TRUE@am__append_421 = bash-completion/pivot_root
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SETPRIV_TRUE@am__append_422 = bash-completion/setpriv
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SWAPON_TRUE@am__append_423 = bash-completion/swapon
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_UNSHARE_TRUE@am__append_424 = bash-completion/unshare
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_WDCTL_TRUE@am__append_425 = bash-completion/wdctl
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_BLKDISCARD_TRUE@am__append_426 = bash-completion/blkdiscard
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_CTRLALTDEL_TRUE@am__append_427 = bash-completion/ctrlaltdel
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_DMESG_TRUE@am__append_428 = bash-completion/dmesg
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_FSFREEZE_TRUE@am__append_429 = bash-completion/fsfreeze
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_FSTRIM_TRUE@am__append_430 = bash-completion/fstrim
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_LDATTACH_TRUE@am__append_431 = bash-completion/ldattach
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_RTCWAKE_TRUE@am__append_432 = bash-completion/rtcwake
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SETARCH_TRUE@am__append_433 = bash-completion/setarch
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_ZRAMCTL_TRUE@am__append_434 = bash-completion/zramctl
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_MESG_TRUE@am__append_435 = bash-completion/mesg
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_WALL_TRUE@am__append_436 = bash-completion/wall
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_WRITE_TRUE@am__append_437 = bash-completion/write
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_SETTERM_TRUE@am__append_438 = bash-completion/setterm
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_MORE_TRUE@am__append_439 = bash-completion/more
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_PG_TRUE@am__append_440 = bash-completion/pg
+@BUILD_BASH_COMPLETION_TRUE@@BUILD_UL_TRUE@am__append_441 = bash-completion/ul
 subdir = .
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/compiler.m4 \
@@ -1285,7 +1284,8 @@ pylibmount_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 @BUILD_UTMPDUMP_TRUE@am__EXEEXT_79 = utmpdump$(EXEEXT)
 @BUILD_CHFN_CHSH_TRUE@am__EXEEXT_80 = chfn$(EXEEXT) chsh$(EXEEXT)
 @BUILD_NEWGRP_TRUE@am__EXEEXT_81 = newgrp$(EXEEXT)
-@BUILD_LSLOGINS_TRUE@am__EXEEXT_82 = lslogins$(EXEEXT)
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@am__EXEEXT_82 =  \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	lslogins$(EXEEXT)
 @BUILD_FLOCK_TRUE@am__EXEEXT_83 = flock$(EXEEXT)
 @BUILD_IPCMK_TRUE@am__EXEEXT_84 = ipcmk$(EXEEXT)
 @BUILD_IPCRM_TRUE@am__EXEEXT_85 = ipcrm$(EXEEXT)
@@ -1387,8 +1387,8 @@ cfdisk_OBJECTS = $(am_cfdisk_OBJECTS)
 @BUILD_CFDISK_TRUE@@HAVE_SLANG_FALSE@am__DEPENDENCIES_3 =  \
 @BUILD_CFDISK_TRUE@@HAVE_SLANG_FALSE@	$(am__DEPENDENCIES_1)
 @BUILD_CFDISK_TRUE@cfdisk_DEPENDENCIES = $(am__DEPENDENCIES_2) \
-@BUILD_CFDISK_TRUE@	libcommon.la libfdisk.la $(am__append_348) \
-@BUILD_CFDISK_TRUE@	$(am__append_350) $(am__append_352) \
+@BUILD_CFDISK_TRUE@	libcommon.la libfdisk.la $(am__append_347) \
+@BUILD_CFDISK_TRUE@	$(am__append_349) $(am__append_351) \
 @BUILD_CFDISK_TRUE@	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_3)
 cfdisk_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(cfdisk_CFLAGS) $(CFLAGS) \
@@ -1525,7 +1525,7 @@ am__fdisk_SOURCES_DIST = disk-utils/fdisk.c disk-utils/fdisk.h \
 fdisk_OBJECTS = $(am_fdisk_OBJECTS)
 @BUILD_FDISK_TRUE@fdisk_DEPENDENCIES = $(am__DEPENDENCIES_2) \
 @BUILD_FDISK_TRUE@	libcommon.la libfdisk.la libsmartcols.la \
-@BUILD_FDISK_TRUE@	$(am__append_334) $(am__append_336)
+@BUILD_FDISK_TRUE@	$(am__append_333) $(am__append_335)
 fdisk_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(fdisk_CFLAGS) $(CFLAGS) \
 	$(AM_LDFLAGS) $(LDFLAGS) -o $@
@@ -1541,7 +1541,7 @@ am__fdisk_static_SOURCES_DIST = disk-utils/fdisk.c disk-utils/fdisk.h \
 fdisk_static_OBJECTS = $(am_fdisk_static_OBJECTS)
 @BUILD_FDISK_TRUE@am__DEPENDENCIES_6 = $(am__DEPENDENCIES_2) \
 @BUILD_FDISK_TRUE@	libcommon.la libfdisk.la libsmartcols.la \
-@BUILD_FDISK_TRUE@	$(am__append_334) $(am__append_336)
+@BUILD_FDISK_TRUE@	$(am__append_333) $(am__append_335)
 @BUILD_FDISK_TRUE@@HAVE_STATIC_FDISK_TRUE@fdisk_static_DEPENDENCIES = $(am__DEPENDENCIES_6)
 fdisk_static_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(fdisk_static_CFLAGS) \
@@ -1765,17 +1765,16 @@ lslocks_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
 am__lslogins_SOURCES_DIST = login-utils/lslogins.c \
 	login-utils/logindefs.c login-utils/logindefs.h
-@BUILD_LSLOGINS_TRUE@am_lslogins_OBJECTS =  \
-@BUILD_LSLOGINS_TRUE@	login-utils/lslogins-lslogins.$(OBJEXT) \
-@BUILD_LSLOGINS_TRUE@	login-utils/lslogins-logindefs.$(OBJEXT)
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@am_lslogins_OBJECTS = login-utils/lslogins-lslogins.$(OBJEXT) \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	login-utils/lslogins-logindefs.$(OBJEXT)
 lslogins_OBJECTS = $(am_lslogins_OBJECTS)
-@BUILD_LSLOGINS_TRUE@@HAVE_SYSTEMD_TRUE@am__DEPENDENCIES_9 =  \
-@BUILD_LSLOGINS_TRUE@@HAVE_SYSTEMD_TRUE@	$(am__DEPENDENCIES_1) \
-@BUILD_LSLOGINS_TRUE@@HAVE_SYSTEMD_TRUE@	$(am__DEPENDENCIES_1)
-@BUILD_LSLOGINS_TRUE@lslogins_DEPENDENCIES = $(am__DEPENDENCIES_2) \
-@BUILD_LSLOGINS_TRUE@	libcommon.la libsmartcols.la \
-@BUILD_LSLOGINS_TRUE@	$(am__DEPENDENCIES_1) \
-@BUILD_LSLOGINS_TRUE@	$(am__DEPENDENCIES_9)
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@@HAVE_SYSTEMD_TRUE@am__DEPENDENCIES_9 = $(am__DEPENDENCIES_1) \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@@HAVE_SYSTEMD_TRUE@	$(am__DEPENDENCIES_1)
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@lslogins_DEPENDENCIES =  \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	$(am__DEPENDENCIES_2) \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	libcommon.la \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	libsmartcols.la \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	$(am__DEPENDENCIES_9)
 lslogins_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(lslogins_CFLAGS) \
 	$(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
@@ -1822,8 +1821,8 @@ mkswap_OBJECTS = $(am_mkswap_OBJECTS)
 @BUILD_MKSWAP_TRUE@@HAVE_SELINUX_TRUE@am__DEPENDENCIES_10 =  \
 @BUILD_MKSWAP_TRUE@@HAVE_SELINUX_TRUE@	$(am__DEPENDENCIES_1)
 @BUILD_MKSWAP_TRUE@mkswap_DEPENDENCIES = $(am__DEPENDENCIES_2) \
-@BUILD_MKSWAP_TRUE@	libcommon.la $(am__append_313) \
-@BUILD_MKSWAP_TRUE@	$(am__append_315) $(am__DEPENDENCIES_10)
+@BUILD_MKSWAP_TRUE@	libcommon.la $(am__append_312) \
+@BUILD_MKSWAP_TRUE@	$(am__append_314) $(am__DEPENDENCIES_10)
 mkswap_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(mkswap_CFLAGS) $(CFLAGS) \
 	$(AM_LDFLAGS) $(LDFLAGS) -o $@
@@ -2067,7 +2066,7 @@ am__sfdisk_SOURCES_DIST = disk-utils/sfdisk.c disk-utils/fdisk-list.c \
 sfdisk_OBJECTS = $(am_sfdisk_OBJECTS)
 @BUILD_SFDISK_TRUE@sfdisk_DEPENDENCIES = $(am__DEPENDENCIES_2) \
 @BUILD_SFDISK_TRUE@	libcommon.la libfdisk.la libsmartcols.la \
-@BUILD_SFDISK_TRUE@	$(am__append_341) $(am__append_343)
+@BUILD_SFDISK_TRUE@	$(am__append_340) $(am__append_342)
 sfdisk_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(sfdisk_CFLAGS) $(CFLAGS) \
 	$(AM_LDFLAGS) $(LDFLAGS) -o $@
@@ -2081,7 +2080,7 @@ am__sfdisk_static_SOURCES_DIST = disk-utils/sfdisk.c \
 sfdisk_static_OBJECTS = $(am_sfdisk_static_OBJECTS)
 @BUILD_SFDISK_TRUE@am__DEPENDENCIES_17 = $(am__DEPENDENCIES_2) \
 @BUILD_SFDISK_TRUE@	libcommon.la libfdisk.la libsmartcols.la \
-@BUILD_SFDISK_TRUE@	$(am__append_341) $(am__append_343)
+@BUILD_SFDISK_TRUE@	$(am__append_340) $(am__append_342)
 @BUILD_SFDISK_TRUE@@HAVE_STATIC_SFDISK_TRUE@sfdisk_static_DEPENDENCIES = $(am__DEPENDENCIES_17)
 sfdisk_static_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(sfdisk_static_CFLAGS) \
@@ -2116,7 +2115,7 @@ am__swaplabel_SOURCES_DIST = disk-utils/swaplabel.c lib/swapprober.c \
 swaplabel_OBJECTS = $(am_swaplabel_OBJECTS)
 @BUILD_SWAPLABEL_TRUE@swaplabel_DEPENDENCIES = $(am__DEPENDENCIES_2) \
 @BUILD_SWAPLABEL_TRUE@	libblkid.la libcommon.la \
-@BUILD_SWAPLABEL_TRUE@	$(am__append_319)
+@BUILD_SWAPLABEL_TRUE@	$(am__append_318)
 swaplabel_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(swaplabel_CFLAGS) \
 	$(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@
@@ -3543,78 +3542,78 @@ dist_man_MANS = lib/terminal-colors.d.5 $(am__append_6) \
 	$(am__append_127) $(am__append_129) $(am__append_134) \
 	$(am__append_139) $(am__append_141) $(am__append_143) \
 	$(am__append_154) $(am__append_157) $(am__append_160) \
-	$(am__append_163) $(am__append_168) $(am__append_172) \
-	$(am__append_174) $(am__append_176) $(am__append_178) \
-	$(am__append_180) $(am__append_182) $(am__append_184) \
-	$(am__append_186) $(am__append_188) $(am__append_191) \
-	$(am__append_193) $(am__append_195) $(am__append_197) \
-	$(am__append_199) $(am__append_201) $(am__append_204) \
-	$(am__append_218) $(am__append_220) $(am__append_223) \
-	$(am__append_225) $(am__append_227) $(am__append_232) \
-	$(am__append_234) $(am__append_236) $(am__append_238) \
-	$(am__append_240) $(am__append_242) $(am__append_244) \
-	$(am__append_246) $(am__append_248) $(am__append_250) \
-	$(am__append_253) $(am__append_258) $(am__append_260) \
-	$(am__append_264) $(am__append_267) $(am__append_269) \
-	$(am__append_271) $(am__append_273) $(am__append_275) \
-	$(am__append_277) $(am__append_280) $(am__append_282) \
-	$(am__append_287) $(am__append_290) $(am__append_292) \
-	$(am__append_294) $(am__append_297) $(am__append_299) \
-	$(am__append_301) $(am__append_303) $(am__append_305) \
-	$(am__append_307) $(am__append_309) $(am__append_311) \
-	$(am__append_318) $(am__append_322) $(am__append_324) \
-	$(am__append_326) $(am__append_328) $(am__append_330) \
-	$(am__append_332) $(am__append_339) $(am__append_346) \
-	$(am__append_357)
-man_MANS = $(am__append_213)
+	$(am__append_163) $(am__append_167) $(am__append_171) \
+	$(am__append_173) $(am__append_175) $(am__append_177) \
+	$(am__append_179) $(am__append_181) $(am__append_183) \
+	$(am__append_185) $(am__append_187) $(am__append_190) \
+	$(am__append_192) $(am__append_194) $(am__append_196) \
+	$(am__append_198) $(am__append_200) $(am__append_203) \
+	$(am__append_217) $(am__append_219) $(am__append_222) \
+	$(am__append_224) $(am__append_226) $(am__append_231) \
+	$(am__append_233) $(am__append_235) $(am__append_237) \
+	$(am__append_239) $(am__append_241) $(am__append_243) \
+	$(am__append_245) $(am__append_247) $(am__append_249) \
+	$(am__append_252) $(am__append_257) $(am__append_259) \
+	$(am__append_263) $(am__append_266) $(am__append_268) \
+	$(am__append_270) $(am__append_272) $(am__append_274) \
+	$(am__append_276) $(am__append_279) $(am__append_281) \
+	$(am__append_286) $(am__append_289) $(am__append_291) \
+	$(am__append_293) $(am__append_296) $(am__append_298) \
+	$(am__append_300) $(am__append_302) $(am__append_304) \
+	$(am__append_306) $(am__append_308) $(am__append_310) \
+	$(am__append_317) $(am__append_321) $(am__append_323) \
+	$(am__append_325) $(am__append_327) $(am__append_329) \
+	$(am__append_331) $(am__append_338) $(am__append_345) \
+	$(am__append_356)
+man_MANS = $(am__append_212)
 pkgconfig_DATA = $(am__append_12) $(am__append_27) $(am__append_40) \
 	$(am__append_48) $(am__append_60)
 usrlib_exec_LTLIBRARIES = $(am__append_8) $(am__append_14) \
 	$(am__append_30) $(am__append_42) $(am__append_50)
 dist_usrbin_exec_SCRIPTS = $(am__append_113)
-systemdsystemunit_DATA = $(am__append_189) $(am__append_285)
-dist_bashcompletion_DATA = $(am__append_358) $(am__append_359) \
-	$(am__append_360) $(am__append_361) $(am__append_362) \
-	$(am__append_363) $(am__append_364) $(am__append_365) \
-	$(am__append_366) $(am__append_367) $(am__append_368) \
-	$(am__append_369) $(am__append_370) $(am__append_371) \
-	$(am__append_372) $(am__append_373) $(am__append_374) \
-	$(am__append_375) $(am__append_376) $(am__append_377) \
-	$(am__append_378) $(am__append_379) $(am__append_380) \
-	$(am__append_381) $(am__append_382) $(am__append_383) \
-	$(am__append_384) $(am__append_385) $(am__append_386) \
-	$(am__append_387) $(am__append_388) $(am__append_389) \
-	$(am__append_390) $(am__append_391) $(am__append_392) \
-	$(am__append_393) $(am__append_394) $(am__append_395) \
-	$(am__append_396) $(am__append_397) $(am__append_398) \
-	$(am__append_399) $(am__append_400) $(am__append_401) \
-	$(am__append_402) $(am__append_404) $(am__append_405) \
-	$(am__append_406) $(am__append_407) $(am__append_408) \
-	$(am__append_409) $(am__append_410) $(am__append_411) \
-	$(am__append_412) $(am__append_413) $(am__append_414) \
-	$(am__append_415) $(am__append_416) $(am__append_417) \
-	$(am__append_418) $(am__append_419) $(am__append_420) \
-	$(am__append_421) $(am__append_422) $(am__append_423) \
-	$(am__append_424) $(am__append_425) $(am__append_426) \
-	$(am__append_427) $(am__append_428) $(am__append_429) \
-	$(am__append_430) $(am__append_431) $(am__append_432) \
-	$(am__append_433) $(am__append_434) $(am__append_435) \
-	$(am__append_436) $(am__append_437) $(am__append_438) \
-	$(am__append_439) $(am__append_440) $(am__append_441) \
-	$(am__append_442)
+systemdsystemunit_DATA = $(am__append_188) $(am__append_284)
+dist_bashcompletion_DATA = $(am__append_357) $(am__append_358) \
+	$(am__append_359) $(am__append_360) $(am__append_361) \
+	$(am__append_362) $(am__append_363) $(am__append_364) \
+	$(am__append_365) $(am__append_366) $(am__append_367) \
+	$(am__append_368) $(am__append_369) $(am__append_370) \
+	$(am__append_371) $(am__append_372) $(am__append_373) \
+	$(am__append_374) $(am__append_375) $(am__append_376) \
+	$(am__append_377) $(am__append_378) $(am__append_379) \
+	$(am__append_380) $(am__append_381) $(am__append_382) \
+	$(am__append_383) $(am__append_384) $(am__append_385) \
+	$(am__append_386) $(am__append_387) $(am__append_388) \
+	$(am__append_389) $(am__append_390) $(am__append_391) \
+	$(am__append_392) $(am__append_393) $(am__append_394) \
+	$(am__append_395) $(am__append_396) $(am__append_397) \
+	$(am__append_398) $(am__append_399) $(am__append_400) \
+	$(am__append_401) $(am__append_403) $(am__append_404) \
+	$(am__append_405) $(am__append_406) $(am__append_407) \
+	$(am__append_408) $(am__append_409) $(am__append_410) \
+	$(am__append_411) $(am__append_412) $(am__append_413) \
+	$(am__append_414) $(am__append_415) $(am__append_416) \
+	$(am__append_417) $(am__append_418) $(am__append_419) \
+	$(am__append_420) $(am__append_421) $(am__append_422) \
+	$(am__append_423) $(am__append_424) $(am__append_425) \
+	$(am__append_426) $(am__append_427) $(am__append_428) \
+	$(am__append_429) $(am__append_430) $(am__append_431) \
+	$(am__append_432) $(am__append_433) $(am__append_434) \
+	$(am__append_435) $(am__append_436) $(am__append_437) \
+	$(am__append_438) $(am__append_439) $(am__append_440) \
+	$(am__append_441)
 dist_check_SCRIPTS = $(am__append_37)
 PATHFILES = $(am__append_13) $(am__append_28) $(am__append_41) \
 	$(am__append_49) $(am__append_61) sys-utils/fstrim.service \
-	$(am__append_202) $(am__append_254) misc-utils/uuidd.8 \
+	$(am__append_201) $(am__append_253) misc-utils/uuidd.8 \
 	misc-utils/uuidd.rc misc-utils/uuidd.service \
 	misc-utils/uuidd.socket
 INSTALL_EXEC_HOOKS = $(am__append_10) $(am__append_23) \
 	$(am__append_35) $(am__append_45) $(am__append_57) \
 	$(am__append_119) $(am__append_122) $(am__append_125) \
-	$(am__append_170) $(am__append_215) $(am__append_230)
+	$(am__append_169) $(am__append_214) $(am__append_229)
 UNINSTALL_HOOKS = $(am__append_11) $(am__append_24) $(am__append_36) \
-	$(am__append_46) $(am__append_58) $(am__append_216)
-INSTALL_DATA_HOOKS = $(am__append_403)
+	$(am__append_46) $(am__append_58) $(am__append_215)
+INSTALL_DATA_HOOKS = $(am__append_402)
 CLEAN_LOCALS = clean-local-tests
 CHECK_LOCALS = check-local-tests
 EXTRA_DIST = .version autogen.sh Documentation po/update-potfiles \
@@ -3623,7 +3622,7 @@ EXTRA_DIST = .version autogen.sh Documentation po/update-potfiles \
 	$(am__append_54) term-utils/reset.033c sys-utils/fstrim.timer \
 	tests/expected tests/functions.sh tests/commands.sh \
 	tests/run.sh tests/ts $(PATHFILES:=.in)
-CLEANFILES = $(am__append_38) $(am__append_214) $(PATHFILES)
+CLEANFILES = $(am__append_38) $(am__append_213) $(PATHFILES)
 SUBDIRS = po $(am__append_26) $(am__append_39) $(am__append_47) \
 	$(am__append_59)
 RCS_FIND_IGNORE = \( -name SCCS -o -name BitKeeper -o -name .svn -o \
@@ -4230,22 +4229,24 @@ test_canonicalize_CFLAGS = -DTEST_PROGRAM_CANONICALIZE
 @BUILD_NEWGRP_TRUE@newgrp_CFLAGS = $(SUID_CFLAGS) $(AM_CFLAGS)
 @BUILD_NEWGRP_TRUE@newgrp_LDFLAGS = $(SUID_LDFLAGS) $(AM_LDFLAGS)
 @BUILD_NEWGRP_TRUE@newgrp_LDADD = $(LDADD) $(am__append_161)
-@BUILD_LSLOGINS_TRUE@lslogins_SOURCES = \
-@BUILD_LSLOGINS_TRUE@	login-utils/lslogins.c \
-@BUILD_LSLOGINS_TRUE@	login-utils/logindefs.c \
-@BUILD_LSLOGINS_TRUE@	login-utils/logindefs.h
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@lslogins_SOURCES = \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	login-utils/lslogins.c \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	login-utils/logindefs.c \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	login-utils/logindefs.h
 
-@BUILD_LSLOGINS_TRUE@lslogins_LDADD = $(LDADD) libcommon.la \
-@BUILD_LSLOGINS_TRUE@	libsmartcols.la $(am__append_164) \
-@BUILD_LSLOGINS_TRUE@	$(am__append_165)
-@BUILD_LSLOGINS_TRUE@lslogins_CFLAGS = $(AM_CFLAGS) \
-@BUILD_LSLOGINS_TRUE@	-I$(ul_libsmartcols_incdir) \
-@BUILD_LSLOGINS_TRUE@	$(am__append_166)
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@lslogins_LDADD = $(LDADD) \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	libcommon.la \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	libsmartcols.la \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	$(am__append_164)
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@lslogins_CFLAGS =  \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	$(AM_CFLAGS) \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	-I$(ul_libsmartcols_incdir) \
+@BUILD_LSLOGINS_TRUE@@HAVE_SELINUX_TRUE@	$(am__append_165)
 @BUILD_VIPW_TRUE@vipw_SOURCES = \
 @BUILD_VIPW_TRUE@	login-utils/vipw.c \
 @BUILD_VIPW_TRUE@	login-utils/setpwnam.h
 
-@BUILD_VIPW_TRUE@vipw_LDADD = $(LDADD) libcommon.la $(am__append_169)
+@BUILD_VIPW_TRUE@vipw_LDADD = $(LDADD) libcommon.la $(am__append_168)
 test_islocal_SOURCES = login-utils/islocal.c
 test_islocal_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 test_logindefs_SOURCES = \
@@ -4283,10 +4284,10 @@ test_logindefs_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 @BUILD_RTCWAKE_TRUE@rtcwake_LDADD = $(LDADD) libcommon.la
 @BUILD_SETARCH_TRUE@setarch_SOURCES = sys-utils/setarch.c
 @BUILD_SETARCH_TRUE@SETARCH_LINKS = uname26 linux32 linux64 \
-@BUILD_SETARCH_TRUE@	$(am__append_205) $(am__append_206) \
-@BUILD_SETARCH_TRUE@	$(am__append_207) $(am__append_208) \
-@BUILD_SETARCH_TRUE@	$(am__append_209) $(am__append_210) \
-@BUILD_SETARCH_TRUE@	$(am__append_211) $(am__append_212)
+@BUILD_SETARCH_TRUE@	$(am__append_204) $(am__append_205) \
+@BUILD_SETARCH_TRUE@	$(am__append_206) $(am__append_207) \
+@BUILD_SETARCH_TRUE@	$(am__append_208) $(am__append_209) \
+@BUILD_SETARCH_TRUE@	$(am__append_210) $(am__append_211)
 @BUILD_SETARCH_TRUE@SETARCH_MAN_LINKS = $(addprefix sys-utils/,$(SETARCH_LINKS:=.8))
 @BUILD_EJECT_TRUE@eject_SOURCES = sys-utils/eject.c lib/monotonic.c
 @BUILD_EJECT_TRUE@eject_LDADD = $(LDADD) libmount.la libcommon.la $(CLOCKGETTIME_LIBS)
@@ -4383,16 +4384,16 @@ test_logindefs_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 @BUILD_NSENTER_TRUE@@HAVE_STATIC_NSENTER_TRUE@nsenter_static_LDADD = $(nsenter_LDADD)
 @BUILD_HWCLOCK_TRUE@hwclock_SOURCES = sys-utils/hwclock.c \
 @BUILD_HWCLOCK_TRUE@	sys-utils/hwclock.h \
-@BUILD_HWCLOCK_TRUE@	sys-utils/hwclock-cmos.c $(am__append_255)
+@BUILD_HWCLOCK_TRUE@	sys-utils/hwclock-cmos.c $(am__append_254)
 @BUILD_HWCLOCK_TRUE@hwclock_LDADD = $(LDADD) libcommon.la -lm \
-@BUILD_HWCLOCK_TRUE@	$(am__append_256)
+@BUILD_HWCLOCK_TRUE@	$(am__append_255)
 @BUILD_SETPRIV_TRUE@setpriv_SOURCES = sys-utils/setpriv.c
 @BUILD_SETPRIV_TRUE@setpriv_LDADD = $(LDADD) -lcap-ng libcommon.la
 @BUILD_CAL_TRUE@cal_SOURCES = misc-utils/cal.c lib/mbsalign.c \
-@BUILD_CAL_TRUE@	lib/strutils.c $(am__append_261)
+@BUILD_CAL_TRUE@	lib/strutils.c $(am__append_260)
 @BUILD_CAL_TRUE@cal_CFLAGS = $(AM_CFLAGS) $(NCURSES_CFLAGS)
 @BUILD_CAL_TRUE@cal_LDADD = $(LDADD) libcommon.la $(NCURSES_LIBS) \
-@BUILD_CAL_TRUE@	$(TINFO_LIBS) $(am__append_262)
+@BUILD_CAL_TRUE@	$(TINFO_LIBS) $(am__append_261)
 @BUILD_LOGGER_TRUE@logger_SOURCES = misc-utils/logger.c lib/strutils.c
 @BUILD_LOGGER_TRUE@@HAVE_SYSTEMD_TRUE@logger_LDADD = $(SYSTEMD_LIBS) $(SYSTEMD_DAEMON_LIBS) $(SYSTEMD_JOURNAL_LIBS)
 @BUILD_LOGGER_TRUE@@HAVE_SYSTEMD_TRUE@logger_CFLAGS = $(SYSTEMD_CFLAGS) $(SYSTEMD_DAEMON_CFLAGS) $(SYSTEMD_JOURNAL_CFLAGS)
@@ -4411,15 +4412,15 @@ test_logindefs_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 @BUILD_LSBLK_TRUE@lsblk_SOURCES = misc-utils/lsblk.c
 @BUILD_LSBLK_TRUE@lsblk_LDADD = $(LDADD) libblkid.la libmount.la \
 @BUILD_LSBLK_TRUE@	libcommon.la libsmartcols.la \
-@BUILD_LSBLK_TRUE@	$(am__append_278)
+@BUILD_LSBLK_TRUE@	$(am__append_277)
 @BUILD_LSBLK_TRUE@lsblk_CFLAGS = $(AM_CFLAGS) -I$(ul_libblkid_incdir) -I$(ul_libmount_incdir) -I$(ul_libsmartcols_incdir)
 @BUILD_UUIDGEN_TRUE@uuidgen_SOURCES = misc-utils/uuidgen.c
 @BUILD_UUIDGEN_TRUE@uuidgen_LDADD = $(LDADD) libuuid.la
 @BUILD_UUIDGEN_TRUE@uuidgen_CFLAGS = $(AM_CFLAGS) -I$(ul_libuuid_incdir)
 @BUILD_UUIDD_TRUE@uuidd_LDADD = $(LDADD) libuuid.la libcommon.la \
-@BUILD_UUIDD_TRUE@	$(am__append_283)
+@BUILD_UUIDD_TRUE@	$(am__append_282)
 @BUILD_UUIDD_TRUE@uuidd_CFLAGS = $(DAEMON_CFLAGS) $(AM_CFLAGS) \
-@BUILD_UUIDD_TRUE@	-I$(ul_libuuid_incdir) $(am__append_284)
+@BUILD_UUIDD_TRUE@	-I$(ul_libuuid_incdir) $(am__append_283)
 @BUILD_UUIDD_TRUE@uuidd_LDFLAGS = $(DAEMON_LDFLAGS) $(AM_LDFLAGS)
 @BUILD_UUIDD_TRUE@uuidd_SOURCES = misc-utils/uuidd.c
 @BUILD_BLKID_TRUE@blkid_SOURCES = misc-utils/blkid.c
@@ -4436,7 +4437,7 @@ test_logindefs_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 @BUILD_WIPEFS_TRUE@wipefs_LDADD = $(LDADD) libblkid.la libcommon.la
 @BUILD_WIPEFS_TRUE@wipefs_CFLAGS = $(AM_CFLAGS) -I$(ul_libblkid_incdir)
 @BUILD_FINDMNT_TRUE@findmnt_LDADD = $(LDADD) libmount.la libcommon.la \
-@BUILD_FINDMNT_TRUE@	libsmartcols.la $(am__append_295)
+@BUILD_FINDMNT_TRUE@	libsmartcols.la $(am__append_294)
 @BUILD_FINDMNT_TRUE@findmnt_CFLAGS = $(AM_CFLAGS) -I$(ul_libmount_incdir) -I$(ul_libsmartcols_incdir)
 @BUILD_FINDMNT_TRUE@findmnt_SOURCES = misc-utils/findmnt.c
 @BUILD_KILL_TRUE@kill_SOURCES = misc-utils/kill.c
@@ -4469,10 +4470,10 @@ test_logindefs_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 @BUILD_MKSWAP_TRUE@	disk-utils/mkswap.c
 
 @BUILD_MKSWAP_TRUE@mkswap_LDADD = $(LDADD) libcommon.la \
-@BUILD_MKSWAP_TRUE@	$(am__append_313) $(am__append_315) \
-@BUILD_MKSWAP_TRUE@	$(am__append_316)
-@BUILD_MKSWAP_TRUE@mkswap_CFLAGS = $(AM_CFLAGS) $(am__append_312) \
-@BUILD_MKSWAP_TRUE@	$(am__append_314)
+@BUILD_MKSWAP_TRUE@	$(am__append_312) $(am__append_314) \
+@BUILD_MKSWAP_TRUE@	$(am__append_315)
+@BUILD_MKSWAP_TRUE@mkswap_CFLAGS = $(AM_CFLAGS) $(am__append_311) \
+@BUILD_MKSWAP_TRUE@	$(am__append_313)
 @BUILD_SWAPLABEL_TRUE@swaplabel_SOURCES = \
 @BUILD_SWAPLABEL_TRUE@	disk-utils/swaplabel.c \
 @BUILD_SWAPLABEL_TRUE@	lib/swapprober.c \
@@ -4480,9 +4481,9 @@ test_logindefs_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 
 @BUILD_SWAPLABEL_TRUE@swaplabel_CFLAGS = $(AM_CFLAGS) \
 @BUILD_SWAPLABEL_TRUE@	-I$(ul_libblkid_incdir) \
-@BUILD_SWAPLABEL_TRUE@	$(am__append_320)
+@BUILD_SWAPLABEL_TRUE@	$(am__append_319)
 @BUILD_SWAPLABEL_TRUE@swaplabel_LDADD = $(LDADD) libblkid.la \
-@BUILD_SWAPLABEL_TRUE@	libcommon.la $(am__append_319)
+@BUILD_SWAPLABEL_TRUE@	libcommon.la $(am__append_318)
 @BUILD_FSCK_TRUE@fsck_SOURCES = disk-utils/fsck.c lib/monotonic.c
 @BUILD_FSCK_TRUE@fsck_LDADD = $(LDADD) libmount.la libblkid.la libcommon.la $(CLOCKGETTIME_LIBS)
 @BUILD_FSCK_TRUE@fsck_CFLAGS = $(AM_CFLAGS) -I$(ul_libmount_incdir) -I$(ul_libblkid_incdir)
@@ -4504,11 +4505,11 @@ test_logindefs_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 @BUILD_FDISK_TRUE@	disk-utils/fdisk-list.h
 
 @BUILD_FDISK_TRUE@fdisk_LDADD = $(LDADD) libcommon.la libfdisk.la \
-@BUILD_FDISK_TRUE@	libsmartcols.la $(am__append_334) \
-@BUILD_FDISK_TRUE@	$(am__append_336)
+@BUILD_FDISK_TRUE@	libsmartcols.la $(am__append_333) \
+@BUILD_FDISK_TRUE@	$(am__append_335)
 @BUILD_FDISK_TRUE@fdisk_CFLAGS = $(AM_CFLAGS) -I$(ul_libfdisk_incdir) \
 @BUILD_FDISK_TRUE@	-I$(ul_libsmartcols_incdir) \
-@BUILD_FDISK_TRUE@	$(am__append_333) $(am__append_335)
+@BUILD_FDISK_TRUE@	$(am__append_332) $(am__append_334)
 @BUILD_FDISK_TRUE@@HAVE_STATIC_FDISK_TRUE@fdisk_static_SOURCES = $(fdisk_SOURCES)
 @BUILD_FDISK_TRUE@@HAVE_STATIC_FDISK_TRUE@fdisk_static_LDFLAGS = -all-static
 @BUILD_FDISK_TRUE@@HAVE_STATIC_FDISK_TRUE@fdisk_static_CFLAGS = $(fdisk_CFLAGS)
@@ -4519,25 +4520,25 @@ test_logindefs_CPPFLAGS = -DTEST_PROGRAM $(AM_CPPFLAGS)
 @BUILD_SFDISK_TRUE@	disk-utils/fdisk-list.h
 
 @BUILD_SFDISK_TRUE@sfdisk_LDADD = $(LDADD) libcommon.la libfdisk.la \
-@BUILD_SFDISK_TRUE@	libsmartcols.la $(am__append_341) \
-@BUILD_SFDISK_TRUE@	$(am__append_343)
+@BUILD_SFDISK_TRUE@	libsmartcols.la $(am__append_340) \
+@BUILD_SFDISK_TRUE@	$(am__append_342)
 @BUILD_SFDISK_TRUE@sfdisk_CFLAGS = $(AM_CFLAGS) \
 @BUILD_SFDISK_TRUE@	-I$(ul_libfdisk_incdir) \
 @BUILD_SFDISK_TRUE@	-I$(ul_libsmartcols_incdir) \
-@BUILD_SFDISK_TRUE@	$(am__append_340) $(am__append_342)
+@BUILD_SFDISK_TRUE@	$(am__append_339) $(am__append_341)
 @BUILD_SFDISK_TRUE@@HAVE_STATIC_SFDISK_TRUE@sfdisk_static_SOURCES = $(sfdisk_SOURCES)
 @BUILD_SFDISK_TRUE@@HAVE_STATIC_SFDISK_TRUE@sfdisk_static_LDFLAGS = -all-static
 @BUILD_SFDISK_TRUE@@HAVE_STATIC_SFDISK_TRUE@sfdisk_static_CFLAGS = $(sfdisk_CFLAGS)
 @BUILD_SFDISK_TRUE@@HAVE_STATIC_SFDISK_TRUE@sfdisk_static_LDADD = $(sfdisk_LDADD)
 @BUILD_CFDISK_TRUE@cfdisk_SOURCES = disk-utils/cfdisk.c
 @BUILD_CFDISK_TRUE@cfdisk_LDADD = $(LDADD) libcommon.la libfdisk.la \
-@BUILD_CFDISK_TRUE@	$(am__append_348) $(am__append_350) \
-@BUILD_CFDISK_TRUE@	$(am__append_352) $(am__append_353) \
-@BUILD_CFDISK_TRUE@	$(am__append_355)
-@BUILD_CFDISK_TRUE@cfdisk_CFLAGS = $(AM_CFLAGS) \
-@BUILD_CFDISK_TRUE@	-I$(ul_libfdisk_incdir) $(am__append_347) \
-@BUILD_CFDISK_TRUE@	$(am__append_349) $(am__append_351) \
+@BUILD_CFDISK_TRUE@	$(am__append_347) $(am__append_349) \
+@BUILD_CFDISK_TRUE@	$(am__append_351) $(am__append_352) \
 @BUILD_CFDISK_TRUE@	$(am__append_354)
+@BUILD_CFDISK_TRUE@cfdisk_CFLAGS = $(AM_CFLAGS) \
+@BUILD_CFDISK_TRUE@	-I$(ul_libfdisk_incdir) $(am__append_346) \
+@BUILD_CFDISK_TRUE@	$(am__append_348) $(am__append_350) \
+@BUILD_CFDISK_TRUE@	$(am__append_353)
 @BUILD_PARTX_TRUE@addpart_SOURCES = \
 @BUILD_PARTX_TRUE@	disk-utils/addpart.c \
 @BUILD_PARTX_TRUE@	disk-utils/partx.h
