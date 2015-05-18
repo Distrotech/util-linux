@@ -172,8 +172,17 @@
 /* Define to 1 if you have the `ncursesw' library (-lncursesw). */
 #undef HAVE_LIBNCURSESW
 
+/* Define to 1 if you have the `pcre' library (-lpcre). */
+#undef HAVE_LIBPCRE
+
+/* Define to 1 if you have the `pthread' library (-lpthread). */
+#undef HAVE_LIBPTHREAD
+
 /* Define if SELinux is available */
 #undef HAVE_LIBSELINUX
+
+/* Define to 1 if you have the `sepol' library (-lsepol). */
+#undef HAVE_LIBSEPOL
 
 /* Define if libsystemd is available */
 #undef HAVE_LIBSYSTEMD
